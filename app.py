@@ -190,42 +190,6 @@ def status():
 
     if do_update:
         try:
-            r = requests.get('https://status.dev.azure.com')
-            if r.status_code != 200:
-                STATUS_DATA['azure'] = NOSTATUS
-            else:
-                s = json.loads(
-                    lxml
-                    .html
-                    .fromstring(r.content)
-                    .get_element_by_id('dataProviders')
-                    .text
-                )
-
-                def _rec_search(d):
-                    if isinstance(d, dict):
-                        if 'health' in d and 'message' in d:
-                            return d['message']
-                        else:
-                            for v in d.values():
-                                if isinstance(v, dict):
-                                    val = _rec_search(v)
-                                    if val is not None:
-                                        return val
-                            return None
-                    else:
-                        return None
-
-                stat = _rec_search(s)
-
-                if stat is None:
-                    stat = NOSTATUS
-
-                STATUS_DATA['azure'] = stat
-        except requests.exceptions.RequestException:
-            STATUS_DATA['azure'] = NOSTATUS
-
-        try:
             r = requests.post(
                 (
                     'https://conda-forge.herokuapp.com'
@@ -247,6 +211,43 @@ def status():
 
         STATUS_UPDATED = datetime.datetime.now().astimezone(pytz.UTC)
         STATUS_DATA['updated_at'] = STATUS_UPDATED.isoformat()
+
+    # always update azure
+    try:
+        r = requests.get('https://status.dev.azure.com')
+        if r.status_code != 200:
+            STATUS_DATA['azure'] = NOSTATUS
+        else:
+            s = json.loads(
+                lxml
+                .html
+                .fromstring(r.content)
+                .get_element_by_id('dataProviders')
+                .text
+            )
+
+            def _rec_search(d):
+                if isinstance(d, dict):
+                    if 'health' in d and 'message' in d:
+                        return d['message']
+                    else:
+                        for v in d.values():
+                            if isinstance(v, dict):
+                                val = _rec_search(v)
+                                if val is not None:
+                                    return val
+                        return None
+                else:
+                    return None
+
+            stat = _rec_search(s)
+
+            if stat is None:
+                stat = NOSTATUS
+
+            STATUS_DATA['azure'] = stat
+    except requests.exceptions.RequestException:
+        STATUS_DATA['azure'] = NOSTATUS
 
     resp = make_response(jsonify(STATUS_DATA))
     resp.headers['Access-Control-Allow-Origin'] = "*"
