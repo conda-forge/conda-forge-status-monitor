@@ -9,7 +9,7 @@ import requests
 
 # first pull down the data
 latest_data = requests.get(
-    "https://cf-action-counter.herokuapp.com/db").json()
+    "https://conda-forge-status-monitor.herokuapp.com/db").json()
 
 # run git config
 subprocess.run(
