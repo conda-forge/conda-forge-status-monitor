@@ -239,11 +239,11 @@ def status():
                 r.elapsed.total_seconds() > 1 or
                 r.text != 'pong'
             ):
-                STATUS_DATA['webservices'] = 'Degraded Performance'
+                STATUS_DATA['webservices'] = 'degraded'
             else:
-                STATUS_DATA['webservices'] = 'All Systems Operational'
+                STATUS_DATA['webservices'] = 'operational'
         except requests.exceptions.RequestException:
-            STATUS_DATA['webservices'] = 'Degraded Performance'
+            STATUS_DATA['webservices'] = 'degraded'
 
         STATUS_UPDATED = datetime.datetime.now().astimezone(pytz.UTC)
         STATUS_DATA['updated_at'] = STATUS_UPDATED.isoformat()
