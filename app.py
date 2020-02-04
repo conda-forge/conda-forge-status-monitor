@@ -27,18 +27,13 @@ APP_DATA = {
     }
 }
 
-STATUS_UPDATE_DELAY = 300
+STATUS_UPDATE_DELAY = 60
 NOSTATUS = 'No Status Available'
-STATUS_UPDATED = None
-STATUS_DATA = {
-    'azure': {
-        'status': NOSTATUS,
-    },
-    'webservices': {
-        'status': NOSTATUS,
-    },
+WEBS_STATUS_UPDATED = None
+WEBS_STATUS_DATA = {
+    'status': NOSTATUS,
+    'updated_at': None,
 }
-
 START_TIME = datetime.datetime.fromisoformat("2020-01-01T00:00:00+00:00")
 TIME_INTERVAL = 60*5  # five minutes
 
@@ -173,50 +168,15 @@ def report_name(name):
     return resp
 
 
-@app.route('/status', methods=['GET'])
-def status():
-    global STATUS_DATA
-    global STATUS_UPDATED
-
-    do_update = False
-    if STATUS_UPDATED is None:
-        do_update = True
-    else:
-        now = datetime.datetime.now().astimezone(pytz.UTC)
-        dt = now - STATUS_UPDATED
-        # five minutes
-        if dt.total_seconds() >= STATUS_UPDATE_DELAY:
-            do_update = True
-
-    if do_update:
-        try:
-            r = requests.post(
-                (
-                    'https://conda-forge.herokuapp.com'
-                    '/conda-forge-status/hook'
-                ),
-                headers={'X-GitHub-Event': 'ping'}
-            )
-
-            if (
-                r.status_code != 200 or
-                r.elapsed.total_seconds() > 1 or
-                r.text != 'pong'
-            ):
-                STATUS_DATA['webservices'] = 'degraded'
-            else:
-                STATUS_DATA['webservices'] = 'operational'
-        except requests.exceptions.RequestException:
-            STATUS_DATA['webservices'] = 'degraded'
-
-        STATUS_UPDATED = datetime.datetime.now().astimezone(pytz.UTC)
-        STATUS_DATA['updated_at'] = STATUS_UPDATED.isoformat()
+@app.route('/status/azure', methods=['GET'])
+def status_azure():
+    status_data = {}
 
     # always update azure
     try:
         r = requests.get('https://status.dev.azure.com')
         if r.status_code != 200:
-            STATUS_DATA['azure'] = NOSTATUS
+            status_data['azure'] = NOSTATUS
         else:
             s = json.loads(
                 lxml
@@ -245,11 +205,57 @@ def status():
             if stat is None:
                 stat = NOSTATUS
 
-            STATUS_DATA['azure'] = stat
+            status_data['status'] = stat
     except requests.exceptions.RequestException:
-        STATUS_DATA['azure'] = NOSTATUS
+        status_data['status'] = NOSTATUS
 
-    resp = make_response(jsonify(STATUS_DATA))
+    status_data['updated_at'] = datetime.datetime.now().astimezone(pytz.UTC)
+
+    resp = make_response(jsonify(status_data))
+    resp.headers['Access-Control-Allow-Origin'] = "*"
+    return resp
+
+
+@app.route('/status/webservices', methods=['GET'])
+def status_webservices():
+    global WEBS_STATUS_UPDATED
+    global WEBS_STATUS_DATA
+
+    do_update = False
+    if WEBS_STATUS_UPDATED is None:
+        do_update = True
+    else:
+        now = datetime.datetime.now().astimezone(pytz.UTC)
+        dt = now - WEBS_STATUS_UPDATED
+        # five minutes
+        if dt.total_seconds() >= STATUS_UPDATE_DELAY:
+            do_update = True
+
+    if do_update:
+        try:
+            r = requests.post(
+                (
+                    'https://conda-forge.herokuapp.com'
+                    '/conda-forge-status/hook'
+                ),
+                headers={'X-GitHub-Event': 'ping'}
+            )
+
+            if (
+                r.status_code != 200 or
+                r.elapsed.total_seconds() > 1 or
+                r.text != 'pong'
+            ):
+                WEBS_STATUS_DATA['status'] = 'degraded'
+            else:
+                WEBS_STATUS_DATA['status'] = 'operational'
+        except requests.exceptions.RequestException:
+            WEBS_STATUS_DATA['status'] = 'degraded'
+
+        STATUS_UPDATED = datetime.datetime.now().astimezone(pytz.UTC)
+        WEBS_STATUS_DATA['updated_at'] = STATUS_UPDATED.isoformat()
+
+    resp = make_response(jsonify(WEBS_STATUS_DATA))
     resp.headers['Access-Control-Allow-Origin'] = "*"
     return resp
 
