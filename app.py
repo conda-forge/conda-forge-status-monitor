@@ -186,7 +186,7 @@ def status_azure():
 
     # always update azure
     try:
-        r = requests.get('https://status.dev.azure.com')
+        r = requests.get('https://status.dev.azure.com', timeout=2)
         if r.status_code != 200:
             status_data['azure'] = NOSTATUS
         else:
@@ -250,7 +250,8 @@ def status_webservices():
                     'https://conda-forge.herokuapp.com'
                     '/conda-forge-status/hook'
                 ),
-                headers={'X-GitHub-Event': 'ping'}
+                headers={'X-GitHub-Event': 'ping'},
+                timeout=2,
             )
 
             if (
