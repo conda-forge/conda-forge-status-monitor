@@ -252,8 +252,8 @@ def status_webservices():
         except requests.exceptions.RequestException:
             WEBS_STATUS_DATA['status'] = 'degraded'
 
-        STATUS_UPDATED = datetime.datetime.now().astimezone(pytz.UTC)
-        WEBS_STATUS_DATA['updated_at'] = STATUS_UPDATED.isoformat()
+        WEBS_STATUS_UPDATED = datetime.datetime.now().astimezone(pytz.UTC)
+        WEBS_STATUS_DATA['updated_at'] = WEBS_STATUS_UPDATED.isoformat()
 
     resp = make_response(jsonify(WEBS_STATUS_DATA))
     resp.headers['Access-Control-Allow-Origin'] = "*"
