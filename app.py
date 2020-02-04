@@ -245,12 +245,20 @@ def status_webservices():
 
     if do_update:
         try:
+            hash = hmac.new(
+                os.environ['CF_WEBSERVICES_TOKEN'].encode('utf-8'),
+                b'',
+                hashlib.sha1).hexdigest()
+
             r = requests.post(
                 (
                     'https://conda-forge.herokuapp.com'
                     '/conda-forge-status/hook'
                 ),
-                headers={'X-GitHub-Event': 'ping'},
+                headers={
+                    'X-GitHub-Event': 'ping',
+                    'X-Hub-Signature': 'sha1=%s' % hash,
+                },
                 timeout=2,
             )
 
