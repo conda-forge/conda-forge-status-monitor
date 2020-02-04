@@ -5,6 +5,9 @@ from ruamel.yaml import YAML
 from ruamel.yaml.compat import StringIO
 import requests
 import json
+import hmac
+import hashlib
+import os
 
 import lxml.html
 import cachetools
@@ -24,7 +27,19 @@ APP_DATA = {
     'github-actions': {
         'repos': cachetools.LRUCache(maxsize=128),
         'rates': cachetools.LRUCache(maxsize=96),
-    }
+    },
+    'appveyor': {
+        'repos': cachetools.LRUCache(maxsize=128),
+        'rates': cachetools.LRUCache(maxsize=96),
+    },
+    'circleci': {
+        'repos': cachetools.LRUCache(maxsize=128),
+        'rates': cachetools.LRUCache(maxsize=96),
+    },
+    'drone': {
+        'repos': cachetools.LRUCache(maxsize=128),
+        'rates': cachetools.LRUCache(maxsize=96),
+    },
 }
 
 STATUS_UPDATE_DELAY = 60
@@ -69,10 +84,7 @@ def _reload_cache():
             print('reloading data for %s' % slug)
 
             if slug not in data:
-                if slug != 'github-actions':
-                    continue
-                else:
-                    _data = data
+                continue
             else:
                 _data = data[slug]
 
@@ -260,11 +272,100 @@ def status_webservices():
     return resp
 
 
-@app.route('/payload', methods=['POST'])
-def payload():
+def _update_status():
     global APP_DATA
 
+    repo = request.json['repository']['full_name']
+
+    if 'circleci' in request.json['context']:
+        slug = 'circleci'
+    elif 'appveyor' in request.json['context']:
+        slug = 'appveyor'
+    elif 'travis' in request.json['context']:
+        slug = 'travis-ci'
+    elif 'drone' in request.json['context']:
+        slug = 'drone'
+    else:
+        print("context not found:", request.json['context'])
+        return
+
+    print("    repo:", repo)
+    print("    app:", slug)
+    print("    state:", request.json['state'])
+
+    if request.json['state'] in ['success', 'failure', 'error']:
+
+        print("    updated_at:", request.json['updated_at'])
+
+        uptime = dateutil.parser.isoparse(request.json['updated_at'])
+        interval = _make_time_key(uptime)
+        if interval not in APP_DATA[slug]['rates']:
+            APP_DATA[slug]['rates'][interval] = 0
+        APP_DATA[slug]['rates'][interval] = (
+            APP_DATA[slug]['rates'][interval] + 1)
+
+        if repo not in APP_DATA[slug]['repos']:
+            APP_DATA[slug]['repos'][repo] = 0
+        APP_DATA[slug]['repos'][repo] = APP_DATA[slug]['repos'][repo] + 1
+
+
+def _update_check_run():
+    global APP_DATA
+
+    repo = request.json['repository']['full_name']
+    cs = request.json['check_run']
+
+    print("    repo:", repo)
+    print("    app:", cs['app']['slug'])
+    print("    action:", request.json['action'])
+    print("    status:", cs['status'])
+    print("    conclusion:", cs['conclusion'])
+
+    if (
+        cs['app']['slug'] in APP_DATA and
+        cs['status'] == 'completed'
+    ):
+        print("    completed_at:", cs['completed_at'])
+        key = cs['app']['slug']
+
+        uptime = dateutil.parser.isoparse(cs['completed_at'])
+        interval = _make_time_key(uptime)
+        if interval not in APP_DATA[key]['rates']:
+            APP_DATA[key]['rates'][interval] = 0
+        APP_DATA[key]['rates'][interval] = (
+            APP_DATA[key]['rates'][interval]
+            + 1
+        )
+
+        if repo not in APP_DATA[key]['repos']:
+            APP_DATA[key]['repos'][repo] = 0
+        APP_DATA[key]['repos'][repo] = (
+            APP_DATA[key]['repos'][repo]
+            + 1
+        )
+
+
+def _valid_request():
+    our_hash = hmac.new(
+        os.environ['CF_WEBSERVICES_TOKEN'].encode('utf-8'),
+        request.data,
+        hashlib.sha1,
+    ).hexdigest()
+
+    their_hash = request.headers.get('X-Hub-Signature').split("=")[1]
+
+    return hmac.compare_digest(their_hash, our_hash)
+
+
+@app.route('/payload', methods=['POST'])
+def payload():
     if request.method == 'POST':
+        if not _valid_request():
+            return make_response(
+                "invalid request",
+                403,
+            )
+
         event_type = request.headers.get('X-GitHub-Event')
         print(" ")
         print("event:", event_type)
@@ -272,40 +373,12 @@ def payload():
         if event_type == 'ping':
             return 'pong'
         elif event_type == 'check_run':
-            repo = request.json['repository']['full_name']
-            cs = request.json['check_run']
-
-            print("    repo:", repo)
-            print("    app:", cs['app']['slug'])
-            print("    action:", request.json['action'])
-            print("    status:", cs['status'])
-            print("    conclusion:", cs['conclusion'])
-
-            if (
-                cs['app']['slug'] in APP_DATA and
-                cs['status'] == 'completed'
-            ):
-                print("    completed_at:", cs['completed_at'])
-                key = cs['app']['slug']
-
-                uptime = dateutil.parser.isoparse(cs['completed_at'])
-                interval = _make_time_key(uptime)
-                if interval not in APP_DATA[key]['rates']:
-                    APP_DATA[key]['rates'][interval] = 0
-                APP_DATA[key]['rates'][interval] = (
-                    APP_DATA[key]['rates'][interval]
-                    + 1
-                )
-
-                if repo not in APP_DATA[key]['repos']:
-                    APP_DATA[key]['repos'][repo] = 0
-                APP_DATA[key]['repos'][repo] = (
-                    APP_DATA[key]['repos'][repo]
-                    + 1
-                )
-
+            _update_check_run()
             return event_type
         elif event_type == 'check_suite':
+            return event_type
+        elif event_type == 'status':
+            _update_status()
             return event_type
         else:
             return make_response(
