@@ -253,7 +253,7 @@ def status_webservices():
             r = requests.post(
                 (
                     'https://conda-forge.herokuapp.com'
-                    '/conda-forge-status/hook'
+                    '/conda-linting/org-hook'
                 ),
                 headers={
                     'X-GitHub-Event': 'ping',
