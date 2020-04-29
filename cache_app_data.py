@@ -43,7 +43,7 @@ with tempfile.TemporaryDirectory() as tmpdir:
     #     back_stamp = list(old_data["github-actions"]["rates"].keys())[-1]
     #     back_pth = "data/data_%s.json" % back_stamp
     #     with open(back_pth, "w") as fp:
-    #         json.dump(old_data, fp)
+    #         json.dump(old_data, fp, indent=2)
     #
     #     subprocess.run(
     #         "git add %s" % back_pth,
@@ -52,7 +52,7 @@ with tempfile.TemporaryDirectory() as tmpdir:
     #     )
     #
     with open("data/latest.json", "w") as fp:
-        json.dump(latest_data, fp)
+        json.dump(latest_data, fp, indent=2)
 
     subprocess.run(
         ["git add data/latest.json"],
