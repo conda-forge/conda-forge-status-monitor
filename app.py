@@ -149,7 +149,11 @@ def _make_report_data(iso=False):
         report[key] = {
             'total': total,
             'rates': rates,
-            'repos': {k: v for k, v in APP_DATA[key]['repos'].items()},
+            'repos': {
+                k: v
+                for k, v in
+                sorted(APP_DATA[key]['repos'].items(), key=lambda x: x[1])[::-1]
+            },
         }
 
     return report
