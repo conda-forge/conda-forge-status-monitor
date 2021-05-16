@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1000,
+    "total": 1002,
     "rates": {
-      "2021-05-16T18:20:00-04:00": 0,
+      "2021-05-16T18:25:00-04:00": 0,
+      "2021-05-16T18:20:00-04:00": 4,
       "2021-05-16T18:15:00-04:00": 2,
       "2021-05-16T18:10:00-04:00": 5,
       "2021-05-16T18:05:00-04:00": 2,
@@ -96,8 +97,7 @@
       "2021-05-16T10:45:00-04:00": 10,
       "2021-05-16T10:40:00-04:00": 29,
       "2021-05-16T10:35:00-04:00": 10,
-      "2021-05-16T10:30:00-04:00": 16,
-      "2021-05-16T10:25:00-04:00": 2
+      "2021-05-16T10:30:00-04:00": 16
     },
     "repos": {
       "conda-forge/staged-recipes": 130,
@@ -116,12 +116,12 @@
       "conda-forge/r-tibble-feedstock": 20,
       "conda-forge/ducc0-feedstock": 19,
       "conda-forge/r-modeltime-feedstock": 18,
+      "conda-forge/gdal-feedstock": 18,
       "conda-forge/awscli-feedstock": 17,
       "conda-forge/pyspice-feedstock": 17,
       "conda-forge/boto3-stubs-feedstock": 17,
-      "conda-forge/gdal-feedstock": 17,
+      "conda-forge/r-lme4-feedstock": 16,
       "conda-forge/pyhdf-feedstock": 15,
-      "conda-forge/r-lme4-feedstock": 15,
       "conda-forge/mathics3-feedstock": 15,
       "conda-forge/boost-cpp-feedstock": 15,
       "conda-forge/r-c50-feedstock": 14,
@@ -171,6 +171,7 @@
       "conda-forge/lume-epics-feedstock": 4,
       "conda-forge/libv8-feedstock": 4,
       "conda-forge/dask-sql-feedstock": 4,
+      "conda-forge/mantichora-feedstock": 4,
       "conda-forge/nbterm-feedstock": 4,
       "conda-forge/botocore-feedstock": 4,
       "conda-forge/ccache-feedstock": 4,
@@ -202,7 +203,6 @@
       "conda-forge/ndarray_listener-feedstock": 2,
       "conda-forge/scikit-hep-feedstock": 2,
       "conda-forge/flask-socketio-feedstock": 2,
-      "conda-forge/mantichora-feedstock": 2,
       "conda-forge/findimports-feedstock": 2,
       "conda-forge/retype-feedstock": 2,
       "conda-forge/astroquery-feedstock": 2,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 23,
     "rates": {
+      "2021-05-16T18:25:00-04:00": 0,
       "2021-05-16T18:20:00-04:00": 0,
       "2021-05-16T18:15:00-04:00": 1,
       "2021-05-16T18:10:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2021-05-16T10:45:00-04:00": 0,
       "2021-05-16T10:40:00-04:00": 0,
       "2021-05-16T10:35:00-04:00": 0,
-      "2021-05-16T10:30:00-04:00": 0,
-      "2021-05-16T10:25:00-04:00": 0
+      "2021-05-16T10:30:00-04:00": 0
     },
     "repos": {
       "conda-forge/boost-cpp-feedstock": 3,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 808,
+    "total": 812,
     "rates": {
-      "2021-05-16T18:20:00-04:00": 1,
+      "2021-05-16T18:25:00-04:00": 1,
+      "2021-05-16T18:20:00-04:00": 4,
       "2021-05-16T18:15:00-04:00": 4,
       "2021-05-16T18:10:00-04:00": 6,
       "2021-05-16T18:05:00-04:00": 0,
@@ -558,11 +559,10 @@
       "2021-05-16T10:45:00-04:00": 3,
       "2021-05-16T10:40:00-04:00": 13,
       "2021-05-16T10:35:00-04:00": 5,
-      "2021-05-16T10:30:00-04:00": 13,
-      "2021-05-16T10:25:00-04:00": 0
+      "2021-05-16T10:30:00-04:00": 13
     },
     "repos": {
-      "conda-forge/repodata-shards": 220,
+      "conda-forge/repodata-shards": 221,
       "conda-forge/artifact-validation": 47,
       "conda-forge/admin-requests": 45,
       "conda-forge/textract-feedstock": 40,
@@ -610,6 +610,8 @@
       "conda-forge/brent-search-feedstock": 4,
       "conda-forge/json_schema_validator-feedstock": 4,
       "conda-forge/jupyter-docx-bundler-feedstock": 4,
+      "conda-forge/cppyy-backend-feedstock": 3,
+      "conda-forge/mantichora-feedstock": 3,
       "conda-forge/botocore-feedstock": 3,
       "conda-forge/memo-feedstock": 3,
       "conda-forge/fluids-feedstock": 3,
@@ -632,13 +634,11 @@
       "conda-forge/compas_fab-feedstock": 2,
       "conda-forge/r-rtensor-feedstock": 2,
       "conda-forge/libidn11-feedstock": 2,
-      "conda-forge/cppyy-backend-feedstock": 2,
       "conda-forge/flask-socketio-feedstock": 2,
       "conda-forge/r-relaimpo-feedstock": 2,
       "conda-forge/rpaframework-feedstock": 2,
       "conda-forge/findimports-feedstock": 2,
       "conda-forge/retype-feedstock": 2,
-      "conda-forge/mantichora-feedstock": 2,
       "conda-forge/dask-sql-feedstock": 2,
       "conda-forge/hdfeos2-feedstock": 2,
       "conda-forge/sktime-feedstock": 2,
@@ -674,7 +674,7 @@
       "conda-forge/mypy_boto3_lambda-feedstock": 2,
       "conda-forge/mypy_boto3_sqs-feedstock": 2,
       "conda-forge/grpc_java_plugin-feedstock": 2,
-      "conda-forge/mypy_boto3_ec2-feedstock": 2,
+      "conda-forge/tensorflow-feedstock": 1,
       "conda-forge/flake8-use-pathlib-feedstock": 1,
       "conda-forge/nwchem-feedstock": 1,
       "conda-forge/seamm-widgets-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 1,
     "rates": {
+      "2021-05-16T18:25:00-04:00": 0,
       "2021-05-16T18:20:00-04:00": 0,
       "2021-05-16T18:15:00-04:00": 0,
       "2021-05-16T18:10:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2021-05-16T10:45:00-04:00": 0,
       "2021-05-16T10:40:00-04:00": 0,
       "2021-05-16T10:35:00-04:00": 0,
-      "2021-05-16T10:30:00-04:00": 0,
-      "2021-05-16T10:25:00-04:00": 0
+      "2021-05-16T10:30:00-04:00": 0
     },
     "repos": {
       "conda-forge/textract-feedstock": 3,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2021-05-16T18:25:00-04:00": 0,
       "2021-05-16T18:20:00-04:00": 0,
       "2021-05-16T18:15:00-04:00": 0,
       "2021-05-16T18:10:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2021-05-16T10:45:00-04:00": 0,
       "2021-05-16T10:40:00-04:00": 0,
       "2021-05-16T10:35:00-04:00": 0,
-      "2021-05-16T10:30:00-04:00": 0,
-      "2021-05-16T10:25:00-04:00": 0
+      "2021-05-16T10:30:00-04:00": 0
     },
     "repos": {
       "conda-forge/pyopcode-feedstock": 9,
@@ -1157,6 +1157,7 @@
   "drone": {
     "total": 30,
     "rates": {
+      "2021-05-16T18:25:00-04:00": 0,
       "2021-05-16T18:20:00-04:00": 0,
       "2021-05-16T18:15:00-04:00": 1,
       "2021-05-16T18:10:00-04:00": 1,
@@ -1251,8 +1252,7 @@
       "2021-05-16T10:45:00-04:00": 0,
       "2021-05-16T10:40:00-04:00": 0,
       "2021-05-16T10:35:00-04:00": 0,
-      "2021-05-16T10:30:00-04:00": 0,
-      "2021-05-16T10:25:00-04:00": 0
+      "2021-05-16T10:30:00-04:00": 0
     },
     "repos": {
       "conda-forge/boost-cpp-feedstock": 3,
