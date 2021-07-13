@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1308,
+    "total": 1328,
     "rates": {
-      "2021-07-13T11:25:00-04:00": 6,
+      "2021-07-13T11:30:00-04:00": 18,
+      "2021-07-13T11:25:00-04:00": 11,
       "2021-07-13T11:20:00-04:00": 17,
       "2021-07-13T11:15:00-04:00": 16,
       "2021-07-13T11:10:00-04:00": 18,
@@ -96,15 +97,14 @@
       "2021-07-13T03:50:00-04:00": 7,
       "2021-07-13T03:45:00-04:00": 0,
       "2021-07-13T03:40:00-04:00": 0,
-      "2021-07-13T03:35:00-04:00": 2,
-      "2021-07-13T03:30:00-04:00": 3
+      "2021-07-13T03:35:00-04:00": 2
     },
     "repos": {
       "conda-forge/libcf-feedstock": 169,
-      "conda-forge/staged-recipes": 139,
+      "conda-forge/staged-recipes": 141,
       "conda-forge/modin-feedstock": 86,
       "conda-forge/pyinstaller-feedstock": 74,
-      "conda-forge/rbdl-feedstock": 59,
+      "conda-forge/rbdl-feedstock": 62,
       "conda-forge/pandas-stubs-feedstock": 37,
       "conda-forge/virtualenv-feedstock": 30,
       "conda-forge/euphonic-feedstock": 30,
@@ -120,16 +120,18 @@
       "conda-forge/web3-feedstock": 14,
       "conda-forge/get_version-feedstock": 12,
       "conda-forge/google-cloud-workflows-feedstock": 12,
+      "conda-forge/sagemaker-python-sdk-feedstock": 11,
+      "conda-forge/r-treedist-feedstock": 11,
+      "conda-forge/s3fs-feedstock": 10,
       "conda-forge/bat-feedstock": 10,
       "conda-forge/libdrs-feedstock": 10,
       "conda-forge/google-cloud-dlp-feedstock": 10,
       "conda-forge/google-cloud-monitoring-dashboards-feedstock": 10,
       "conda-forge/google-cloud-trace-feedstock": 10,
-      "conda-forge/r-treedist-feedstock": 9,
+      "conda-forge/r-gdalcubes-feedstock": 9,
       "conda-forge/google-cloud-iam-feedstock": 9,
       "conda-forge/google-cloud-talent-feedstock": 9,
       "conda-forge/google-cloud-error-reporting-feedstock": 9,
-      "conda-forge/r-gdalcubes-feedstock": 8,
       "conda-forge/omniscidb-feedstock": 8,
       "conda-forge/gwosc-feedstock": 8,
       "conda-forge/google-cloud-iot-feedstock": 8,
@@ -138,11 +140,9 @@
       "conda-forge/google-cloud-securitycenter-feedstock": 8,
       "conda-forge/google-cloud-webrisk-feedstock": 8,
       "conda-forge/google-cloud-websecurityscanner-feedstock": 8,
-      "conda-forge/sagemaker-python-sdk-feedstock": 7,
       "conda-forge/pcl-feedstock": 7,
       "conda-forge/r-gtsummary-feedstock": 6,
       "conda-forge/r-doby-feedstock": 6,
-      "conda-forge/s3fs-feedstock": 6,
       "conda-forge/r-ldlinkr-feedstock": 6,
       "conda-forge/r-emayili-feedstock": 6,
       "conda-forge/lbapcommon-feedstock": 6,
@@ -154,6 +154,8 @@
       "conda-forge/google-cloud-redis-feedstock": 6,
       "conda-forge/boto3-stubs-feedstock": 6,
       "conda-forge/aiobotocore-feedstock": 6,
+      "conda-forge/pdfo-feedstock": 5,
+      "conda-forge/tiledb-feedstock": 5,
       "conda-forge/pymemcache-feedstock": 4,
       "conda-forge/filesystem-spec-feedstock": 4,
       "conda-forge/neptune-client-feedstock": 4,
@@ -187,8 +189,6 @@
       "conda-forge/mypy_boto3_cloudformation-feedstock": 4,
       "conda-forge/mypy_boto3_rds-feedstock": 4,
       "conda-forge/groclient-feedstock": 4,
-      "conda-forge/dm-env-feedstock": 4,
-      "conda-forge/tiledb-feedstock": 3,
       "conda-forge/oidc-agent-feedstock": 3,
       "conda-forge/ticcutils-feedstock": 3,
       "conda-forge/r-isingfit-feedstock": 3,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 26,
     "rates": {
+      "2021-07-13T11:30:00-04:00": 0,
       "2021-07-13T11:25:00-04:00": 0,
       "2021-07-13T11:20:00-04:00": 0,
       "2021-07-13T11:15:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2021-07-13T03:50:00-04:00": 1,
       "2021-07-13T03:45:00-04:00": 0,
       "2021-07-13T03:40:00-04:00": 0,
-      "2021-07-13T03:35:00-04:00": 0,
-      "2021-07-13T03:30:00-04:00": 0
+      "2021-07-13T03:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/libignition-transport4-feedstock": 7,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 855,
+    "total": 861,
     "rates": {
-      "2021-07-13T11:25:00-04:00": 7,
+      "2021-07-13T11:30:00-04:00": 10,
+      "2021-07-13T11:25:00-04:00": 11,
       "2021-07-13T11:20:00-04:00": 14,
       "2021-07-13T11:15:00-04:00": 11,
       "2021-07-13T11:10:00-04:00": 5,
@@ -558,28 +559,28 @@
       "2021-07-13T03:50:00-04:00": 3,
       "2021-07-13T03:45:00-04:00": 4,
       "2021-07-13T03:40:00-04:00": 2,
-      "2021-07-13T03:35:00-04:00": 0,
-      "2021-07-13T03:30:00-04:00": 8
+      "2021-07-13T03:35:00-04:00": 0
     },
     "repos": {
-      "conda-forge/repodata-shards": 255,
-      "conda-forge/staged-recipes": 53,
+      "conda-forge/repodata-shards": 261,
+      "conda-forge/staged-recipes": 54,
       "conda-forge/libcf-feedstock": 47,
       "conda-forge/artifact-validation": 41,
       "conda-forge/pyinstaller-feedstock": 28,
       "conda-forge/xeus-feedstock": 27,
       "conda-forge/admin-requests": 26,
       "conda-forge/g2clib-feedstock": 26,
-      "conda-forge/rbdl-feedstock": 23,
+      "conda-forge/rbdl-feedstock": 24,
       "conda-forge/libdrs-feedstock": 13,
       "conda-forge/pandas-stubs-feedstock": 11,
       "conda-forge/google-cloud-workflows-feedstock": 11,
       "conda-forge/get_version-feedstock": 10,
       "conda-forge/dotnet-feedstock": 10,
       "conda-forge/bat-feedstock": 9,
+      "conda-forge/s3fs-feedstock": 8,
       "conda-forge/google-cloud-monitoring-dashboards-feedstock": 8,
+      "conda-forge/eccodes-feedstock": 7,
       "conda-forge/mosdef_cassandra-feedstock": 6,
-      "conda-forge/eccodes-feedstock": 6,
       "conda-forge/libignition-transport4-feedstock": 6,
       "conda-forge/deeptime-feedstock": 6,
       "conda-forge/google-cloud-iam-feedstock": 6,
@@ -590,8 +591,6 @@
       "conda-forge/google-cloud-talent-feedstock": 6,
       "conda-forge/google-cloud-securitycenter-feedstock": 6,
       "conda-forge/google-cloud-websecurityscanner-feedstock": 6,
-      "conda-forge/google-cloud-webrisk-feedstock": 6,
-      "conda-forge/s3fs-feedstock": 5,
       "conda-forge/web3-feedstock": 5,
       "conda-forge/conda-forge-webservices": 5,
       "conda-forge/admin-migrations": 5,
@@ -612,6 +611,7 @@
       "conda-forge/azure-mgmt-resource-feedstock": 3,
       "conda-forge/eoreader-feedstock": 3,
       "conda-forge/yamlloader-feedstock": 3,
+      "conda-forge/sagemaker-python-sdk-feedstock": 3,
       "conda-forge/boto3-stubs-feedstock": 3,
       "conda-forge/gpi_core-feedstock": 2,
       "conda-forge/aiobotocore-feedstock": 2,
@@ -639,7 +639,6 @@
       "conda-forge/libwebsockets-feedstock": 2,
       "conda-forge/miniforge-images": 2,
       "conda-forge/codeguru_profiler_agent-feedstock": 2,
-      "conda-forge/sagemaker-python-sdk-feedstock": 2,
       "conda-forge/terraform-provider-google-feedstock": 2,
       "conda-forge/dbt-feedstock": 2,
       "conda-forge/epysurv-feedstock": 2,
@@ -663,6 +662,7 @@
       "conda-forge/jupyterlab_execute_time-feedstock": 2,
       "conda-forge/filprofiler-feedstock": 2,
       "conda-forge/streamlit-feedstock": 2,
+      "conda-forge/pdfo-feedstock": 1,
       "conda-forge/omniscidb-feedstock": 1,
       "conda-forge/google-api-core-feedstock": 1,
       "conda-forge/google-cloud-datastore-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2021-07-13T11:30:00-04:00": 0,
       "2021-07-13T11:25:00-04:00": 0,
       "2021-07-13T11:20:00-04:00": 0,
       "2021-07-13T11:15:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2021-07-13T03:50:00-04:00": 0,
       "2021-07-13T03:45:00-04:00": 0,
       "2021-07-13T03:40:00-04:00": 0,
-      "2021-07-13T03:35:00-04:00": 0,
-      "2021-07-13T03:30:00-04:00": 0
+      "2021-07-13T03:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/r-tree-feedstock": 1,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 2,
     "rates": {
+      "2021-07-13T11:30:00-04:00": 0,
       "2021-07-13T11:25:00-04:00": 0,
       "2021-07-13T11:20:00-04:00": 0,
       "2021-07-13T11:15:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2021-07-13T03:50:00-04:00": 0,
       "2021-07-13T03:45:00-04:00": 0,
       "2021-07-13T03:40:00-04:00": 0,
-      "2021-07-13T03:35:00-04:00": 0,
-      "2021-07-13T03:30:00-04:00": 0
+      "2021-07-13T03:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/pyiron_base-feedstock": 4,
@@ -1155,8 +1155,9 @@
     }
   },
   "drone": {
-    "total": 25,
+    "total": 24,
     "rates": {
+      "2021-07-13T11:30:00-04:00": 0,
       "2021-07-13T11:25:00-04:00": 0,
       "2021-07-13T11:20:00-04:00": 0,
       "2021-07-13T11:15:00-04:00": 2,
@@ -1251,8 +1252,7 @@
       "2021-07-13T03:50:00-04:00": 0,
       "2021-07-13T03:45:00-04:00": 1,
       "2021-07-13T03:40:00-04:00": 0,
-      "2021-07-13T03:35:00-04:00": 0,
-      "2021-07-13T03:30:00-04:00": 1
+      "2021-07-13T03:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/pyinstaller-feedstock": 5,
