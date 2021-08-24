@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 992,
+    "total": 1005,
     "rates": {
-      "2021-08-24T09:15:00-04:00": 11,
+      "2021-08-24T09:20:00-04:00": 6,
+      "2021-08-24T09:15:00-04:00": 21,
       "2021-08-24T09:10:00-04:00": 28,
       "2021-08-24T09:05:00-04:00": 23,
       "2021-08-24T09:00:00-04:00": 17,
@@ -96,16 +97,15 @@
       "2021-08-24T01:40:00-04:00": 0,
       "2021-08-24T01:35:00-04:00": 0,
       "2021-08-24T01:30:00-04:00": 3,
-      "2021-08-24T01:25:00-04:00": 7,
-      "2021-08-24T01:20:00-04:00": 3
+      "2021-08-24T01:25:00-04:00": 7
     },
     "repos": {
-      "conda-forge/qpot-feedstock": 281,
+      "conda-forge/qpot-feedstock": 287,
       "conda-forge/pyinstrument-feedstock": 63,
       "conda-forge/staged-recipes": 63,
       "conda-forge/pywin32-feedstock": 58,
+      "conda-forge/deps-feedstock": 57,
       "conda-forge/jupyterlab-language-packs-feedstock": 56,
-      "conda-forge/deps-feedstock": 50,
       "conda-forge/simplejson-feedstock": 36,
       "conda-forge/autodiff-feedstock": 32,
       "conda-forge/wurlitzer-feedstock": 27,
@@ -117,7 +117,7 @@
       "conda-forge/pygeos-feedstock": 18,
       "conda-forge/yeadon-feedstock": 17,
       "conda-forge/radical.pilot-feedstock": 13,
-      "conda-forge/r-glmpath-feedstock": 10,
+      "conda-forge/r-glmpath-feedstock": 12,
       "conda-forge/glue-core-feedstock": 10,
       "conda-forge/conda-forge-pinning-feedstock": 10,
       "conda-forge/tempo2-feedstock": 9,
@@ -129,7 +129,6 @@
       "conda-forge/r-seurat-feedstock": 8,
       "conda-forge/r-see-feedstock": 8,
       "conda-forge/genozip-feedstock": 8,
-      "conda-forge/conda-forge-repodata-patches-feedstock": 8,
       "conda-forge/icepaposc-feedstock": 7,
       "conda-forge/pylint-feedstock": 7,
       "conda-forge/mypy_boto3_dynamodb-feedstock": 7,
@@ -227,12 +226,14 @@
       "conda-forge/servicestack-feedstock": 2,
       "conda-forge/pytorch-cpu-feedstock": 2,
       "conda-forge/everett-feedstock": 2,
-      "conda-forge/earthengine-api-feedstock": 2
+      "conda-forge/earthengine-api-feedstock": 2,
+      "conda-forge/damask-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 7,
     "rates": {
+      "2021-08-24T09:20:00-04:00": 0,
       "2021-08-24T09:15:00-04:00": 0,
       "2021-08-24T09:10:00-04:00": 0,
       "2021-08-24T09:05:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2021-08-24T01:40:00-04:00": 0,
       "2021-08-24T01:35:00-04:00": 0,
       "2021-08-24T01:30:00-04:00": 0,
-      "2021-08-24T01:25:00-04:00": 0,
-      "2021-08-24T01:20:00-04:00": 0
+      "2021-08-24T01:25:00-04:00": 0
     },
     "repos": {
       "conda-forge/simplejson-feedstock": 4,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 777,
+    "total": 778,
     "rates": {
-      "2021-08-24T09:15:00-04:00": 6,
+      "2021-08-24T09:20:00-04:00": 0,
+      "2021-08-24T09:15:00-04:00": 14,
       "2021-08-24T09:10:00-04:00": 13,
       "2021-08-24T09:05:00-04:00": 15,
       "2021-08-24T09:00:00-04:00": 5,
@@ -558,11 +559,10 @@
       "2021-08-24T01:40:00-04:00": 3,
       "2021-08-24T01:35:00-04:00": 6,
       "2021-08-24T01:30:00-04:00": 14,
-      "2021-08-24T01:25:00-04:00": 6,
-      "2021-08-24T01:20:00-04:00": 7
+      "2021-08-24T01:25:00-04:00": 6
     },
     "repos": {
-      "conda-forge/repodata-shards": 378,
+      "conda-forge/repodata-shards": 384,
       "conda-forge/staged-recipes": 56,
       "conda-forge/artifact-validation": 37,
       "conda-forge/qpot-feedstock": 31,
@@ -586,6 +586,7 @@
       "conda-forge/rdkit-feedstock": 5,
       "conda-forge/feedgenerator-feedstock": 5,
       "conda-forge/flask-smorest-feedstock": 5,
+      "conda-forge/ngmix-feedstock": 4,
       "conda-forge/librdkafka-feedstock": 4,
       "conda-forge/bqscales-feedstock": 4,
       "conda-forge/graphql-ws-feedstock": 4,
@@ -594,7 +595,6 @@
       "conda-forge/miniforge-images": 4,
       "conda-forge/elasticsearch-dbapi-feedstock": 4,
       "conda-forge/version_information-feedstock": 3,
-      "conda-forge/ngmix-feedstock": 3,
       "conda-forge/qt.py-feedstock": 3,
       "conda-forge/eoreader-feedstock": 3,
       "conda-forge/pyiron_base-feedstock": 3,
@@ -647,7 +647,6 @@
       "conda-forge/pandoc-plot-feedstock": 3,
       "conda-forge/s3fs-feedstock": 3,
       "conda-forge/libgcrypt-feedstock": 3,
-      "conda-forge/boto3-feedstock": 3,
       "conda-forge/servicestack-feedstock": 2,
       "conda-forge/zarr-feedstock": 2,
       "conda-forge/glue-core-feedstock": 2,
@@ -684,6 +683,7 @@
       "conda-forge/aesara-feedstock": 2,
       "conda-forge/everett-feedstock": 2,
       "conda-forge/earthengine-api-feedstock": 2,
+      "conda-forge/r-glmpath-feedstock": 1,
       "conda-forge/pdal-feedstock": 1,
       "conda-forge/r-posterior-feedstock": 1,
       "conda-forge/jaxlib-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2021-08-24T09:20:00-04:00": 0,
       "2021-08-24T09:15:00-04:00": 0,
       "2021-08-24T09:10:00-04:00": 0,
       "2021-08-24T09:05:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2021-08-24T01:40:00-04:00": 0,
       "2021-08-24T01:35:00-04:00": 0,
       "2021-08-24T01:30:00-04:00": 0,
-      "2021-08-24T01:25:00-04:00": 0,
-      "2021-08-24T01:20:00-04:00": 0
+      "2021-08-24T01:25:00-04:00": 0
     },
     "repos": {
       "conda-forge/pandoc-feedstock": 1,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2021-08-24T09:20:00-04:00": 0,
       "2021-08-24T09:15:00-04:00": 0,
       "2021-08-24T09:10:00-04:00": 0,
       "2021-08-24T09:05:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2021-08-24T01:40:00-04:00": 0,
       "2021-08-24T01:35:00-04:00": 0,
       "2021-08-24T01:30:00-04:00": 0,
-      "2021-08-24T01:25:00-04:00": 0,
-      "2021-08-24T01:20:00-04:00": 0
+      "2021-08-24T01:25:00-04:00": 0
     },
     "repos": {
       "conda-forge/by-the-numbers": 6,
@@ -1155,8 +1155,9 @@
     }
   },
   "drone": {
-    "total": 8,
+    "total": 7,
     "rates": {
+      "2021-08-24T09:20:00-04:00": 0,
       "2021-08-24T09:15:00-04:00": 0,
       "2021-08-24T09:10:00-04:00": 1,
       "2021-08-24T09:05:00-04:00": 0,
@@ -1251,8 +1252,7 @@
       "2021-08-24T01:40:00-04:00": 0,
       "2021-08-24T01:35:00-04:00": 0,
       "2021-08-24T01:30:00-04:00": 0,
-      "2021-08-24T01:25:00-04:00": 0,
-      "2021-08-24T01:20:00-04:00": 1
+      "2021-08-24T01:25:00-04:00": 0
     },
     "repos": {
       "conda-forge/simplejson-feedstock": 3,
