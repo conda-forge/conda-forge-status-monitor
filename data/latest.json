@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1187,
+    "total": 1196,
     "rates": {
-      "2021-09-23T23:45:00-04:00": 0,
+      "2021-09-23T23:50:00-04:00": 0,
+      "2021-09-23T23:45:00-04:00": 24,
       "2021-09-23T23:40:00-04:00": 16,
       "2021-09-23T23:35:00-04:00": 31,
       "2021-09-23T23:30:00-04:00": 27,
@@ -96,29 +97,26 @@
       "2021-09-23T16:10:00-04:00": 13,
       "2021-09-23T16:05:00-04:00": 19,
       "2021-09-23T16:00:00-04:00": 22,
-      "2021-09-23T15:55:00-04:00": 10,
-      "2021-09-23T15:50:00-04:00": 15
+      "2021-09-23T15:55:00-04:00": 10
     },
     "repos": {
       "conda-forge/pynng-feedstock": 106,
-      "conda-forge/c-blosc2-feedstock": 94,
       "conda-forge/xrt-feedstock": 91,
       "conda-forge/cf-autotick-bot-test-package-feedstock": 90,
       "conda-forge/sos-notebook-feedstock": 77,
       "conda-forge/python-feedstock": 64,
       "conda-forge/radical.saga-feedstock": 57,
       "conda-forge/sshfs-feedstock": 51,
+      "conda-forge/aws-crt-cpp-feedstock": 47,
       "conda-forge/cherrypy-feedstock": 46,
       "conda-forge/pyferret-feedstock": 45,
-      "conda-forge/aws-crt-cpp-feedstock": 44,
-      "conda-forge/dvc-feedstock": 40,
+      "conda-forge/awscli-feedstock": 43,
       "conda-forge/poetry-feedstock": 39,
       "conda-forge/gdal-feedstock": 39,
       "conda-forge/onnxruntime-feedstock": 38,
       "conda-forge/libignition-rendering4-feedstock": 34,
       "conda-forge/arm_pyart-feedstock": 33,
       "conda-forge/gdspy-feedstock": 32,
-      "conda-forge/awscli-feedstock": 31,
       "conda-forge/puma-feedstock": 30,
       "conda-forge/staged-recipes": 28,
       "conda-forge/fonttools-feedstock": 28,
@@ -128,8 +126,8 @@
       "conda-forge/ezc3d-feedstock": 26,
       "conda-forge/gooseslurm-feedstock": 26,
       "conda-forge/pyimagej-feedstock": 26,
+      "conda-forge/openssl-feedstock": 24,
       "conda-forge/ansible-feedstock": 24,
-      "conda-forge/openssl-feedstock": 23,
       "conda-forge/r-digest-feedstock": 22,
       "conda-forge/bottleneck-feedstock": 19,
       "conda-forge/setuptools-feedstock": 19,
@@ -170,6 +168,7 @@
       "conda-forge/almosthere-feedstock": 5,
       "conda-forge/graphviz-feedstock": 5,
       "conda-forge/fps-uvicorn-feedstock": 5,
+      "conda-forge/go-feedstock": 4,
       "conda-forge/meshio-feedstock": 4,
       "conda-forge/boto3-stubs-feedstock": 4,
       "conda-forge/ecgtools-feedstock": 4,
@@ -177,6 +176,7 @@
       "conda-forge/mypy_boto3_lambda-feedstock": 4,
       "conda-forge/botocore-feedstock": 4,
       "conda-forge/mypy_boto3_ec2-feedstock": 4,
+      "conda-forge/boto3-feedstock": 4,
       "conda-forge/mypy_boto3_cloudformation-feedstock": 4,
       "conda-forge/mypy-boto3-batch-feedstock": 4,
       "conda-forge/qtpy-feedstock": 4,
@@ -204,6 +204,7 @@
       "conda-forge/php-feedstock": 3,
       "conda-forge/openfast-feedstock": 3,
       "conda-forge/mbedtls-feedstock": 3,
+      "conda-forge/terraform-provider-azurerm-feedstock": 2,
       "conda-forge/terraform-provider-aws-feedstock": 2,
       "conda-forge/docspec-python-feedstock": 2,
       "conda-forge/docspec-feedstock": 2,
@@ -212,7 +213,6 @@
       "conda-forge/anaconda-client-feedstock": 2,
       "conda-forge/htcondor-feedstock": 2,
       "conda-forge/sphinx-book-theme-feedstock": 2,
-      "conda-forge/boto3-feedstock": 2,
       "conda-forge/cudatoolkit-feedstock": 2,
       "conda-forge/imglyb-feedstock": 2,
       "conda-forge/great-expectations-feedstock": 2,
@@ -227,12 +227,13 @@
       "conda-forge/absl-py-feedstock": 2,
       "conda-forge/castoredc_api-feedstock": 2,
       "conda-forge/drf-spectacular-feedstock": 2,
-      "conda-forge/terraform-provider-azurerm-feedstock": 1
+      "conda-forge/openssh-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 23,
     "rates": {
+      "2021-09-23T23:50:00-04:00": 0,
       "2021-09-23T23:45:00-04:00": 0,
       "2021-09-23T23:40:00-04:00": 0,
       "2021-09-23T23:35:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2021-09-23T16:10:00-04:00": 0,
       "2021-09-23T16:05:00-04:00": 0,
       "2021-09-23T16:00:00-04:00": 0,
-      "2021-09-23T15:55:00-04:00": 1,
-      "2021-09-23T15:50:00-04:00": 0
+      "2021-09-23T15:55:00-04:00": 1
     },
     "repos": {
       "conda-forge/cf-autotick-bot-test-package-feedstock": 10,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 1358,
+    "total": 1355,
     "rates": {
-      "2021-09-23T23:45:00-04:00": 0,
+      "2021-09-23T23:50:00-04:00": 0,
+      "2021-09-23T23:45:00-04:00": 12,
       "2021-09-23T23:40:00-04:00": 12,
       "2021-09-23T23:35:00-04:00": 15,
       "2021-09-23T23:30:00-04:00": 22,
@@ -558,22 +559,21 @@
       "2021-09-23T16:10:00-04:00": 13,
       "2021-09-23T16:05:00-04:00": 22,
       "2021-09-23T16:00:00-04:00": 12,
-      "2021-09-23T15:55:00-04:00": 22,
-      "2021-09-23T15:50:00-04:00": 15
+      "2021-09-23T15:55:00-04:00": 22
     },
     "repos": {
-      "conda-forge/repodata-shards": 145,
-      "conda-forge/staged-recipes": 22,
+      "conda-forge/repodata-shards": 153,
+      "conda-forge/staged-recipes": 23,
       "conda-forge/openssl-feedstock": 22,
-      "conda-forge/artifact-validation": 19,
+      "conda-forge/artifact-validation": 20,
       "conda-forge/awscli-feedstock": 19,
       "conda-forge/photutils-feedstock": 12,
       "conda-forge/sos-notebook-feedstock": 11,
       "conda-forge/pynng-feedstock": 11,
       "conda-forge/r-digest-feedstock": 11,
       "conda-forge/poetry-feedstock": 11,
+      "conda-forge/admin-requests": 10,
       "conda-forge/cartographer-feedstock": 10,
-      "conda-forge/admin-requests": 9,
       "conda-forge/cutensor-feedstock": 9,
       "conda-forge/cherrypy-feedstock": 9,
       "conda-forge/aws-crt-cpp-feedstock": 8,
@@ -615,6 +615,7 @@
       "conda-forge/ecgtools-feedstock": 3,
       "conda-forge/admin-migrations": 3,
       "conda-forge/botocore-feedstock": 3,
+      "conda-forge/boto3-feedstock": 3,
       "conda-forge/fonttools-feedstock": 3,
       "conda-forge/qtpy-feedstock": 3,
       "conda-forge/filesystem-spec-feedstock": 3,
@@ -642,7 +643,6 @@
       "conda-forge/wdltools-feedstock": 2,
       "conda-forge/mypy_boto3_dynamodb-feedstock": 2,
       "conda-forge/mypy_boto3_lambda-feedstock": 2,
-      "conda-forge/boto3-feedstock": 2,
       "conda-forge/mypy_boto3_ec2-feedstock": 2,
       "conda-forge/sphinx-book-theme-feedstock": 2,
       "conda-forge/htcondor-feedstock": 2,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 3,
     "rates": {
+      "2021-09-23T23:50:00-04:00": 0,
       "2021-09-23T23:45:00-04:00": 0,
       "2021-09-23T23:40:00-04:00": 0,
       "2021-09-23T23:35:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2021-09-23T16:10:00-04:00": 0,
       "2021-09-23T16:05:00-04:00": 0,
       "2021-09-23T16:00:00-04:00": 0,
-      "2021-09-23T15:55:00-04:00": 0,
-      "2021-09-23T15:50:00-04:00": 0
+      "2021-09-23T15:55:00-04:00": 0
     },
     "repos": {
       "conda-forge/ncl-feedstock": 3,
@@ -924,8 +924,9 @@
     }
   },
   "circleci": {
-    "total": 36,
+    "total": 34,
     "rates": {
+      "2021-09-23T23:50:00-04:00": 0,
       "2021-09-23T23:45:00-04:00": 0,
       "2021-09-23T23:40:00-04:00": 0,
       "2021-09-23T23:35:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2021-09-23T16:10:00-04:00": 0,
       "2021-09-23T16:05:00-04:00": 0,
       "2021-09-23T16:00:00-04:00": 2,
-      "2021-09-23T15:55:00-04:00": 0,
-      "2021-09-23T15:50:00-04:00": 2
+      "2021-09-23T15:55:00-04:00": 0
     },
     "repos": {
       "conda-forge/cf-autotick-bot-test-package-feedstock": 80,
@@ -1155,8 +1155,9 @@
     }
   },
   "drone": {
-    "total": 45,
+    "total": 43,
     "rates": {
+      "2021-09-23T23:50:00-04:00": 0,
       "2021-09-23T23:45:00-04:00": 0,
       "2021-09-23T23:40:00-04:00": 0,
       "2021-09-23T23:35:00-04:00": 0,
@@ -1251,8 +1252,7 @@
       "2021-09-23T16:10:00-04:00": 3,
       "2021-09-23T16:05:00-04:00": 2,
       "2021-09-23T16:00:00-04:00": 2,
-      "2021-09-23T15:55:00-04:00": 5,
-      "2021-09-23T15:50:00-04:00": 2
+      "2021-09-23T15:55:00-04:00": 5
     },
     "repos": {
       "conda-forge/cf-autotick-bot-test-package-feedstock": 13,
