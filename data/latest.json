@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 997,
+    "total": 1005,
     "rates": {
-      "2021-12-17T09:20:00-05:00": 1,
+      "2021-12-17T09:25:00-05:00": 6,
+      "2021-12-17T09:20:00-05:00": 14,
       "2021-12-17T09:15:00-05:00": 9,
       "2021-12-17T09:10:00-05:00": 12,
       "2021-12-17T09:05:00-05:00": 3,
@@ -96,15 +97,14 @@
       "2021-12-17T01:45:00-05:00": 8,
       "2021-12-17T01:40:00-05:00": 10,
       "2021-12-17T01:35:00-05:00": 12,
-      "2021-12-17T01:30:00-05:00": 20,
-      "2021-12-17T01:25:00-05:00": 11
+      "2021-12-17T01:30:00-05:00": 20
     },
     "repos": {
       "conda-forge/kaggle-feedstock": 180,
       "conda-forge/mypy-feedstock": 127,
       "conda-forge/pyinterp-feedstock": 115,
+      "conda-forge/ddtrace-feedstock": 99,
       "conda-forge/staged-recipes": 97,
-      "conda-forge/ddtrace-feedstock": 91,
       "conda-forge/grpcio-feedstock": 78,
       "conda-forge/python-feedstock": 61,
       "conda-forge/scikit-image-feedstock": 53,
@@ -146,6 +146,7 @@
       "conda-forge/ibm_db-feedstock": 10,
       "conda-forge/cpp-filesystem-feedstock": 10,
       "conda-forge/ecco_v4_py-feedstock": 10,
+      "conda-forge/ndcctools-feedstock": 9,
       "conda-forge/pexsi-feedstock": 9,
       "conda-forge/xlwings-feedstock": 9,
       "conda-forge/libmamba-feedstock": 9,
@@ -172,6 +173,7 @@
       "conda-forge/toml-f-feedstock": 5,
       "conda-forge/rust-script-feedstock": 5,
       "conda-forge/mctc-lib-feedstock": 5,
+      "conda-forge/gwpy-feedstock": 4,
       "conda-forge/dask-image-feedstock": 4,
       "conda-forge/orange-canvas-core-feedstock": 4,
       "conda-forge/conda-forge-pinning-feedstock": 4,
@@ -199,7 +201,6 @@
       "conda-forge/gyptis-feedstock": 3,
       "conda-forge/rnmc-native-feedstock": 3,
       "conda-forge/julia-feedstock": 3,
-      "conda-forge/gwpy-feedstock": 2,
       "conda-forge/diffoscope-feedstock": 2,
       "conda-forge/orange-widget-base-feedstock": 2,
       "conda-forge/metview-python-feedstock": 2,
@@ -226,13 +227,13 @@
       "conda-forge/pipe-feedstock": 2,
       "conda-forge/python-geotiff-feedstock": 2,
       "conda-forge/google-cloud-dataproc-metastore-feedstock": 2,
-      "conda-forge/cupy-feedstock": 2,
-      "conda-forge/robotframework-lsp-feedstock": 2
+      "conda-forge/cupy-feedstock": 2
     }
   },
   "travis-ci": {
     "total": 27,
     "rates": {
+      "2021-12-17T09:25:00-05:00": 0,
       "2021-12-17T09:20:00-05:00": 0,
       "2021-12-17T09:15:00-05:00": 0,
       "2021-12-17T09:10:00-05:00": 1,
@@ -327,8 +328,7 @@
       "2021-12-17T01:45:00-05:00": 0,
       "2021-12-17T01:40:00-05:00": 0,
       "2021-12-17T01:35:00-05:00": 1,
-      "2021-12-17T01:30:00-05:00": 0,
-      "2021-12-17T01:25:00-05:00": 0
+      "2021-12-17T01:30:00-05:00": 0
     },
     "repos": {
       "conda-forge/kaggle-feedstock": 10,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 666,
+    "total": 669,
     "rates": {
-      "2021-12-17T09:20:00-05:00": 0,
+      "2021-12-17T09:25:00-05:00": 2,
+      "2021-12-17T09:20:00-05:00": 5,
       "2021-12-17T09:15:00-05:00": 10,
       "2021-12-17T09:10:00-05:00": 9,
       "2021-12-17T09:05:00-05:00": 3,
@@ -558,22 +559,20 @@
       "2021-12-17T01:45:00-05:00": 3,
       "2021-12-17T01:40:00-05:00": 3,
       "2021-12-17T01:35:00-05:00": 3,
-      "2021-12-17T01:30:00-05:00": 4,
-      "2021-12-17T01:25:00-05:00": 4
+      "2021-12-17T01:30:00-05:00": 4
     },
     "repos": {
-      "conda-forge/repodata-shards": 78,
+      "conda-forge/repodata-shards": 81,
       "conda-forge/atom-ml-feedstock": 17,
       "conda-forge/python-feedstock": 16,
       "conda-forge/kaggle-feedstock": 16,
       "conda-forge/admin-migrations": 16,
       "conda-forge/staged-recipes": 12,
+      "conda-forge/artifact-validation": 11,
       "conda-forge/ticcutils-feedstock": 11,
       "conda-forge/cashocs-feedstock": 11,
+      "conda-forge/ddtrace-feedstock": 11,
       "conda-forge/chimes-calculator-feedstock": 11,
-      "conda-forge/artifact-validation": 10,
-      "conda-forge/ddtrace-feedstock": 10,
-      "conda-forge/mpifx-feedstock": 10,
       "conda-forge/pyinterp-feedstock": 8,
       "conda-forge/scikit-image-feedstock": 8,
       "conda-forge/cython-blis-feedstock": 6,
@@ -585,6 +584,7 @@
       "conda-forge/cpp-filesystem-feedstock": 4,
       "conda-forge/stackvana-afw-feedstock": 4,
       "conda-forge/npysearch-feedstock": 4,
+      "conda-forge/gwpy-feedstock": 3,
       "conda-forge/ticcltools-feedstock": 3,
       "conda-forge/orange-canvas-core-feedstock": 3,
       "conda-forge/dask-image-feedstock": 3,
@@ -604,7 +604,6 @@
       "conda-forge/grpcio-feedstock": 3,
       "conda-forge/django-bootstrap5-feedstock": 3,
       "conda-forge/mctc-lib-feedstock": 3,
-      "conda-forge/gwpy-feedstock": 2,
       "conda-forge/r-h2o-feedstock": 2,
       "conda-forge/r-rcpparmadillo-feedstock": 2,
       "conda-forge/diffoscope-feedstock": 2,
@@ -646,6 +645,7 @@
       "conda-forge/grpcio-status-feedstock": 2,
       "conda-forge/conjure-python-client-feedstock": 2,
       "conda-forge/pulse-feedstock": 2,
+      "conda-forge/admin-requests": 1,
       "conda-forge/ndcctools-feedstock": 1,
       "conda-forge/wandb-feedstock": 1,
       "conda-forge/r-ggiraph-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2021-12-17T09:25:00-05:00": 0,
       "2021-12-17T09:20:00-05:00": 0,
       "2021-12-17T09:15:00-05:00": 0,
       "2021-12-17T09:10:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2021-12-17T01:45:00-05:00": 0,
       "2021-12-17T01:40:00-05:00": 0,
       "2021-12-17T01:35:00-05:00": 0,
-      "2021-12-17T01:30:00-05:00": 0,
-      "2021-12-17T01:25:00-05:00": 0
+      "2021-12-17T01:30:00-05:00": 0
     },
     "repos": {
       "conda-forge/conjure-python-client-feedstock": 2,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2021-12-17T09:25:00-05:00": 0,
       "2021-12-17T09:20:00-05:00": 0,
       "2021-12-17T09:15:00-05:00": 0,
       "2021-12-17T09:10:00-05:00": 0,
@@ -1020,8 +1021,7 @@
       "2021-12-17T01:45:00-05:00": 0,
       "2021-12-17T01:40:00-05:00": 0,
       "2021-12-17T01:35:00-05:00": 0,
-      "2021-12-17T01:30:00-05:00": 0,
-      "2021-12-17T01:25:00-05:00": 0
+      "2021-12-17T01:30:00-05:00": 0
     },
     "repos": {
       "conda-forge/flask-security-feedstock": 4,
@@ -1157,6 +1157,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2021-12-17T09:25:00-05:00": 0,
       "2021-12-17T09:20:00-05:00": 0,
       "2021-12-17T09:15:00-05:00": 0,
       "2021-12-17T09:10:00-05:00": 0,
@@ -1251,8 +1252,7 @@
       "2021-12-17T01:45:00-05:00": 0,
       "2021-12-17T01:40:00-05:00": 0,
       "2021-12-17T01:35:00-05:00": 0,
-      "2021-12-17T01:30:00-05:00": 0,
-      "2021-12-17T01:25:00-05:00": 0
+      "2021-12-17T01:30:00-05:00": 0
     },
     "repos": {
       "conda-forge/pycosat-feedstock": 3,
