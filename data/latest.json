@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1272,
+    "total": 1276,
     "rates": {
-      "2022-06-03T00:35:00-04:00": 1,
+      "2022-06-03T00:40:00-04:00": 5,
+      "2022-06-03T00:35:00-04:00": 10,
       "2022-06-03T00:30:00-04:00": 5,
       "2022-06-03T00:25:00-04:00": 3,
       "2022-06-03T00:20:00-04:00": 3,
@@ -96,11 +97,10 @@
       "2022-06-02T17:00:00-04:00": 35,
       "2022-06-02T16:55:00-04:00": 21,
       "2022-06-02T16:50:00-04:00": 18,
-      "2022-06-02T16:45:00-04:00": 18,
-      "2022-06-02T16:40:00-04:00": 10
+      "2022-06-02T16:45:00-04:00": 18
     },
     "repos": {
-      "conda-forge/arrow-cpp-feedstock": 84,
+      "conda-forge/arrow-cpp-feedstock": 93,
       "conda-forge/regex-feedstock": 68,
       "conda-forge/halotools-feedstock": 67,
       "conda-forge/awscli-feedstock": 64,
@@ -180,8 +180,7 @@
       "conda-forge/boto3-feedstock": 4,
       "conda-forge/vswhere-feedstock": 4,
       "conda-forge/neo4j-python-driver-feedstock": 4,
-      "conda-forge/sqlglot-feedstock": 4,
-      "conda-forge/cppcolormap-feedstock": 4,
+      "conda-forge/rb-multipart-post-feedstock": 3,
       "conda-forge/stackvana-afw-feedstock": 3,
       "conda-forge/fenics-dolfinx-feedstock": 3,
       "conda-forge/ncl-feedstock": 3,
@@ -189,6 +188,7 @@
       "conda-forge/r-htmltab-feedstock": 3,
       "conda-forge/pytorch-cpu-feedstock": 3,
       "conda-forge/atomicrex-feedstock": 3,
+      "conda-forge/pipe-feedstock": 2,
       "conda-forge/pyquickhelper-feedstock": 2,
       "conda-forge/opensearch-dsl-feedstock": 2,
       "conda-forge/pcdsutils-feedstock": 2,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 9,
     "rates": {
+      "2022-06-03T00:40:00-04:00": 0,
       "2022-06-03T00:35:00-04:00": 0,
       "2022-06-03T00:30:00-04:00": 0,
       "2022-06-03T00:25:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2022-06-02T17:00:00-04:00": 1,
       "2022-06-02T16:55:00-04:00": 1,
       "2022-06-02T16:50:00-04:00": 0,
-      "2022-06-02T16:45:00-04:00": 0,
-      "2022-06-02T16:40:00-04:00": 0
+      "2022-06-02T16:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/orjson-feedstock": 2,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 435,
+    "total": 443,
     "rates": {
-      "2022-06-03T00:35:00-04:00": 0,
+      "2022-06-03T00:40:00-04:00": 5,
+      "2022-06-03T00:35:00-04:00": 5,
       "2022-06-03T00:30:00-04:00": 1,
       "2022-06-03T00:25:00-04:00": 0,
       "2022-06-03T00:20:00-04:00": 2,
@@ -558,14 +559,13 @@
       "2022-06-02T17:00:00-04:00": 19,
       "2022-06-02T16:55:00-04:00": 9,
       "2022-06-02T16:50:00-04:00": 4,
-      "2022-06-02T16:45:00-04:00": 8,
-      "2022-06-02T16:40:00-04:00": 2
+      "2022-06-02T16:45:00-04:00": 8
     },
     "repos": {
       "conda-forge/staged-recipes": 31,
-      "conda-forge/artifact-validation": 22,
+      "conda-forge/artifact-validation": 23,
       "conda-forge/conda-forge-webservices": 16,
-      "conda-forge/admin-requests": 14,
+      "conda-forge/admin-requests": 15,
       "conda-forge/libhwy-feedstock": 10,
       "conda-forge/halotools-feedstock": 8,
       "conda-forge/python-graphblas-feedstock": 6,
@@ -579,6 +579,7 @@
       "conda-forge/awscli-feedstock": 5,
       "conda-forge/qt-feedstock": 5,
       "conda-forge/nuflux-feedstock": 4,
+      "conda-forge/orjson-feedstock": 4,
       "conda-forge/miniforge": 4,
       "conda-forge/tuiview-feedstock": 3,
       "conda-forge/datalad-feedstock": 3,
@@ -594,11 +595,10 @@
       "conda-forge/botocore-feedstock": 3,
       "conda-forge/av2-feedstock": 3,
       "conda-forge/fpart-feedstock": 3,
-      "conda-forge/orjson-feedstock": 3,
       "conda-forge/botocore-stubs-feedstock": 3,
       "conda-forge/gdal-feedstock": 3,
       "conda-forge/hjson-py-feedstock": 3,
-      "conda-forge/miniforge-images": 3,
+      "conda-forge/rb-multipart-post-feedstock": 2,
       "conda-forge/screeninfo-feedstock": 2,
       "conda-forge/r-tiledb-feedstock": 2,
       "conda-forge/stackvana-afw-feedstock": 2,
@@ -647,11 +647,11 @@
       "conda-forge/dlpack-feedstock": 2,
       "conda-forge/r-rmpfr-feedstock": 2,
       "conda-forge/coverage-feedstock": 2,
-      "conda-forge/stackvana-core-feedstock": 2,
-      "conda-forge/hypothesis-feedstock": 2,
-      "conda-forge/large-image-converter-feedstock": 2,
-      "conda-forge/seclea_ai-feedstock": 2,
-      "conda-forge/azure-core-feedstock": 2,
+      "conda-forge/xtal2png-feedstock": 1,
+      "conda-forge/google-cloud-firestore-feedstock": 1,
+      "conda-forge/htop-feedstock": 1,
+      "conda-forge/terraform-provider-azurerm-feedstock": 1,
+      "conda-forge/pipe-feedstock": 1,
       "conda-forge/arrow-cpp-feedstock": 1,
       "conda-forge/pdal-feedstock": 1,
       "conda-forge/autobahn-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2022-06-03T00:40:00-04:00": 0,
       "2022-06-03T00:35:00-04:00": 0,
       "2022-06-03T00:30:00-04:00": 0,
       "2022-06-03T00:25:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2022-06-02T17:00:00-04:00": 0,
       "2022-06-02T16:55:00-04:00": 0,
       "2022-06-02T16:50:00-04:00": 0,
-      "2022-06-02T16:45:00-04:00": 0,
-      "2022-06-02T16:40:00-04:00": 0
+      "2022-06-02T16:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/scrypt-feedstock": 2,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2022-06-03T00:40:00-04:00": 0,
       "2022-06-03T00:35:00-04:00": 0,
       "2022-06-03T00:30:00-04:00": 0,
       "2022-06-03T00:25:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2022-06-02T17:00:00-04:00": 0,
       "2022-06-02T16:55:00-04:00": 0,
       "2022-06-02T16:50:00-04:00": 0,
-      "2022-06-02T16:45:00-04:00": 0,
-      "2022-06-02T16:40:00-04:00": 0
+      "2022-06-02T16:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/cgroupspy-feedstock": 2,
@@ -1157,6 +1157,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2022-06-03T00:40:00-04:00": 0,
       "2022-06-03T00:35:00-04:00": 0,
       "2022-06-03T00:30:00-04:00": 0,
       "2022-06-03T00:25:00-04:00": 0,
@@ -1251,8 +1252,7 @@
       "2022-06-02T17:00:00-04:00": 0,
       "2022-06-02T16:55:00-04:00": 0,
       "2022-06-02T16:50:00-04:00": 0,
-      "2022-06-02T16:45:00-04:00": 0,
-      "2022-06-02T16:40:00-04:00": 0
+      "2022-06-02T16:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/pycosat-feedstock": 3,
