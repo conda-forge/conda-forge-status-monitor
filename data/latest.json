@@ -1,8 +1,8 @@
 {
   "azure-pipelines": {
-    "total": 2422,
+    "total": 2432,
     "rates": {
-      "2022-08-18T22:45:00-04:00": 12,
+      "2022-08-18T22:45:00-04:00": 22,
       "2022-08-18T22:40:00-04:00": 19,
       "2022-08-18T22:35:00-04:00": 9,
       "2022-08-18T22:30:00-04:00": 2,
@@ -101,7 +101,7 @@
     },
     "repos": {
       "conda-forge/arrow-cpp-feedstock": 117,
-      "conda-forge/staged-recipes": 43,
+      "conda-forge/staged-recipes": 46,
       "conda-forge/hcipy-feedstock": 43,
       "conda-forge/polars-feedstock": 43,
       "conda-forge/sdeconv-feedstock": 34,
@@ -130,6 +130,7 @@
       "conda-forge/terraform-provider-softlayer-feedstock": 12,
       "conda-forge/terraform-provider-scaleway-feedstock": 12,
       "conda-forge/terraform-provider-rundeck-feedstock": 12,
+      "conda-forge/terraform-provider-random-feedstock": 12,
       "conda-forge/terraform-provider-rancher-feedstock": 12,
       "conda-forge/terraform-provider-rancher2-feedstock": 12,
       "conda-forge/terraform-provider-powerdns-feedstock": 12,
@@ -151,11 +152,9 @@
       "conda-forge/terraform-provider-docker-feedstock": 12,
       "conda-forge/terraform-provider-dme-feedstock": 12,
       "conda-forge/terraform-provider-datadog-feedstock": 12,
-      "conda-forge/terraform-provider-cobbler-feedstock": 12,
       "conda-forge/terraform-provider-time-feedstock": 11,
       "conda-forge/terraform-provider-template-feedstock": 11,
       "conda-forge/terraform-provider-spotinst-feedstock": 11,
-      "conda-forge/terraform-provider-random-feedstock": 11,
       "conda-forge/terraform-provider-profitbricks-feedstock": 11,
       "conda-forge/terraform-provider-ovh-feedstock": 11,
       "conda-forge/terraform-provider-openstack-feedstock": 11,
@@ -168,7 +167,6 @@
       "conda-forge/terraform-provider-http-feedstock": 11,
       "conda-forge/terraform-provider-external-feedstock": 11,
       "conda-forge/terraform-provider-ec-feedstock": 11,
-      "conda-forge/terraform-provider-consul-feedstock": 11,
       "conda-forge/juliaup-feedstock": 10,
       "conda-forge/isofit-feedstock": 10,
       "conda-forge/pyrams-feedstock": 10,
@@ -179,7 +177,6 @@
       "conda-forge/terraform-provider-terraform-feedstock": 8,
       "conda-forge/nglview-feedstock": 8,
       "conda-forge/terraform-provider-google-feedstock": 8,
-      "conda-forge/terraform-provider-azurerm-feedstock": 8,
       "conda-forge/terraform-provider-vsphere-feedstock": 7,
       "conda-forge/terraform-provider-vault-feedstock": 7,
       "conda-forge/terraform-provider-ultradns-feedstock": 7,
@@ -189,6 +186,7 @@
       "conda-forge/gmatelastoplasticfinitestrainsimo-feedstock": 5,
       "conda-forge/memray-feedstock": 5,
       "conda-forge/gmatelastic-feedstock": 5,
+      "conda-forge/gap-feedstock": 4,
       "conda-forge/types-requests-feedstock": 4,
       "conda-forge/netket-feedstock": 4,
       "conda-forge/boto3-stubs-lite-feedstock": 4,
@@ -209,8 +207,9 @@
       "conda-forge/large-image-converter-feedstock": 4,
       "conda-forge/large-image-source-tiff-feedstock": 4,
       "conda-forge/large-image-source-gdal-feedstock": 4,
-      "conda-forge/gap-feedstock": 3,
       "conda-forge/openfast-feedstock": 3,
+      "conda-forge/esda-feedstock": 2,
+      "conda-forge/opencensus-ext-azure-feedstock": 2,
       "conda-forge/paste-feedstock": 2,
       "conda-forge/pyviz_comms-feedstock": 2,
       "conda-forge/napari-generic-simulator-feedstock": 2,
@@ -227,13 +226,14 @@
       "conda-forge/imaris-ims-file-reader-feedstock": 2,
       "conda-forge/globus-nexus-client-feedstock": 2,
       "conda-forge/mosartwmpy-feedstock": 2,
-      "conda-forge/flake8-logging-format-feedstock": 2
+      "conda-forge/flake8-logging-format-feedstock": 2,
+      "conda-forge/r-rcpparmadillo-feedstock": 1
     }
   },
   "travis-ci": {
-    "total": 5,
+    "total": 6,
     "rates": {
-      "2022-08-18T22:45:00-04:00": 0,
+      "2022-08-18T22:45:00-04:00": 1,
       "2022-08-18T22:40:00-04:00": 0,
       "2022-08-18T22:35:00-04:00": 0,
       "2022-08-18T22:30:00-04:00": 0,
@@ -346,7 +346,7 @@
       "conda-forge/r-hmisc-feedstock": 2,
       "conda-forge/r-rbibutils-feedstock": 2,
       "conda-forge/radical.pilot-feedstock": 2,
-      "conda-forge/esbuild-feedstock": 2,
+      "conda-forge/r-rcpparmadillo-feedstock": 1,
       "conda-forge/pyorc-feedstock": 1,
       "conda-forge/mongo-tools-feedstock": 1,
       "conda-forge/dart-sdk-feedstock": 1,
@@ -462,9 +462,9 @@
     }
   },
   "github-actions": {
-    "total": 879,
+    "total": 882,
     "rates": {
-      "2022-08-18T22:45:00-04:00": 7,
+      "2022-08-18T22:45:00-04:00": 10,
       "2022-08-18T22:40:00-04:00": 14,
       "2022-08-18T22:35:00-04:00": 10,
       "2022-08-18T22:30:00-04:00": 3,
@@ -562,7 +562,7 @@
       "2022-08-18T14:50:00-04:00": 5
     },
     "repos": {
-      "conda-forge/staged-recipes": 63,
+      "conda-forge/staged-recipes": 65,
       "conda-forge/artifact-validation": 20,
       "conda-forge/hcipy-feedstock": 17,
       "conda-forge/rdt-feedstock": 14,
@@ -633,6 +633,7 @@
       "conda-forge/adl2pydm-feedstock": 3,
       "conda-forge/mongo-tools-feedstock": 3,
       "conda-forge/dandi-feedstock": 3,
+      "conda-forge/opencensus-ext-azure-feedstock": 2,
       "conda-forge/paste-feedstock": 2,
       "conda-forge/pyviz_comms-feedstock": 2,
       "conda-forge/lmod-feedstock": 2,
@@ -679,7 +680,6 @@
       "conda-forge/aws-sdk-cpp-feedstock": 1,
       "conda-forge/esda-feedstock": 1,
       "conda-forge/r-rcpparmadillo-feedstock": 1,
-      "conda-forge/opencensus-ext-azure-feedstock": 1,
       "conda-forge/terraform-provider-azurerm-feedstock": 1,
       "conda-forge/gap-feedstock": 1,
       "conda-forge/pykrige-feedstock": 1,
