@@ -1,8 +1,8 @@
 {
   "azure-pipelines": {
-    "total": 2818,
+    "total": 2842,
     "rates": {
-      "2023-06-19T14:00:00-04:00": 6,
+      "2023-06-19T14:00:00-04:00": 30,
       "2023-06-19T13:55:00-04:00": 91,
       "2023-06-19T13:50:00-04:00": 76,
       "2023-06-19T13:45:00-04:00": 51,
@@ -100,9 +100,9 @@
       "2023-06-19T06:05:00-04:00": 2
     },
     "repos": {
-      "conda-forge/pinocchio-feedstock": 301,
+      "conda-forge/pinocchio-feedstock": 316,
       "conda-forge/r-rcpparmadillo-feedstock": 68,
-      "conda-forge/pyg-lib-feedstock": 38,
+      "conda-forge/pyg-lib-feedstock": 40,
       "conda-forge/moleculekit-feedstock": 38,
       "conda-forge/pyfmi-feedstock": 26,
       "conda-forge/power-grid-model-feedstock": 21,
@@ -131,11 +131,11 @@
       "conda-forge/r-tiledb-feedstock": 9,
       "conda-forge/r-cubature-feedstock": 8,
       "conda-forge/conda-forge-repodata-patches-feedstock": 8,
+      "conda-forge/r-corbi-feedstock": 7,
       "conda-forge/pytest-check-links-feedstock": 7,
       "conda-forge/r-coranking-feedstock": 6,
       "conda-forge/r-cooccur-feedstock": 6,
       "conda-forge/r-corrr-feedstock": 6,
-      "conda-forge/r-corbi-feedstock": 6,
       "conda-forge/r-corrgram-feedstock": 6,
       "conda-forge/r-cosinor-feedstock": 6,
       "conda-forge/r-eva-feedstock": 6,
@@ -165,8 +165,7 @@
       "conda-forge/r-dgeobj.utils-feedstock": 6,
       "conda-forge/r-details-feedstock": 6,
       "conda-forge/r-dharma-feedstock": 6,
-      "conda-forge/r-diffr-feedstock": 6,
-      "conda-forge/r-diffusionmap-feedstock": 6,
+      "conda-forge/r-comics-feedstock": 4,
       "conda-forge/r-cometexacttest-feedstock": 4,
       "conda-forge/cmyt-feedstock": 4,
       "conda-forge/mpxj-feedstock": 4,
@@ -179,7 +178,9 @@
       "conda-forge/openmetadata-managed-apis-feedstock": 4,
       "conda-forge/numba-mpi-feedstock": 4,
       "conda-forge/ctapipe_io_lst-feedstock": 4,
+      "conda-forge/r-clustercons-feedstock": 3,
       "conda-forge/r-clusterrepro-feedstock": 3,
+      "conda-forge/r-clusteval-feedstock": 3,
       "conda-forge/r-clustvarsel-feedstock": 3,
       "conda-forge/r-clustofvar-feedstock": 3,
       "conda-forge/r-cmdfun-feedstock": 3,
@@ -198,7 +199,6 @@
       "conda-forge/r-colortools-feedstock": 3,
       "conda-forge/r-combinepvalue-feedstock": 3,
       "conda-forge/r-comorbidity-feedstock": 3,
-      "conda-forge/r-comics-feedstock": 3,
       "conda-forge/r-compute.es-feedstock": 3,
       "conda-forge/r-compare-feedstock": 3,
       "conda-forge/r-complexupset-feedstock": 3,
@@ -212,7 +212,6 @@
       "conda-forge/r-envstats-feedstock": 3,
       "conda-forge/r-clustermq-feedstock": 2,
       "conda-forge/r-clustercrit-feedstock": 2,
-      "conda-forge/r-clusteval-feedstock": 2,
       "conda-forge/mongodb-feedstock": 2,
       "conda-forge/dtale-feedstock": 2,
       "conda-forge/pyload-ng-feedstock": 2,
@@ -227,7 +226,8 @@
       "conda-forge/pykube-ng-feedstock": 2,
       "conda-forge/solo-epd-loader-feedstock": 2,
       "conda-forge/micawber-feedstock": 2,
-      "conda-forge/hcloud-feedstock": 2
+      "conda-forge/hcloud-feedstock": 2,
+      "conda-forge/staged-recipes": 1
     }
   },
   "travis-ci": {
@@ -462,9 +462,9 @@
     }
   },
   "github-actions": {
-    "total": 967,
+    "total": 987,
     "rates": {
-      "2023-06-19T14:00:00-04:00": 6,
+      "2023-06-19T14:00:00-04:00": 26,
       "2023-06-19T13:55:00-04:00": 50,
       "2023-06-19T13:50:00-04:00": 0,
       "2023-06-19T13:45:00-04:00": 4,
@@ -562,11 +562,11 @@
       "2023-06-19T06:05:00-04:00": 2
     },
     "repos": {
-      "conda-forge/pinocchio-feedstock": 59,
+      "conda-forge/pinocchio-feedstock": 75,
       "conda-forge/staged-recipes": 17,
       "conda-forge/artifact-validation": 11,
       "conda-forge/r-rcpparmadillo-feedstock": 11,
-      "conda-forge/admin-requests": 7,
+      "conda-forge/admin-requests": 9,
       "conda-forge/pytest-check-links-feedstock": 7,
       "conda-forge/conda-forge-repodata-patches-feedstock": 7,
       "conda-forge/panel-feedstock": 6,
@@ -582,6 +582,7 @@
       "conda-forge/r-ddalpha-feedstock": 3,
       "conda-forge/onnxruntime-feedstock": 3,
       "conda-forge/django-axes-feedstock": 3,
+      "conda-forge/r-clustercons-feedstock": 2,
       "conda-forge/r-clusterrepro-feedstock": 2,
       "conda-forge/r-clustmixtype-feedstock": 2,
       "conda-forge/r-clustofvar-feedstock": 2,
@@ -670,9 +671,8 @@
       "conda-forge/conllu-feedstock": 2,
       "conda-forge/micawber-feedstock": 2,
       "conda-forge/solo-epd-loader-feedstock": 2,
-      "conda-forge/hcloud-feedstock": 2,
+      "conda-forge/miniforge-images": 1,
       "conda-forge/r-clustcurv-feedstock": 1,
-      "conda-forge/r-clustercons-feedstock": 1,
       "conda-forge/r-clustercrit-feedstock": 1,
       "conda-forge/r-clustermq-feedstock": 1,
       "conda-forge/gz-launch-feedstock": 1,
