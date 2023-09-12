@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1184,
+    "total": 1195,
     "rates": {
-      "2023-09-12T08:20:00-04:00": 3,
+      "2023-09-12T08:25:00-04:00": 3,
+      "2023-09-12T08:20:00-04:00": 12,
       "2023-09-12T08:15:00-04:00": 10,
       "2023-09-12T08:10:00-04:00": 21,
       "2023-09-12T08:05:00-04:00": 39,
@@ -96,24 +97,23 @@
       "2023-09-12T00:45:00-04:00": 26,
       "2023-09-12T00:40:00-04:00": 30,
       "2023-09-12T00:35:00-04:00": 16,
-      "2023-09-12T00:30:00-04:00": 2,
-      "2023-09-12T00:25:00-04:00": 1
+      "2023-09-12T00:30:00-04:00": 2
     },
     "repos": {
       "conda-forge/spectrapepper-feedstock": 53,
       "conda-forge/gnuradio-feedstock": 50,
-      "conda-forge/mlflow-feedstock": 46,
+      "conda-forge/mlflow-feedstock": 47,
       "conda-forge/nest-simulator-feedstock": 39,
       "conda-forge/pylandstats-feedstock": 38,
       "conda-forge/pysjef-feedstock": 35,
-      "conda-forge/openturns-feedstock": 30,
-      "conda-forge/paraprobe-feedstock": 27,
+      "conda-forge/openturns-feedstock": 33,
+      "conda-forge/paraprobe-feedstock": 30,
       "conda-forge/rasterio-feedstock": 25,
       "conda-forge/arcticdb-feedstock": 25,
       "conda-forge/pygit2-feedstock": 25,
       "conda-forge/lightgbm-feedstock": 25,
+      "conda-forge/tiledb-feedstock": 21,
       "conda-forge/pyaedt-feedstock": 20,
-      "conda-forge/tiledb-feedstock": 19,
       "conda-forge/blink-feedstock": 16,
       "conda-forge/mkl_fft-feedstock": 16,
       "conda-forge/protozfits-feedstock": 13,
@@ -188,11 +188,10 @@
       "conda-forge/ansible-core-feedstock": 4,
       "conda-forge/opentelemetry-instrumentation-celery-feedstock": 4,
       "conda-forge/google-auth-feedstock": 4,
-      "conda-forge/identify-feedstock": 4,
-      "conda-forge/benchling-api-client-feedstock": 4,
       "conda-forge/gdal-feedstock": 3,
       "conda-forge/r-vetiver-feedstock": 3,
       "conda-forge/opentelemetry-instrumentation-pymongo-feedstock": 3,
+      "conda-forge/premise-feedstock": 2,
       "conda-forge/apache-airflow-providers-http-feedstock": 2,
       "conda-forge/ipyaggrid-feedstock": 2,
       "conda-forge/idds-workflow-feedstock": 2,
@@ -227,12 +226,14 @@
       "conda-forge/opentelemetry-instrumentation-tornado-feedstock": 2,
       "conda-forge/hdx-python-country-feedstock": 2,
       "conda-forge/opentelemetry-instrumentation-requests-feedstock": 2,
+      "conda-forge/mpas-analysis-feedstock": 1,
       "conda-forge/oci-cli-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 11,
     "rates": {
+      "2023-09-12T08:25:00-04:00": 0,
       "2023-09-12T08:20:00-04:00": 0,
       "2023-09-12T08:15:00-04:00": 0,
       "2023-09-12T08:10:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2023-09-12T00:45:00-04:00": 0,
       "2023-09-12T00:40:00-04:00": 0,
       "2023-09-12T00:35:00-04:00": 0,
-      "2023-09-12T00:30:00-04:00": 0,
-      "2023-09-12T00:25:00-04:00": 0
+      "2023-09-12T00:30:00-04:00": 0
     },
     "repos": {
       "conda-forge/cf-autotick-bot-test-package-feedstock": 17,
@@ -414,9 +414,10 @@
     }
   },
   "github-actions": {
-    "total": 439,
+    "total": 444,
     "rates": {
-      "2023-09-12T08:20:00-04:00": 2,
+      "2023-09-12T08:25:00-04:00": 2,
+      "2023-09-12T08:20:00-04:00": 6,
       "2023-09-12T08:15:00-04:00": 2,
       "2023-09-12T08:10:00-04:00": 9,
       "2023-09-12T08:05:00-04:00": 10,
@@ -510,12 +511,11 @@
       "2023-09-12T00:45:00-04:00": 7,
       "2023-09-12T00:40:00-04:00": 7,
       "2023-09-12T00:35:00-04:00": 9,
-      "2023-09-12T00:30:00-04:00": 8,
-      "2023-09-12T00:25:00-04:00": 1
+      "2023-09-12T00:30:00-04:00": 8
     },
     "repos": {
       "conda-forge/admin-requests": 55,
-      "conda-forge/paraprobe-feedstock": 15,
+      "conda-forge/paraprobe-feedstock": 16,
       "conda-forge/feedstock-outputs": 12,
       "conda-forge/blink-feedstock": 8,
       "conda-forge/spectrapepper-feedstock": 6,
@@ -526,10 +526,11 @@
       "conda-forge/ifes-apt-tc-data-modeling-feedstock": 5,
       "conda-forge/unidist-packages-feedstock": 5,
       "conda-forge/pylandstats-feedstock": 5,
+      "conda-forge/openturns-feedstock": 4,
       "conda-forge/gnuradio-feedstock": 4,
       "conda-forge/conda-forge-pinning-feedstock": 4,
       "conda-forge/qt-main-feedstock": 4,
-      "conda-forge/openturns-feedstock": 3,
+      "conda-forge/mpas-analysis-feedstock": 3,
       "conda-forge/apache-airflow-providers-postgres-feedstock": 3,
       "conda-forge/apache-airflow-providers-apprise-feedstock": 3,
       "conda-forge/apache-airflow-providers-discord-feedstock": 3,
@@ -614,8 +615,7 @@
       "conda-forge/r-paws.developer.tools-feedstock": 2,
       "conda-forge/r-paws.management-feedstock": 2,
       "conda-forge/graphviz-feedstock": 2,
-      "conda-forge/typescript-eslint-parser-feedstock": 2,
-      "conda-forge/ocean_model_skill_assessor-feedstock": 2,
+      "conda-forge/premise-feedstock": 1,
       "conda-forge/pre-commit-feedstock": 1,
       "conda-forge/paraview-feedstock": 1,
       "conda-forge/qtwebkit-feedstock": 1,
@@ -647,6 +647,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2023-09-12T08:25:00-04:00": 0,
       "2023-09-12T08:20:00-04:00": 0,
       "2023-09-12T08:15:00-04:00": 0,
       "2023-09-12T08:10:00-04:00": 0,
@@ -741,8 +742,7 @@
       "2023-09-12T00:45:00-04:00": 0,
       "2023-09-12T00:40:00-04:00": 0,
       "2023-09-12T00:35:00-04:00": 0,
-      "2023-09-12T00:30:00-04:00": 0,
-      "2023-09-12T00:25:00-04:00": 0
+      "2023-09-12T00:30:00-04:00": 0
     },
     "repos": {
       "conda-forge/stir-feedstock": 2,
@@ -754,6 +754,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-09-12T08:25:00-04:00": 0,
       "2023-09-12T08:20:00-04:00": 0,
       "2023-09-12T08:15:00-04:00": 0,
       "2023-09-12T08:10:00-04:00": 0,
@@ -848,14 +849,14 @@
       "2023-09-12T00:45:00-04:00": 0,
       "2023-09-12T00:40:00-04:00": 0,
       "2023-09-12T00:35:00-04:00": 0,
-      "2023-09-12T00:30:00-04:00": 0,
-      "2023-09-12T00:25:00-04:00": 0
+      "2023-09-12T00:30:00-04:00": 0
     },
     "repos": {}
   },
   "drone": {
     "total": 0,
     "rates": {
+      "2023-09-12T08:25:00-04:00": 0,
       "2023-09-12T08:20:00-04:00": 0,
       "2023-09-12T08:15:00-04:00": 0,
       "2023-09-12T08:10:00-04:00": 0,
@@ -950,8 +951,7 @@
       "2023-09-12T00:45:00-04:00": 0,
       "2023-09-12T00:40:00-04:00": 0,
       "2023-09-12T00:35:00-04:00": 0,
-      "2023-09-12T00:30:00-04:00": 0,
-      "2023-09-12T00:25:00-04:00": 0
+      "2023-09-12T00:30:00-04:00": 0
     },
     "repos": {}
   }
