@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2933,
+    "total": 2971,
     "rates": {
-      "2023-10-05T13:25:00-04:00": 16,
+      "2023-10-05T13:30:00-04:00": 24,
+      "2023-10-05T13:25:00-04:00": 36,
       "2023-10-05T13:20:00-04:00": 5,
       "2023-10-05T13:15:00-04:00": 0,
       "2023-10-05T13:10:00-04:00": 24,
@@ -96,16 +97,15 @@
       "2023-10-05T05:50:00-04:00": 46,
       "2023-10-05T05:45:00-04:00": 39,
       "2023-10-05T05:40:00-04:00": 43,
-      "2023-10-05T05:35:00-04:00": 16,
-      "2023-10-05T05:30:00-04:00": 6
+      "2023-10-05T05:35:00-04:00": 16
     },
     "repos": {
-      "conda-forge/fenics-dolfinx-feedstock": 264,
+      "conda-forge/fenics-dolfinx-feedstock": 287,
       "conda-forge/onnxruntime-feedstock": 130,
+      "conda-forge/staged-recipes": 122,
       "conda-forge/slepc4py-feedstock": 117,
-      "conda-forge/staged-recipes": 117,
+      "conda-forge/openmm-feedstock": 88,
       "conda-forge/msgspec-feedstock": 87,
-      "conda-forge/openmm-feedstock": 86,
       "conda-forge/gsw-feedstock": 72,
       "conda-forge/rpds-py-feedstock": 72,
       "conda-forge/cython-feedstock": 72,
@@ -118,10 +118,9 @@
       "conda-forge/slepc-feedstock": 39,
       "conda-forge/zodbpickle-feedstock": 38,
       "conda-forge/scalapack-feedstock": 37,
-      "conda-forge/libboost-mpi-feedstock": 36,
+      "conda-forge/fenics-feedstock": 32,
       "conda-forge/austin-feedstock": 32,
       "conda-forge/python-igraph-feedstock": 32,
-      "conda-forge/fenics-feedstock": 30,
       "conda-forge/hpp-fcl-feedstock": 30,
       "conda-forge/lammps-feedstock": 29,
       "conda-forge/scipy-feedstock": 28,
@@ -140,6 +139,7 @@
       "conda-forge/pcraster-feedstock": 17,
       "conda-forge/gz-msgs-feedstock": 17,
       "conda-forge/cfdm-feedstock": 16,
+      "conda-forge/qt-main-feedstock": 15,
       "conda-forge/datavzrd-feedstock": 14,
       "conda-forge/mssql-scripter-feedstock": 14,
       "conda-forge/aim-feedstock": 13,
@@ -176,7 +176,6 @@
       "conda-forge/pyiron_atomistics-feedstock": 5,
       "conda-forge/pyiron_base-feedstock": 5,
       "conda-forge/types-html5lib-feedstock": 5,
-      "conda-forge/qt-main-feedstock": 4,
       "conda-forge/descarteslabs-feedstock": 4,
       "conda-forge/ory-client-feedstock": 4,
       "conda-forge/tyro-feedstock": 4,
@@ -227,12 +226,14 @@
       "conda-forge/conda-forge-repodata-patches-feedstock": 2,
       "conda-forge/metocean-api-feedstock": 2,
       "conda-forge/heaptrack-feedstock": 2,
+      "conda-forge/stackvana-afw-feedstock": 1,
       "conda-forge/polars-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 13,
     "rates": {
+      "2023-10-05T13:30:00-04:00": 0,
       "2023-10-05T13:25:00-04:00": 0,
       "2023-10-05T13:20:00-04:00": 0,
       "2023-10-05T13:15:00-04:00": 1,
@@ -327,8 +328,7 @@
       "2023-10-05T05:50:00-04:00": 0,
       "2023-10-05T05:45:00-04:00": 1,
       "2023-10-05T05:40:00-04:00": 0,
-      "2023-10-05T05:35:00-04:00": 0,
-      "2023-10-05T05:30:00-04:00": 0
+      "2023-10-05T05:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/slepc-feedstock": 5,
@@ -462,8 +462,9 @@
     }
   },
   "github-actions": {
-    "total": 738,
+    "total": 734,
     "rates": {
+      "2023-10-05T13:30:00-04:00": 8,
       "2023-10-05T13:25:00-04:00": 2,
       "2023-10-05T13:20:00-04:00": 2,
       "2023-10-05T13:15:00-04:00": 0,
@@ -558,16 +559,15 @@
       "2023-10-05T05:50:00-04:00": 7,
       "2023-10-05T05:45:00-04:00": 19,
       "2023-10-05T05:40:00-04:00": 20,
-      "2023-10-05T05:35:00-04:00": 18,
-      "2023-10-05T05:30:00-04:00": 12
+      "2023-10-05T05:35:00-04:00": 18
     },
     "repos": {
       "conda-forge/feedstock-outputs": 42,
-      "conda-forge/staged-recipes": 18,
+      "conda-forge/staged-recipes": 21,
       "conda-forge/conda-forge-pinning-feedstock": 14,
       "conda-forge/scalapack-feedstock": 13,
       "conda-forge/openff-utilities-feedstock": 12,
-      "conda-forge/admin-requests": 10,
+      "conda-forge/admin-requests": 12,
       "conda-forge/jupyterlite-core-feedstock": 9,
       "conda-forge/pyiron_lammps-feedstock": 8,
       "conda-forge/r-littler-feedstock": 8,
@@ -578,6 +578,7 @@
       "conda-forge/mgwr-feedstock": 7,
       "conda-forge/fenics-dolfinx-feedstock": 7,
       "conda-forge/conda-forge-feedstock-check-solvable-feedstock": 7,
+      "conda-forge/qt-main-feedstock": 6,
       "conda-forge/spglm-feedstock": 6,
       "conda-forge/coiled-feedstock": 6,
       "conda-forge/pyubx2-feedstock": 6,
@@ -596,7 +597,6 @@
       "conda-forge/pyiron_base-feedstock": 4,
       "conda-forge/types-beautifulsoup4-feedstock": 4,
       "conda-forge/fenics-ffcx-feedstock": 4,
-      "conda-forge/qt-main-feedstock": 3,
       "conda-forge/tyro-feedstock": 3,
       "conda-forge/openmm-feedstock": 3,
       "conda-forge/heavyai-feedstock": 3,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 1,
     "rates": {
+      "2023-10-05T13:30:00-04:00": 0,
       "2023-10-05T13:25:00-04:00": 0,
       "2023-10-05T13:20:00-04:00": 0,
       "2023-10-05T13:15:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2023-10-05T05:50:00-04:00": 0,
       "2023-10-05T05:45:00-04:00": 1,
       "2023-10-05T05:40:00-04:00": 0,
-      "2023-10-05T05:35:00-04:00": 0,
-      "2023-10-05T05:30:00-04:00": 0
+      "2023-10-05T05:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/vmd-python-feedstock": 2,
@@ -828,6 +828,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-10-05T13:30:00-04:00": 0,
       "2023-10-05T13:25:00-04:00": 0,
       "2023-10-05T13:20:00-04:00": 0,
       "2023-10-05T13:15:00-04:00": 0,
@@ -922,8 +923,7 @@
       "2023-10-05T05:50:00-04:00": 0,
       "2023-10-05T05:45:00-04:00": 0,
       "2023-10-05T05:40:00-04:00": 0,
-      "2023-10-05T05:35:00-04:00": 0,
-      "2023-10-05T05:30:00-04:00": 0
+      "2023-10-05T05:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 12,
@@ -937,6 +937,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-10-05T13:30:00-04:00": 0,
       "2023-10-05T13:25:00-04:00": 0,
       "2023-10-05T13:20:00-04:00": 0,
       "2023-10-05T13:15:00-04:00": 0,
@@ -1031,8 +1032,7 @@
       "2023-10-05T05:50:00-04:00": 0,
       "2023-10-05T05:45:00-04:00": 0,
       "2023-10-05T05:40:00-04:00": 0,
-      "2023-10-05T05:35:00-04:00": 0,
-      "2023-10-05T05:30:00-04:00": 0
+      "2023-10-05T05:35:00-04:00": 0
     },
     "repos": {}
   }
