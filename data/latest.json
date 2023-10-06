@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 4059,
+    "total": 4024,
     "rates": {
-      "2023-10-06T16:35:00-04:00": 1,
+      "2023-10-06T16:40:00-04:00": 1,
+      "2023-10-06T16:35:00-04:00": 17,
       "2023-10-06T16:30:00-04:00": 12,
       "2023-10-06T16:25:00-04:00": 21,
       "2023-10-06T16:20:00-04:00": 23,
@@ -96,14 +97,13 @@
       "2023-10-06T09:00:00-04:00": 30,
       "2023-10-06T08:55:00-04:00": 84,
       "2023-10-06T08:50:00-04:00": 50,
-      "2023-10-06T08:45:00-04:00": 49,
-      "2023-10-06T08:40:00-04:00": 52
+      "2023-10-06T08:45:00-04:00": 49
     },
     "repos": {
       "conda-forge/conda-forge-ci-setup-feedstock": 218,
       "conda-forge/cppe-feedstock": 176,
       "conda-forge/rapidfuzz-feedstock": 176,
-      "conda-forge/dask-sql-feedstock": 141,
+      "conda-forge/dask-sql-feedstock": 144,
       "conda-forge/numcodecs-feedstock": 120,
       "conda-forge/openpmd-api-feedstock": 94,
       "conda-forge/grpcio-tools-feedstock": 74,
@@ -126,14 +126,15 @@
       "conda-forge/pywr-feedstock": 26,
       "conda-forge/r-testthat-feedstock": 24,
       "conda-forge/bpython-feedstock": 24,
-      "conda-forge/staged-recipes": 22,
+      "conda-forge/staged-recipes": 23,
+      "conda-forge/pywaterflood-feedstock": 22,
       "conda-forge/grib2io-feedstock": 22,
       "conda-forge/oso-feedstock": 21,
       "conda-forge/compas-feedstock": 20,
       "conda-forge/sqlacodegen-feedstock": 19,
       "conda-forge/river-feedstock": 19,
+      "conda-forge/gz-msgs-feedstock": 17,
       "conda-forge/pydy-feedstock": 16,
-      "conda-forge/pywaterflood-feedstock": 16,
       "conda-forge/scikit-garden-feedstock": 16,
       "conda-forge/microtc-feedstock": 16,
       "conda-forge/python-marisa-trie-feedstock": 16,
@@ -142,10 +143,10 @@
       "conda-forge/copulae-feedstock": 16,
       "conda-forge/sklearn-quantile-feedstock": 16,
       "conda-forge/sklearn-contrib-lightning-feedstock": 16,
-      "conda-forge/gz-msgs-feedstock": 16,
       "conda-forge/crocoddyl-feedstock": 15,
       "conda-forge/pymt_ecsimplesnow-feedstock": 14,
       "conda-forge/pytorch_sparse-feedstock": 13,
+      "conda-forge/librmm-feedstock": 13,
       "conda-forge/clang-win-activation-feedstock": 13,
       "conda-forge/clang-compiler-activation-feedstock": 13,
       "conda-forge/framel-feedstock": 13,
@@ -167,7 +168,6 @@
       "conda-forge/cmake-no-system-feedstock": 8,
       "conda-forge/mgwr-feedstock": 8,
       "conda-forge/ray-packages-feedstock": 7,
-      "conda-forge/librmm-feedstock": 7,
       "conda-forge/llvmdev-feedstock": 7,
       "conda-forge/dclab-feedstock": 7,
       "conda-forge/rust-feedstock": 7,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 7,
     "rates": {
+      "2023-10-06T16:40:00-04:00": 0,
       "2023-10-06T16:35:00-04:00": 0,
       "2023-10-06T16:30:00-04:00": 0,
       "2023-10-06T16:25:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2023-10-06T09:00:00-04:00": 0,
       "2023-10-06T08:55:00-04:00": 0,
       "2023-10-06T08:50:00-04:00": 1,
-      "2023-10-06T08:45:00-04:00": 1,
-      "2023-10-06T08:40:00-04:00": 0
+      "2023-10-06T08:45:00-04:00": 1
     },
     "repos": {
       "conda-forge/compiler-rt-feedstock": 6,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 622,
+    "total": 618,
     "rates": {
-      "2023-10-06T16:35:00-04:00": 1,
+      "2023-10-06T16:40:00-04:00": 0,
+      "2023-10-06T16:35:00-04:00": 3,
       "2023-10-06T16:30:00-04:00": 4,
       "2023-10-06T16:25:00-04:00": 3,
       "2023-10-06T16:20:00-04:00": 11,
@@ -558,23 +559,22 @@
       "2023-10-06T09:00:00-04:00": 0,
       "2023-10-06T08:55:00-04:00": 7,
       "2023-10-06T08:50:00-04:00": 2,
-      "2023-10-06T08:45:00-04:00": 14,
-      "2023-10-06T08:40:00-04:00": 6
+      "2023-10-06T08:45:00-04:00": 14
     },
     "repos": {
       "conda-forge/admin-requests": 57,
       "conda-forge/staged-recipes": 21,
       "conda-forge/dask-sql-feedstock": 11,
       "conda-forge/spvcm-feedstock": 9,
-      "conda-forge/wetterdienst-feedstock": 8,
+      "conda-forge/wetterdienst-feedstock": 9,
       "conda-forge/feedstock-outputs": 8,
       "conda-forge/rapidfuzz-feedstock": 7,
       "conda-forge/numcodecs-feedstock": 6,
+      "conda-forge/librmm-feedstock": 6,
       "conda-forge/cppe-feedstock": 6,
       "conda-forge/mgwr-feedstock": 6,
       "conda-forge/scikit-network-feedstock": 6,
       "conda-forge/openff-interchange-feedstock": 5,
-      "conda-forge/librmm-feedstock": 5,
       "conda-forge/grpcio-tools-feedstock": 5,
       "conda-forge/conda-forge-ci-setup-feedstock": 5,
       "conda-forge/pymt_gipl-feedstock": 5,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 1,
     "rates": {
+      "2023-10-06T16:40:00-04:00": 0,
       "2023-10-06T16:35:00-04:00": 0,
       "2023-10-06T16:30:00-04:00": 0,
       "2023-10-06T16:25:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2023-10-06T09:00:00-04:00": 0,
       "2023-10-06T08:55:00-04:00": 0,
       "2023-10-06T08:50:00-04:00": 0,
-      "2023-10-06T08:45:00-04:00": 0,
-      "2023-10-06T08:40:00-04:00": 0
+      "2023-10-06T08:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/rdkit-feedstock": 2,
@@ -829,6 +829,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-10-06T16:40:00-04:00": 0,
       "2023-10-06T16:35:00-04:00": 0,
       "2023-10-06T16:30:00-04:00": 0,
       "2023-10-06T16:25:00-04:00": 0,
@@ -923,8 +924,7 @@
       "2023-10-06T09:00:00-04:00": 0,
       "2023-10-06T08:55:00-04:00": 0,
       "2023-10-06T08:50:00-04:00": 0,
-      "2023-10-06T08:45:00-04:00": 0,
-      "2023-10-06T08:40:00-04:00": 0
+      "2023-10-06T08:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 12,
@@ -938,6 +938,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-10-06T16:40:00-04:00": 0,
       "2023-10-06T16:35:00-04:00": 0,
       "2023-10-06T16:30:00-04:00": 0,
       "2023-10-06T16:25:00-04:00": 0,
@@ -1032,8 +1033,7 @@
       "2023-10-06T09:00:00-04:00": 0,
       "2023-10-06T08:55:00-04:00": 0,
       "2023-10-06T08:50:00-04:00": 0,
-      "2023-10-06T08:45:00-04:00": 0,
-      "2023-10-06T08:40:00-04:00": 0
+      "2023-10-06T08:45:00-04:00": 0
     },
     "repos": {}
   }
