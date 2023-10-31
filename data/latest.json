@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1712,
+    "total": 1730,
     "rates": {
-      "2023-10-31T06:40:00-04:00": 2,
+      "2023-10-31T06:45:00-04:00": 13,
+      "2023-10-31T06:40:00-04:00": 16,
       "2023-10-31T06:35:00-04:00": 7,
       "2023-10-31T06:30:00-04:00": 36,
       "2023-10-31T06:25:00-04:00": 10,
@@ -96,18 +97,17 @@
       "2023-10-30T23:05:00-04:00": 7,
       "2023-10-30T23:00:00-04:00": 18,
       "2023-10-30T22:55:00-04:00": 19,
-      "2023-10-30T22:50:00-04:00": 4,
-      "2023-10-30T22:45:00-04:00": 9
+      "2023-10-30T22:50:00-04:00": 4
     },
     "repos": {
       "conda-forge/impactx-feedstock": 117,
       "conda-forge/nvitop-feedstock": 101,
       "conda-forge/qgis-feedstock": 100,
       "conda-forge/snowflake-connector-python-feedstock": 97,
-      "conda-forge/hamlib-feedstock": 84,
+      "conda-forge/hamlib-feedstock": 85,
       "conda-forge/pytorch-cpu-feedstock": 79,
+      "conda-forge/fenics-dolfinx-feedstock": 76,
       "conda-forge/dolfinx_mpc-feedstock": 70,
-      "conda-forge/fenics-dolfinx-feedstock": 68,
       "conda-forge/tracktable-feedstock": 63,
       "conda-forge/orange3-feedstock": 62,
       "conda-forge/pygit2-feedstock": 62,
@@ -130,6 +130,7 @@
       "conda-forge/mlir-python-bindings-feedstock": 16,
       "conda-forge/libertem-dectris-feedstock": 16,
       "conda-forge/r-rfast-feedstock": 14,
+      "conda-forge/gdal-feedstock": 14,
       "conda-forge/aws-c-event-stream-feedstock": 14,
       "conda-forge/aws-c-http-feedstock": 14,
       "conda-forge/aws-c-cal-feedstock": 14,
@@ -141,12 +142,12 @@
       "conda-forge/czmq-feedstock": 9,
       "conda-forge/coloc_sat-feedstock": 9,
       "conda-forge/uhdm-feedstock": 9,
+      "conda-forge/grpcio-tools-feedstock": 8,
       "conda-forge/arraylake-feedstock": 8,
       "conda-forge/openmp-feedstock": 7,
       "conda-forge/lld-feedstock": 7,
       "conda-forge/cppzmq-feedstock": 7,
       "conda-forge/mamba-feedstock": 7,
-      "conda-forge/gdal-feedstock": 7,
       "conda-forge/hdmf-feedstock": 7,
       "conda-forge/multiuserfilelock-feedstock": 7,
       "conda-forge/google-cloud-bigquery-feedstock": 7,
@@ -192,6 +193,7 @@
       "conda-forge/piccolo-theme-feedstock": 4,
       "conda-forge/smartystreets_python_sdk-feedstock": 4,
       "conda-forge/py-shiny-feedstock": 4,
+      "conda-forge/checkov-feedstock": 3,
       "conda-forge/flang-feedstock": 3,
       "conda-forge/polly-feedstock": 3,
       "conda-forge/flax-feedstock": 3,
@@ -225,14 +227,13 @@
       "conda-forge/oci-feedstock": 2,
       "conda-forge/sagemaker-jupyterlab-extension-feedstock": 2,
       "conda-forge/sphinx-tags-feedstock": 2,
-      "conda-forge/dantro-feedstock": 2,
-      "conda-forge/data-diff-feedstock": 2,
-      "conda-forge/morningstar-data-feedstock": 2
+      "conda-forge/dantro-feedstock": 2
     }
   },
   "travis-ci": {
     "total": 5,
     "rates": {
+      "2023-10-31T06:45:00-04:00": 0,
       "2023-10-31T06:40:00-04:00": 0,
       "2023-10-31T06:35:00-04:00": 0,
       "2023-10-31T06:30:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2023-10-30T23:05:00-04:00": 0,
       "2023-10-30T23:00:00-04:00": 0,
       "2023-10-30T22:55:00-04:00": 0,
-      "2023-10-30T22:50:00-04:00": 0,
-      "2023-10-30T22:45:00-04:00": 0
+      "2023-10-30T22:50:00-04:00": 0
     },
     "repos": {
       "conda-forge/idyntree-feedstock": 4,
@@ -464,7 +464,8 @@
   "github-actions": {
     "total": 415,
     "rates": {
-      "2023-10-31T06:40:00-04:00": 0,
+      "2023-10-31T06:45:00-04:00": 1,
+      "2023-10-31T06:40:00-04:00": 1,
       "2023-10-31T06:35:00-04:00": 3,
       "2023-10-31T06:30:00-04:00": 2,
       "2023-10-31T06:25:00-04:00": 2,
@@ -558,11 +559,10 @@
       "2023-10-30T23:05:00-04:00": 1,
       "2023-10-30T23:00:00-04:00": 10,
       "2023-10-30T22:55:00-04:00": 1,
-      "2023-10-30T22:50:00-04:00": 4,
-      "2023-10-30T22:45:00-04:00": 2
+      "2023-10-30T22:50:00-04:00": 4
     },
     "repos": {
-      "conda-forge/admin-requests": 88,
+      "conda-forge/admin-requests": 89,
       "conda-forge/staged-recipes": 32,
       "conda-forge/atomate2-feedstock": 7,
       "conda-forge/orange3-feedstock": 7,
@@ -662,7 +662,7 @@
       "conda-forge/aiohttp-client-cache-feedstock": 2,
       "conda-forge/py-geth-feedstock": 2,
       "conda-forge/botocore-stubs-feedstock": 2,
-      "conda-forge/cython-feedstock": 2,
+      "conda-forge/cosmosis-feedstock": 1,
       "conda-forge/libertem-dectris-feedstock": 1,
       "conda-forge/dvc-feedstock": 1,
       "conda-forge/metaflow-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2023-10-31T06:45:00-04:00": 0,
       "2023-10-31T06:40:00-04:00": 0,
       "2023-10-31T06:35:00-04:00": 0,
       "2023-10-31T06:30:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2023-10-30T23:05:00-04:00": 0,
       "2023-10-30T23:00:00-04:00": 0,
       "2023-10-30T22:55:00-04:00": 0,
-      "2023-10-30T22:50:00-04:00": 0,
-      "2023-10-30T22:45:00-04:00": 0
+      "2023-10-30T22:50:00-04:00": 0
     },
     "repos": {
       "conda-forge/helics-feedstock": 3,
@@ -849,6 +849,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-10-31T06:45:00-04:00": 0,
       "2023-10-31T06:40:00-04:00": 0,
       "2023-10-31T06:35:00-04:00": 0,
       "2023-10-31T06:30:00-04:00": 0,
@@ -943,8 +944,7 @@
       "2023-10-30T23:05:00-04:00": 0,
       "2023-10-30T23:00:00-04:00": 0,
       "2023-10-30T22:55:00-04:00": 0,
-      "2023-10-30T22:50:00-04:00": 0,
-      "2023-10-30T22:45:00-04:00": 0
+      "2023-10-30T22:50:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 12,
@@ -963,6 +963,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-10-31T06:45:00-04:00": 0,
       "2023-10-31T06:40:00-04:00": 0,
       "2023-10-31T06:35:00-04:00": 0,
       "2023-10-31T06:30:00-04:00": 0,
@@ -1057,8 +1058,7 @@
       "2023-10-30T23:05:00-04:00": 0,
       "2023-10-30T23:00:00-04:00": 0,
       "2023-10-30T22:55:00-04:00": 0,
-      "2023-10-30T22:50:00-04:00": 0,
-      "2023-10-30T22:45:00-04:00": 0
+      "2023-10-30T22:50:00-04:00": 0
     },
     "repos": {}
   }
