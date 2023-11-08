@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2000,
+    "total": 2024,
     "rates": {
-      "2023-11-08T04:55:00-05:00": 2,
+      "2023-11-08T05:00:00-05:00": 6,
+      "2023-11-08T04:55:00-05:00": 24,
       "2023-11-08T04:50:00-05:00": 9,
       "2023-11-08T04:45:00-05:00": 3,
       "2023-11-08T04:40:00-05:00": 9,
@@ -96,8 +97,7 @@
       "2023-11-07T21:20:00-05:00": 18,
       "2023-11-07T21:15:00-05:00": 14,
       "2023-11-07T21:10:00-05:00": 52,
-      "2023-11-07T21:05:00-05:00": 9,
-      "2023-11-07T21:00:00-05:00": 4
+      "2023-11-07T21:05:00-05:00": 9
     },
     "repos": {
       "conda-forge/pymongoarrow-feedstock": 173,
@@ -105,21 +105,21 @@
       "conda-forge/pytorch_scatter-feedstock": 111,
       "conda-forge/jcc-feedstock": 107,
       "conda-forge/awscli-feedstock": 60,
+      "conda-forge/loris-feedstock": 58,
       "conda-forge/google-cloud-aiplatform-feedstock": 42,
       "conda-forge/chromadb-feedstock": 42,
       "conda-forge/clickhouse-connect-feedstock": 42,
       "conda-forge/pytorch_sparse-feedstock": 42,
       "conda-forge/nwchem-feedstock": 40,
       "conda-forge/spavro-feedstock": 38,
-      "conda-forge/loris-feedstock": 36,
       "conda-forge/black-feedstock": 36,
       "conda-forge/numpy-stl-feedstock": 36,
       "conda-forge/theseus-ai-feedstock": 34,
       "conda-forge/astromodels-feedstock": 27,
+      "conda-forge/pyemir-feedstock": 26,
       "conda-forge/clawpack-feedstock": 26,
       "conda-forge/mosdef_cassandra-feedstock": 26,
       "conda-forge/r-matrix-feedstock": 24,
-      "conda-forge/pyemir-feedstock": 22,
       "conda-forge/pytmatrix-feedstock": 21,
       "conda-forge/spyder-feedstock": 21,
       "conda-forge/numba-feedstock": 20,
@@ -132,13 +132,13 @@
       "conda-forge/cmplxfoil-feedstock": 13,
       "conda-forge/dbus-fast-feedstock": 13,
       "conda-forge/deltalake-feedstock": 13,
+      "conda-forge/sd-feedstock": 12,
       "conda-forge/azure-storage-common-cpp-feedstock": 12,
       "conda-forge/r-actuar-feedstock": 12,
       "conda-forge/r-openmx-feedstock": 12,
       "conda-forge/emmet-core-feedstock": 12,
       "conda-forge/emmet-builders-feedstock": 12,
       "conda-forge/starlette-admin-feedstock": 11,
-      "conda-forge/sd-feedstock": 10,
       "conda-forge/go-yq-feedstock": 10,
       "conda-forge/conda-forge-pinning-feedstock": 10,
       "conda-forge/caped-ai-augmentations-feedstock": 10,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 3,
     "rates": {
+      "2023-11-08T05:00:00-05:00": 0,
       "2023-11-08T04:55:00-05:00": 0,
       "2023-11-08T04:50:00-05:00": 0,
       "2023-11-08T04:45:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2023-11-07T21:20:00-05:00": 0,
       "2023-11-07T21:15:00-05:00": 0,
       "2023-11-07T21:10:00-05:00": 0,
-      "2023-11-07T21:05:00-05:00": 0,
-      "2023-11-07T21:00:00-05:00": 0
+      "2023-11-07T21:05:00-05:00": 0
     },
     "repos": {
       "conda-forge/sccache-feedstock": 3,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 468,
+    "total": 469,
     "rates": {
-      "2023-11-08T04:55:00-05:00": 0,
+      "2023-11-08T05:00:00-05:00": 1,
+      "2023-11-08T04:55:00-05:00": 1,
       "2023-11-08T04:50:00-05:00": 1,
       "2023-11-08T04:45:00-05:00": 1,
       "2023-11-08T04:40:00-05:00": 2,
@@ -558,8 +559,7 @@
       "2023-11-07T21:20:00-05:00": 4,
       "2023-11-07T21:15:00-05:00": 3,
       "2023-11-07T21:10:00-05:00": 6,
-      "2023-11-07T21:05:00-05:00": 2,
-      "2023-11-07T21:00:00-05:00": 1
+      "2023-11-07T21:05:00-05:00": 2
     },
     "repos": {
       "conda-forge/staged-recipes": 30,
@@ -586,6 +586,8 @@
       "conda-forge/clawpack-feedstock": 4,
       "conda-forge/miniforge": 4,
       "conda-forge/cellrank-feedstock": 4,
+      "conda-forge/pyemir-feedstock": 3,
+      "conda-forge/sd-feedstock": 3,
       "conda-forge/sccache-feedstock": 3,
       "conda-forge/admin-migrations": 3,
       "conda-forge/conda-forge-webservices": 3,
@@ -605,11 +607,9 @@
       "conda-forge/awscli-feedstock": 3,
       "conda-forge/pydm-feedstock": 3,
       "conda-forge/magic-class-feedstock": 3,
-      "conda-forge/pyemir-feedstock": 2,
       "conda-forge/opentelemetry-exporter-zipkin-feedstock": 2,
       "conda-forge/scri-feedstock": 2,
       "conda-forge/pyshacl-feedstock": 2,
-      "conda-forge/sd-feedstock": 2,
       "conda-forge/azure-storage-files-shares-cpp-feedstock": 2,
       "conda-forge/lightning-feedstock": 2,
       "conda-forge/django-slick-reporting-feedstock": 2,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2023-11-08T05:00:00-05:00": 0,
       "2023-11-08T04:55:00-05:00": 0,
       "2023-11-08T04:50:00-05:00": 0,
       "2023-11-08T04:45:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2023-11-07T21:20:00-05:00": 0,
       "2023-11-07T21:15:00-05:00": 0,
       "2023-11-07T21:10:00-05:00": 0,
-      "2023-11-07T21:05:00-05:00": 0,
-      "2023-11-07T21:00:00-05:00": 0
+      "2023-11-07T21:05:00-05:00": 0
     },
     "repos": {
       "conda-forge/helics-feedstock": 3,
@@ -855,6 +855,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-11-08T05:00:00-05:00": 0,
       "2023-11-08T04:55:00-05:00": 0,
       "2023-11-08T04:50:00-05:00": 0,
       "2023-11-08T04:45:00-05:00": 0,
@@ -949,8 +950,7 @@
       "2023-11-07T21:20:00-05:00": 0,
       "2023-11-07T21:15:00-05:00": 0,
       "2023-11-07T21:10:00-05:00": 0,
-      "2023-11-07T21:05:00-05:00": 0,
-      "2023-11-07T21:00:00-05:00": 0
+      "2023-11-07T21:05:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 12,
@@ -970,6 +970,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-11-08T05:00:00-05:00": 0,
       "2023-11-08T04:55:00-05:00": 0,
       "2023-11-08T04:50:00-05:00": 0,
       "2023-11-08T04:45:00-05:00": 0,
@@ -1064,8 +1065,7 @@
       "2023-11-07T21:20:00-05:00": 0,
       "2023-11-07T21:15:00-05:00": 0,
       "2023-11-07T21:10:00-05:00": 0,
-      "2023-11-07T21:05:00-05:00": 0,
-      "2023-11-07T21:00:00-05:00": 0
+      "2023-11-07T21:05:00-05:00": 0
     },
     "repos": {}
   }
