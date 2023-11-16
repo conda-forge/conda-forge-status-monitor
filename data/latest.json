@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2186,
+    "total": 2198,
     "rates": {
-      "2023-11-16T12:30:00-05:00": 20,
+      "2023-11-16T12:35:00-05:00": 10,
+      "2023-11-16T12:30:00-05:00": 24,
       "2023-11-16T12:25:00-05:00": 33,
       "2023-11-16T12:20:00-05:00": 29,
       "2023-11-16T12:15:00-05:00": 54,
@@ -96,8 +97,7 @@
       "2023-11-16T04:55:00-05:00": 0,
       "2023-11-16T04:50:00-05:00": 4,
       "2023-11-16T04:45:00-05:00": 0,
-      "2023-11-16T04:40:00-05:00": 2,
-      "2023-11-16T04:35:00-05:00": 2
+      "2023-11-16T04:40:00-05:00": 2
     },
     "repos": {
       "conda-forge/watchfiles-feedstock": 181,
@@ -107,14 +107,14 @@
       "conda-forge/fonttools-feedstock": 72,
       "conda-forge/openmm-feedstock": 69,
       "conda-forge/cupy-feedstock": 65,
-      "conda-forge/tomopy-feedstock": 51,
+      "conda-forge/tomopy-feedstock": 53,
       "conda-forge/torchvision-feedstock": 50,
-      "conda-forge/staged-recipes": 41,
+      "conda-forge/staged-recipes": 46,
       "conda-forge/freesasa-feedstock": 38,
       "conda-forge/rpds-py-feedstock": 34,
+      "conda-forge/awscli-feedstock": 30,
       "conda-forge/jq-feedstock": 30,
       "conda-forge/ecflow-feedstock": 30,
-      "conda-forge/awscli-feedstock": 28,
       "conda-forge/bmad-feedstock": 26,
       "conda-forge/adaptive-scheduler-feedstock": 22,
       "conda-forge/cpycppyy-feedstock": 21,
@@ -122,10 +122,10 @@
       "conda-forge/pylops-feedstock": 20,
       "conda-forge/htcondor-feedstock": 18,
       "conda-forge/pys2index-feedstock": 17,
+      "conda-forge/cppyy-feedstock": 15,
+      "conda-forge/colmap-feedstock": 15,
       "conda-forge/kokkos-feedstock": 14,
       "conda-forge/framel-feedstock": 14,
-      "conda-forge/cppyy-feedstock": 13,
-      "conda-forge/colmap-feedstock": 13,
       "conda-forge/cuda-nvtx-feedstock": 13,
       "conda-forge/txrm2tiff-feedstock": 13,
       "conda-forge/libmagma-feedstock": 12,
@@ -197,10 +197,10 @@
       "conda-forge/wgpu-py-feedstock": 4,
       "conda-forge/bilby-feedstock": 4,
       "conda-forge/pipenv-feedstock": 4,
+      "conda-forge/tensorstore-feedstock": 3,
       "conda-forge/heavydb-ext-feedstock": 3,
       "conda-forge/ncl-feedstock": 3,
       "conda-forge/jupytercad-feedstock": 3,
-      "conda-forge/tensorstore-feedstock": 2,
       "conda-forge/responsibleai-feedstock": 2,
       "conda-forge/lightning-feedstock": 2,
       "conda-forge/hls4ml-feedstock": 2,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 14,
     "rates": {
+      "2023-11-16T12:35:00-05:00": 0,
       "2023-11-16T12:30:00-05:00": 0,
       "2023-11-16T12:25:00-05:00": 1,
       "2023-11-16T12:20:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2023-11-16T04:55:00-05:00": 0,
       "2023-11-16T04:50:00-05:00": 0,
       "2023-11-16T04:45:00-05:00": 0,
-      "2023-11-16T04:40:00-05:00": 0,
-      "2023-11-16T04:35:00-05:00": 0
+      "2023-11-16T04:40:00-05:00": 0
     },
     "repos": {
       "conda-forge/cuda-nvtx-feedstock": 4,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 712,
+    "total": 715,
     "rates": {
-      "2023-11-16T12:30:00-05:00": 4,
+      "2023-11-16T12:35:00-05:00": 2,
+      "2023-11-16T12:30:00-05:00": 5,
       "2023-11-16T12:25:00-05:00": 13,
       "2023-11-16T12:20:00-05:00": 4,
       "2023-11-16T12:15:00-05:00": 8,
@@ -558,8 +559,7 @@
       "2023-11-16T04:55:00-05:00": 1,
       "2023-11-16T04:50:00-05:00": 2,
       "2023-11-16T04:45:00-05:00": 10,
-      "2023-11-16T04:40:00-05:00": 2,
-      "2023-11-16T04:35:00-05:00": 0
+      "2023-11-16T04:40:00-05:00": 2
     },
     "repos": {
       "conda-forge/feedstock-outputs": 40,
@@ -625,11 +625,14 @@
       "conda-forge/types-markdown-feedstock": 2,
       "conda-forge/mypy_boto3_lambda-feedstock": 2,
       "conda-forge/stackvana-feedstock": 2,
+      "conda-forge/awscli-feedstock": 2,
+      "conda-forge/cppyy-feedstock": 2,
       "conda-forge/openpmd-beamphysics-feedstock": 2,
       "conda-forge/pyright-feedstock": 2,
       "conda-forge/lightning-feedstock": 2,
       "conda-forge/hls4ml-feedstock": 2,
       "conda-forge/marko-feedstock": 2,
+      "conda-forge/colmap-feedstock": 2,
       "conda-forge/heavydb-ext-feedstock": 2,
       "conda-forge/cusparselt-feedstock": 2,
       "conda-forge/openmm-feedstock": 2,
@@ -668,13 +671,10 @@
       "conda-forge/batoms-feedstock": 2,
       "conda-forge/simdutf-feedstock": 2,
       "conda-forge/mdtraj-feedstock": 1,
-      "conda-forge/awscli-feedstock": 1,
       "conda-forge/tensorstore-feedstock": 1,
-      "conda-forge/cppyy-feedstock": 1,
       "conda-forge/rpds-py-feedstock": 1,
       "conda-forge/torchani-feedstock": 1,
       "conda-forge/edfio-feedstock": 1,
-      "conda-forge/colmap-feedstock": 1,
       "conda-forge/faiss-split-feedstock": 1,
       "conda-forge/reconciliation-feedstock": 1,
       "conda-forge/flowermd-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2023-11-16T12:35:00-05:00": 0,
       "2023-11-16T12:30:00-05:00": 0,
       "2023-11-16T12:25:00-05:00": 0,
       "2023-11-16T12:20:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2023-11-16T04:55:00-05:00": 0,
       "2023-11-16T04:50:00-05:00": 0,
       "2023-11-16T04:45:00-05:00": 0,
-      "2023-11-16T04:40:00-05:00": 0,
-      "2023-11-16T04:35:00-05:00": 0
+      "2023-11-16T04:40:00-05:00": 0
     },
     "repos": {
       "conda-forge/helics-feedstock": 3,
@@ -862,6 +862,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-11-16T12:35:00-05:00": 0,
       "2023-11-16T12:30:00-05:00": 0,
       "2023-11-16T12:25:00-05:00": 0,
       "2023-11-16T12:20:00-05:00": 0,
@@ -956,8 +957,7 @@
       "2023-11-16T04:55:00-05:00": 0,
       "2023-11-16T04:50:00-05:00": 0,
       "2023-11-16T04:45:00-05:00": 0,
-      "2023-11-16T04:40:00-05:00": 0,
-      "2023-11-16T04:35:00-05:00": 0
+      "2023-11-16T04:40:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 12,
@@ -978,6 +978,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-11-16T12:35:00-05:00": 0,
       "2023-11-16T12:30:00-05:00": 0,
       "2023-11-16T12:25:00-05:00": 0,
       "2023-11-16T12:20:00-05:00": 0,
@@ -1072,8 +1073,7 @@
       "2023-11-16T04:55:00-05:00": 0,
       "2023-11-16T04:50:00-05:00": 0,
       "2023-11-16T04:45:00-05:00": 0,
-      "2023-11-16T04:40:00-05:00": 0,
-      "2023-11-16T04:35:00-05:00": 0
+      "2023-11-16T04:40:00-05:00": 0
     },
     "repos": {}
   }
