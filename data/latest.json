@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1568,
+    "total": 1606,
     "rates": {
-      "2023-11-30T04:00:00-05:00": 15,
+      "2023-11-30T04:05:00-05:00": 45,
+      "2023-11-30T04:00:00-05:00": 20,
       "2023-11-30T03:55:00-05:00": 38,
       "2023-11-30T03:50:00-05:00": 13,
       "2023-11-30T03:45:00-05:00": 40,
@@ -96,20 +97,19 @@
       "2023-11-29T20:25:00-05:00": 6,
       "2023-11-29T20:20:00-05:00": 2,
       "2023-11-29T20:15:00-05:00": 6,
-      "2023-11-29T20:10:00-05:00": 2,
-      "2023-11-29T20:05:00-05:00": 12
+      "2023-11-29T20:10:00-05:00": 2
     },
     "repos": {
       "conda-forge/go-activation-feedstock": 86,
+      "conda-forge/pygsl_lite-feedstock": 55,
       "conda-forge/ocp-feedstock": 48,
-      "conda-forge/pygsl_lite-feedstock": 47,
-      "conda-forge/conda-forge-pinning-feedstock": 26,
-      "conda-forge/pynng-feedstock": 25,
-      "conda-forge/detectron2-feedstock": 25,
+      "conda-forge/flake8-pyi-feedstock": 33,
+      "conda-forge/pynng-feedstock": 30,
+      "conda-forge/conda-forge-pinning-feedstock": 28,
+      "conda-forge/detectron2-feedstock": 27,
       "conda-forge/emsdk-feedstock": 24,
       "conda-forge/npmignore-feedstock": 22,
       "conda-forge/power-grid-model-feedstock": 21,
-      "conda-forge/aws-sdk-cpp-feedstock": 21,
       "conda-forge/dioptas-feedstock": 20,
       "conda-forge/fast_matrix_market-feedstock": 19,
       "conda-forge/awscli2-feedstock": 18,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 5,
     "rates": {
+      "2023-11-30T04:05:00-05:00": 0,
       "2023-11-30T04:00:00-05:00": 0,
       "2023-11-30T03:55:00-05:00": 0,
       "2023-11-30T03:50:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2023-11-29T20:25:00-05:00": 0,
       "2023-11-29T20:20:00-05:00": 0,
       "2023-11-29T20:15:00-05:00": 0,
-      "2023-11-29T20:10:00-05:00": 0,
-      "2023-11-29T20:05:00-05:00": 0
+      "2023-11-29T20:10:00-05:00": 0
     },
     "repos": {
       "conda-forge/power-grid-model-feedstock": 3,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 486,
+    "total": 499,
     "rates": {
-      "2023-11-30T04:00:00-05:00": 7,
+      "2023-11-30T04:05:00-05:00": 9,
+      "2023-11-30T04:00:00-05:00": 12,
       "2023-11-30T03:55:00-05:00": 13,
       "2023-11-30T03:50:00-05:00": 17,
       "2023-11-30T03:45:00-05:00": 10,
@@ -558,17 +559,17 @@
       "2023-11-29T20:25:00-05:00": 5,
       "2023-11-29T20:20:00-05:00": 1,
       "2023-11-29T20:15:00-05:00": 2,
-      "2023-11-29T20:10:00-05:00": 4,
-      "2023-11-29T20:05:00-05:00": 1
+      "2023-11-29T20:10:00-05:00": 4
     },
     "repos": {
       "conda-forge/docker-images": 36,
-      "conda-forge/conda-forge-pinning-feedstock": 32,
+      "conda-forge/conda-forge-pinning-feedstock": 34,
       "conda-forge/admin-requests": 20,
-      "conda-forge/pygsl_lite-feedstock": 7,
-      "conda-forge/staged-recipes": 6,
+      "conda-forge/pygsl_lite-feedstock": 10,
+      "conda-forge/staged-recipes": 10,
       "conda-forge/awscli2-feedstock": 5,
       "conda-forge/gotrue-feedstock": 5,
+      "conda-forge/pynng-feedstock": 4,
       "conda-forge/go-activation-feedstock": 4,
       "conda-forge/autogluon.features-feedstock": 4,
       "conda-forge/autogluon.common-feedstock": 4,
@@ -578,8 +579,7 @@
       "conda-forge/google-cloud-container-feedstock": 4,
       "conda-forge/coastsat-package-feedstock": 4,
       "conda-forge/feedstock-outputs": 4,
-      "conda-forge/tiledb-py-feedstock": 4,
-      "conda-forge/pynng-feedstock": 3,
+      "conda-forge/flake8-pyi-feedstock": 3,
       "conda-forge/r-rsnns-feedstock": 3,
       "conda-forge/npmignore-feedstock": 3,
       "conda-forge/dioptas-feedstock": 3,
@@ -601,9 +601,10 @@
       "conda-forge/looker-sdk-feedstock": 3,
       "conda-forge/nanoflann-feedstock": 3,
       "conda-forge/types-openpyxl-feedstock": 3,
-      "conda-forge/flake8-pyi-feedstock": 2,
+      "conda-forge/miniforge": 2,
       "conda-forge/libprotobuf-feedstock": 2,
       "conda-forge/detectron2-feedstock": 2,
+      "conda-forge/conda-forge-webservices": 2,
       "conda-forge/abacus-feedstock": 2,
       "conda-forge/git-versioner-feedstock": 2,
       "conda-forge/emsdk-feedstock": 2,
@@ -672,7 +673,6 @@
       "conda-forge/onnxruntime-feedstock": 1,
       "conda-forge/libgit2-feedstock": 1,
       "conda-forge/podman-feedstock": 1,
-      "conda-forge/conda-forge-webservices": 1,
       "conda-forge/medenv-feedstock": 1,
       "conda-forge/mcstas-suite-feedstock": 1,
       "conda-forge/libunrar-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2023-11-30T04:05:00-05:00": 0,
       "2023-11-30T04:00:00-05:00": 0,
       "2023-11-30T03:55:00-05:00": 0,
       "2023-11-30T03:50:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2023-11-29T20:25:00-05:00": 0,
       "2023-11-29T20:20:00-05:00": 0,
       "2023-11-29T20:15:00-05:00": 0,
-      "2023-11-29T20:10:00-05:00": 0,
-      "2023-11-29T20:05:00-05:00": 0
+      "2023-11-29T20:10:00-05:00": 0
     },
     "repos": {
       "conda-forge/nest-simulator-feedstock": 6,
@@ -885,6 +885,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-11-30T04:05:00-05:00": 0,
       "2023-11-30T04:00:00-05:00": 0,
       "2023-11-30T03:55:00-05:00": 0,
       "2023-11-30T03:50:00-05:00": 0,
@@ -979,8 +980,7 @@
       "2023-11-29T20:25:00-05:00": 0,
       "2023-11-29T20:20:00-05:00": 0,
       "2023-11-29T20:15:00-05:00": 0,
-      "2023-11-29T20:10:00-05:00": 0,
-      "2023-11-29T20:05:00-05:00": 0
+      "2023-11-29T20:10:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 12,
@@ -1005,6 +1005,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-11-30T04:05:00-05:00": 0,
       "2023-11-30T04:00:00-05:00": 0,
       "2023-11-30T03:55:00-05:00": 0,
       "2023-11-30T03:50:00-05:00": 0,
@@ -1099,8 +1100,7 @@
       "2023-11-29T20:25:00-05:00": 0,
       "2023-11-29T20:20:00-05:00": 0,
       "2023-11-29T20:15:00-05:00": 0,
-      "2023-11-29T20:10:00-05:00": 0,
-      "2023-11-29T20:05:00-05:00": 0
+      "2023-11-29T20:10:00-05:00": 0
     },
     "repos": {}
   }
