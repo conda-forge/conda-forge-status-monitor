@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2214,
+    "total": 2224,
     "rates": {
-      "2023-12-06T12:55:00-05:00": 15,
+      "2023-12-06T13:00:00-05:00": 6,
+      "2023-12-06T12:55:00-05:00": 35,
       "2023-12-06T12:50:00-05:00": 42,
       "2023-12-06T12:45:00-05:00": 26,
       "2023-12-06T12:40:00-05:00": 7,
@@ -96,21 +97,20 @@
       "2023-12-06T05:20:00-05:00": 6,
       "2023-12-06T05:15:00-05:00": 14,
       "2023-12-06T05:10:00-05:00": 25,
-      "2023-12-06T05:05:00-05:00": 14,
-      "2023-12-06T05:00:00-05:00": 16
+      "2023-12-06T05:05:00-05:00": 14
     },
     "repos": {
       "conda-forge/pytype-feedstock": 106,
-      "conda-forge/staged-recipes": 88,
-      "conda-forge/gnuradio-osmosdr-feedstock": 72,
+      "conda-forge/staged-recipes": 92,
+      "conda-forge/gnuradio-osmosdr-feedstock": 76,
       "conda-forge/docutils-feedstock": 72,
       "conda-forge/pyright-feedstock": 72,
       "conda-forge/go-activation-feedstock": 62,
       "conda-forge/segyio-feedstock": 54,
       "conda-forge/pysjef-feedstock": 48,
+      "conda-forge/cwinpy-feedstock": 42,
       "conda-forge/arcticdb-feedstock": 42,
       "conda-forge/pycrdt-feedstock": 38,
-      "conda-forge/cwinpy-feedstock": 38,
       "conda-forge/kuyruk-feedstock": 38,
       "conda-forge/hpp-fcl-feedstock": 36,
       "conda-forge/eigenpy-feedstock": 36,
@@ -120,7 +120,7 @@
       "conda-forge/pennylane-feedstock": 30,
       "conda-forge/tango-idl-feedstock": 26,
       "conda-forge/pyaedt-feedstock": 26,
-      "conda-forge/freecad-feedstock": 24,
+      "conda-forge/freecad-feedstock": 26,
       "conda-forge/opentile-feedstock": 24,
       "conda-forge/r-later-feedstock": 24,
       "conda-forge/r-httpuv-feedstock": 24,
@@ -147,7 +147,6 @@
       "conda-forge/r-randomforestsrc-feedstock": 10,
       "conda-forge/abacus-feedstock": 9,
       "conda-forge/tsid-feedstock": 9,
-      "conda-forge/nctoolkit-feedstock": 9,
       "conda-forge/dvc-objects-feedstock": 8,
       "conda-forge/terraform-provider-time-feedstock": 8,
       "conda-forge/syncthing-feedstock": 8,
@@ -156,7 +155,7 @@
       "conda-forge/verapdf-feedstock": 8,
       "conda-forge/keras-cv-feedstock": 7,
       "conda-forge/pytest-reportportal-feedstock": 7,
-      "conda-forge/tesseract-feedstock": 7,
+      "conda-forge/locan-feedstock": 6,
       "conda-forge/libdicom-feedstock": 6,
       "conda-forge/speechrecognition-feedstock": 6,
       "conda-forge/selenium-feedstock": 6,
@@ -165,9 +164,12 @@
       "conda-forge/r-formatters-feedstock": 6,
       "conda-forge/r-pmsampsize-feedstock": 6,
       "conda-forge/libtiledb-sql-feedstock": 5,
+      "conda-forge/replicate-feedstock": 4,
+      "conda-forge/nifti-mrs-feedstock": 4,
       "conda-forge/gita-feedstock": 4,
       "conda-forge/pebble-feedstock": 4,
       "conda-forge/aws-cdk.region-info-feedstock": 4,
+      "conda-forge/cashocs-feedstock": 4,
       "conda-forge/r-proj-feedstock": 4,
       "conda-forge/rollbar-feedstock": 4,
       "conda-forge/aws-cdk.cloud-assembly-schema-feedstock": 4,
@@ -191,14 +193,11 @@
       "conda-forge/tuspy-feedstock": 4,
       "conda-forge/jupyterlite-xeus-python-feedstock": 4,
       "conda-forge/traefik-feedstock": 3,
-      "conda-forge/locan-feedstock": 3,
       "conda-forge/ophyd-feedstock": 3,
       "conda-forge/windrose-feedstock": 2,
       "conda-forge/invert4geom-feedstock": 2,
       "conda-forge/magicgui-feedstock": 2,
       "conda-forge/icclim-feedstock": 2,
-      "conda-forge/nifti-mrs-feedstock": 2,
-      "conda-forge/cashocs-feedstock": 2,
       "conda-forge/peft-feedstock": 2,
       "conda-forge/rucio-clients-feedstock": 2,
       "conda-forge/aws-lambda-powertools-feedstock": 2,
@@ -227,12 +226,14 @@
       "conda-forge/django-sekizai-feedstock": 2,
       "conda-forge/coloc_sat-feedstock": 2,
       "conda-forge/pydantic-collections-feedstock": 2,
+      "conda-forge/tempo2-feedstock": 1,
       "conda-forge/cutlass-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 6,
     "rates": {
+      "2023-12-06T13:00:00-05:00": 0,
       "2023-12-06T12:55:00-05:00": 0,
       "2023-12-06T12:50:00-05:00": 0,
       "2023-12-06T12:45:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2023-12-06T05:20:00-05:00": 0,
       "2023-12-06T05:15:00-05:00": 0,
       "2023-12-06T05:10:00-05:00": 0,
-      "2023-12-06T05:05:00-05:00": 0,
-      "2023-12-06T05:00:00-05:00": 0
+      "2023-12-06T05:05:00-05:00": 0
     },
     "repos": {
       "conda-forge/tango-idl-feedstock": 3,
@@ -464,7 +464,8 @@
   "github-actions": {
     "total": 661,
     "rates": {
-      "2023-12-06T12:55:00-05:00": 2,
+      "2023-12-06T13:00:00-05:00": 1,
+      "2023-12-06T12:55:00-05:00": 5,
       "2023-12-06T12:50:00-05:00": 10,
       "2023-12-06T12:45:00-05:00": 23,
       "2023-12-06T12:40:00-05:00": 14,
@@ -558,8 +559,7 @@
       "2023-12-06T05:20:00-05:00": 1,
       "2023-12-06T05:15:00-05:00": 2,
       "2023-12-06T05:10:00-05:00": 0,
-      "2023-12-06T05:05:00-05:00": 1,
-      "2023-12-06T05:00:00-05:00": 4
+      "2023-12-06T05:05:00-05:00": 1
     },
     "repos": {
       "conda-forge/staged-recipes": 55,
@@ -589,6 +589,7 @@
       "conda-forge/gnuradio-funcube-feedstock": 4,
       "conda-forge/cognite-sdk-feedstock": 4,
       "conda-forge/aws-cdk.cloud-assembly-schema-feedstock": 4,
+      "conda-forge/nifti-mrs-feedstock": 3,
       "conda-forge/gnuradio-osmosdr-feedstock": 3,
       "conda-forge/rollbar-feedstock": 3,
       "conda-forge/docutils-feedstock": 3,
@@ -602,13 +603,14 @@
       "conda-forge/dingo-gw-feedstock": 3,
       "conda-forge/r-qs-feedstock": 3,
       "conda-forge/enpt_enmapboxapp-feedstock": 3,
+      "conda-forge/miniforge": 3,
       "conda-forge/aws-cdk.region-info-feedstock": 3,
+      "conda-forge/replicate-feedstock": 2,
       "conda-forge/invert4geom-feedstock": 2,
       "conda-forge/django-simple-deploy-feedstock": 2,
       "conda-forge/magicgui-feedstock": 2,
       "conda-forge/gita-feedstock": 2,
       "conda-forge/icclim-feedstock": 2,
-      "conda-forge/nifti-mrs-feedstock": 2,
       "conda-forge/pebble-feedstock": 2,
       "conda-forge/rucio-clients-feedstock": 2,
       "conda-forge/peft-feedstock": 2,
@@ -646,7 +648,6 @@
       "conda-forge/optimum-feedstock": 2,
       "conda-forge/griffe-feedstock": 2,
       "conda-forge/by-the-numbers": 2,
-      "conda-forge/miniforge": 2,
       "conda-forge/r-later-feedstock": 2,
       "conda-forge/r-formatters-feedstock": 2,
       "conda-forge/pyright-feedstock": 2,
@@ -659,7 +660,6 @@
       "conda-forge/ory-client-feedstock": 2,
       "conda-forge/portion-feedstock": 2,
       "conda-forge/r-e1071-feedstock": 2,
-      "conda-forge/pydantic-collections-feedstock": 2,
       "conda-forge/windrose-feedstock": 1,
       "conda-forge/tempo2-feedstock": 1,
       "conda-forge/locan-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2023-12-06T13:00:00-05:00": 0,
       "2023-12-06T12:55:00-05:00": 0,
       "2023-12-06T12:50:00-05:00": 0,
       "2023-12-06T12:45:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2023-12-06T05:20:00-05:00": 0,
       "2023-12-06T05:15:00-05:00": 0,
       "2023-12-06T05:10:00-05:00": 0,
-      "2023-12-06T05:05:00-05:00": 0,
-      "2023-12-06T05:00:00-05:00": 0
+      "2023-12-06T05:05:00-05:00": 0
     },
     "repos": {
       "conda-forge/nest-simulator-feedstock": 6,
@@ -887,6 +887,7 @@
   "circleci": {
     "total": 2,
     "rates": {
+      "2023-12-06T13:00:00-05:00": 0,
       "2023-12-06T12:55:00-05:00": 0,
       "2023-12-06T12:50:00-05:00": 0,
       "2023-12-06T12:45:00-05:00": 0,
@@ -981,8 +982,7 @@
       "2023-12-06T05:20:00-05:00": 0,
       "2023-12-06T05:15:00-05:00": 0,
       "2023-12-06T05:10:00-05:00": 0,
-      "2023-12-06T05:05:00-05:00": 0,
-      "2023-12-06T05:00:00-05:00": 0
+      "2023-12-06T05:05:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 16,
@@ -1008,6 +1008,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-12-06T13:00:00-05:00": 0,
       "2023-12-06T12:55:00-05:00": 0,
       "2023-12-06T12:50:00-05:00": 0,
       "2023-12-06T12:45:00-05:00": 0,
@@ -1102,8 +1103,7 @@
       "2023-12-06T05:20:00-05:00": 0,
       "2023-12-06T05:15:00-05:00": 0,
       "2023-12-06T05:10:00-05:00": 0,
-      "2023-12-06T05:05:00-05:00": 0,
-      "2023-12-06T05:00:00-05:00": 0
+      "2023-12-06T05:05:00-05:00": 0
     },
     "repos": {}
   }
