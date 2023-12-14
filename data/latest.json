@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1704,
+    "total": 1677,
     "rates": {
-      "2023-12-14T04:40:00-05:00": 9,
+      "2023-12-14T04:45:00-05:00": 18,
+      "2023-12-14T04:40:00-05:00": 11,
       "2023-12-14T04:35:00-05:00": 8,
       "2023-12-14T04:30:00-05:00": 15,
       "2023-12-14T04:25:00-05:00": 24,
@@ -96,21 +97,20 @@
       "2023-12-13T21:05:00-05:00": 9,
       "2023-12-13T21:00:00-05:00": 10,
       "2023-12-13T20:55:00-05:00": 27,
-      "2023-12-13T20:50:00-05:00": 50,
-      "2023-12-13T20:45:00-05:00": 47
+      "2023-12-13T20:50:00-05:00": 50
     },
     "repos": {
       "conda-forge/assist-feedstock": 114,
       "conda-forge/trio-feedstock": 108,
       "conda-forge/awscrt-feedstock": 72,
       "conda-forge/hoomd-dlext-feedstock": 61,
+      "conda-forge/python-rapidjson-feedstock": 58,
       "conda-forge/mlflow-feedstock": 49,
-      "conda-forge/python-rapidjson-feedstock": 46,
       "conda-forge/google-cloud-aiplatform-feedstock": 42,
       "conda-forge/python-chromedriver-binary-feedstock": 38,
       "conda-forge/pdm-feedstock": 36,
       "conda-forge/pytorch_sparse-feedstock": 31,
-      "conda-forge/staged-recipes": 27,
+      "conda-forge/staged-recipes": 29,
       "conda-forge/msprime-feedstock": 21,
       "conda-forge/micromamba-feedstock": 20,
       "conda-forge/jaxlib-feedstock": 19,
@@ -178,12 +178,11 @@
       "conda-forge/types-aiobotocore-cloudformation-feedstock": 4,
       "conda-forge/trame-vtk-feedstock": 4,
       "conda-forge/types-aiobotocore-sqs-feedstock": 4,
-      "conda-forge/qforce-feedstock": 4,
-      "conda-forge/genno-feedstock": 4,
-      "conda-forge/mypy_boto3_cloudformation-feedstock": 4,
+      "conda-forge/xwidgets-feedstock": 3,
       "conda-forge/kubernetes-helm-feedstock": 3,
       "conda-forge/miller-feedstock": 3,
-      "conda-forge/xwidgets-feedstock": 2,
+      "conda-forge/interpret-feedstock": 2,
+      "conda-forge/ibm_db_sa-feedstock": 2,
       "conda-forge/conda-forge-repodata-patches-feedstock": 2,
       "conda-forge/constructive_geometries-feedstock": 2,
       "conda-forge/transformers-feedstock": 2,
@@ -227,12 +226,14 @@
       "conda-forge/flet-core-feedstock": 2,
       "conda-forge/flet-runtime-feedstock": 2,
       "conda-forge/odc-stats-feedstock": 2,
-      "conda-forge/earthengine-api-feedstock": 2
+      "conda-forge/earthengine-api-feedstock": 2,
+      "conda-forge/rosettasciio-feedstock": 1
     }
   },
   "travis-ci": {
-    "total": 12,
+    "total": 11,
     "rates": {
+      "2023-12-14T04:45:00-05:00": 0,
       "2023-12-14T04:40:00-05:00": 0,
       "2023-12-14T04:35:00-05:00": 0,
       "2023-12-14T04:30:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2023-12-13T21:05:00-05:00": 0,
       "2023-12-13T21:00:00-05:00": 3,
       "2023-12-13T20:55:00-05:00": 0,
-      "2023-12-13T20:50:00-05:00": 0,
-      "2023-12-13T20:45:00-05:00": 1
+      "2023-12-13T20:50:00-05:00": 0
     },
     "repos": {
       "conda-forge/ucx-split-feedstock": 4,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 487,
+    "total": 470,
     "rates": {
-      "2023-12-14T04:40:00-05:00": 2,
+      "2023-12-14T04:45:00-05:00": 1,
+      "2023-12-14T04:40:00-05:00": 4,
       "2023-12-14T04:35:00-05:00": 0,
       "2023-12-14T04:30:00-05:00": 4,
       "2023-12-14T04:25:00-05:00": 2,
@@ -558,11 +559,10 @@
       "2023-12-13T21:05:00-05:00": 5,
       "2023-12-13T21:00:00-05:00": 5,
       "2023-12-13T20:55:00-05:00": 4,
-      "2023-12-13T20:50:00-05:00": 5,
-      "2023-12-13T20:45:00-05:00": 20
+      "2023-12-13T20:50:00-05:00": 5
     },
     "repos": {
-      "conda-forge/admin-requests": 45,
+      "conda-forge/admin-requests": 47,
       "conda-forge/staged-recipes": 25,
       "conda-forge/assist-feedstock": 13,
       "conda-forge/mesa-feedstock": 7,
@@ -592,7 +592,6 @@
       "conda-forge/facetorch-feedstock": 3,
       "conda-forge/apache-airflow-providers-openfaas-feedstock": 3,
       "conda-forge/apache-airflow-providers-openlineage-feedstock": 3,
-      "conda-forge/apache-airflow-providers-oracle-feedstock": 3,
       "conda-forge/transformers-feedstock": 2,
       "conda-forge/pyvista-feedstock": 2,
       "conda-forge/constructive_geometries-feedstock": 2,
@@ -663,6 +662,7 @@
       "conda-forge/mypy-boto3-cloudwatch-feedstock": 2,
       "conda-forge/backports.functools_lru_cache-feedstock": 2,
       "conda-forge/pyhanko-certvalidator-feedstock": 2,
+      "conda-forge/ibm_db_sa-feedstock": 1,
       "conda-forge/interpret-feedstock": 1,
       "conda-forge/xwidgets-feedstock": 1,
       "conda-forge/jaxlib-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2023-12-14T04:45:00-05:00": 0,
       "2023-12-14T04:40:00-05:00": 0,
       "2023-12-14T04:35:00-05:00": 0,
       "2023-12-14T04:30:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2023-12-13T21:05:00-05:00": 0,
       "2023-12-13T21:00:00-05:00": 0,
       "2023-12-13T20:55:00-05:00": 0,
-      "2023-12-13T20:50:00-05:00": 0,
-      "2023-12-13T20:45:00-05:00": 0
+      "2023-12-13T20:50:00-05:00": 0
     },
     "repos": {
       "conda-forge/nest-simulator-feedstock": 6,
@@ -896,6 +896,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-12-14T04:45:00-05:00": 0,
       "2023-12-14T04:40:00-05:00": 0,
       "2023-12-14T04:35:00-05:00": 0,
       "2023-12-14T04:30:00-05:00": 0,
@@ -990,8 +991,7 @@
       "2023-12-13T21:05:00-05:00": 0,
       "2023-12-13T21:00:00-05:00": 0,
       "2023-12-13T20:55:00-05:00": 0,
-      "2023-12-13T20:50:00-05:00": 0,
-      "2023-12-13T20:45:00-05:00": 0
+      "2023-12-13T20:50:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 16,
@@ -1017,6 +1017,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-12-14T04:45:00-05:00": 0,
       "2023-12-14T04:40:00-05:00": 0,
       "2023-12-14T04:35:00-05:00": 0,
       "2023-12-14T04:30:00-05:00": 0,
@@ -1111,8 +1112,7 @@
       "2023-12-13T21:05:00-05:00": 0,
       "2023-12-13T21:00:00-05:00": 0,
       "2023-12-13T20:55:00-05:00": 0,
-      "2023-12-13T20:50:00-05:00": 0,
-      "2023-12-13T20:45:00-05:00": 0
+      "2023-12-13T20:50:00-05:00": 0
     },
     "repos": {}
   }
