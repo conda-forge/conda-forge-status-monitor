@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1823,
+    "total": 1834,
     "rates": {
-      "2023-12-21T10:20:00-05:00": 18,
+      "2023-12-21T10:25:00-05:00": 3,
+      "2023-12-21T10:20:00-05:00": 35,
       "2023-12-21T10:15:00-05:00": 39,
       "2023-12-21T10:10:00-05:00": 18,
       "2023-12-21T10:05:00-05:00": 24,
@@ -96,24 +97,23 @@
       "2023-12-21T02:45:00-05:00": 7,
       "2023-12-21T02:40:00-05:00": 11,
       "2023-12-21T02:35:00-05:00": 12,
-      "2023-12-21T02:30:00-05:00": 10,
-      "2023-12-21T02:25:00-05:00": 9
+      "2023-12-21T02:30:00-05:00": 10
     },
     "repos": {
-      "conda-forge/hoomd-feedstock": 55,
+      "conda-forge/hoomd-feedstock": 56,
+      "conda-forge/shap-feedstock": 49,
       "conda-forge/gemseo-feedstock": 47,
-      "conda-forge/pytorch_cluster-feedstock": 46,
-      "conda-forge/shap-feedstock": 40,
-      "conda-forge/awscli-feedstock": 32,
+      "conda-forge/pytorch_cluster-feedstock": 47,
+      "conda-forge/awscli-feedstock": 38,
       "conda-forge/awscli2-feedstock": 20,
       "conda-forge/polars-feedstock": 20,
       "conda-forge/wgpu-native-feedstock": 18,
       "conda-forge/ecflow-feedstock": 17,
       "conda-forge/rtoml-feedstock": 16,
+      "conda-forge/mlx-feedstock": 14,
       "conda-forge/aws-c-mqtt-feedstock": 14,
       "conda-forge/aws-c-auth-feedstock": 14,
       "conda-forge/staged-recipes": 14,
-      "conda-forge/mlx-feedstock": 13,
       "conda-forge/podman-py-feedstock": 13,
       "conda-forge/syft-feedstock": 12,
       "conda-forge/gmsh-feedstock": 10,
@@ -159,6 +159,7 @@
       "conda-forge/duckdb-engine-feedstock": 4,
       "conda-forge/marbles-core-feedstock": 4,
       "conda-forge/marbles-mixins-feedstock": 4,
+      "conda-forge/rio-tiler-feedstock": 4,
       "conda-forge/opera-utils-feedstock": 4,
       "conda-forge/h2o-py-feedstock": 4,
       "conda-forge/folium-pmtiles-feedstock": 4,
@@ -216,7 +217,6 @@
       "conda-forge/evals-feedstock": 2,
       "conda-forge/fixie-feedstock": 2,
       "conda-forge/anyscale-feedstock": 2,
-      "conda-forge/rio-tiler-feedstock": 2,
       "conda-forge/panel-feedstock": 2,
       "conda-forge/sequence-model-feedstock": 2,
       "conda-forge/kartograf-feedstock": 2,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 5,
     "rates": {
+      "2023-12-21T10:25:00-05:00": 0,
       "2023-12-21T10:20:00-05:00": 0,
       "2023-12-21T10:15:00-05:00": 0,
       "2023-12-21T10:10:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2023-12-21T02:45:00-05:00": 0,
       "2023-12-21T02:40:00-05:00": 0,
       "2023-12-21T02:35:00-05:00": 0,
-      "2023-12-21T02:30:00-05:00": 0,
-      "2023-12-21T02:25:00-05:00": 0
+      "2023-12-21T02:30:00-05:00": 0
     },
     "repos": {
       "conda-forge/cuda-nvcc-impl-feedstock": 4,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 526,
+    "total": 530,
     "rates": {
-      "2023-12-21T10:20:00-05:00": 4,
+      "2023-12-21T10:25:00-05:00": 0,
+      "2023-12-21T10:20:00-05:00": 8,
       "2023-12-21T10:15:00-05:00": 13,
       "2023-12-21T10:10:00-05:00": 6,
       "2023-12-21T10:05:00-05:00": 2,
@@ -558,14 +559,12 @@
       "2023-12-21T02:45:00-05:00": 2,
       "2023-12-21T02:40:00-05:00": 1,
       "2023-12-21T02:35:00-05:00": 1,
-      "2023-12-21T02:30:00-05:00": 4,
-      "2023-12-21T02:25:00-05:00": 0
+      "2023-12-21T02:30:00-05:00": 4
     },
     "repos": {
       "conda-forge/miniforge": 24,
-      "conda-forge/admin-requests": 22,
+      "conda-forge/admin-requests": 23,
       "conda-forge/staged-recipes": 20,
-      "conda-forge/gemseo-feedstock": 8,
       "conda-forge/wgpu-native-feedstock": 5,
       "conda-forge/admin-migrations": 5,
       "conda-forge/wapordl-feedstock": 5,
@@ -580,6 +579,8 @@
       "conda-forge/jupysql-plugin-feedstock": 3,
       "conda-forge/duckdb-engine-feedstock": 3,
       "conda-forge/marbles-core-feedstock": 3,
+      "conda-forge/marbles-mixins-feedstock": 3,
+      "conda-forge/rio-tiler-feedstock": 3,
       "conda-forge/level-zero-feedstock": 3,
       "conda-forge/openmpi-feedstock": 3,
       "conda-forge/shap-feedstock": 3,
@@ -628,12 +629,10 @@
       "conda-forge/otfftw-feedstock": 2,
       "conda-forge/terragrunt-feedstock": 2,
       "conda-forge/pipe-feedstock": 2,
-      "conda-forge/marbles-mixins-feedstock": 2,
       "conda-forge/r-qgisprocess-feedstock": 2,
       "conda-forge/fixie-feedstock": 2,
       "conda-forge/coverage-feedstock": 2,
       "conda-forge/anyscale-feedstock": 2,
-      "conda-forge/rio-tiler-feedstock": 2,
       "conda-forge/fleur-feedstock": 2,
       "conda-forge/ray-packages-feedstock": 2,
       "conda-forge/large-image-feedstock": 2,
@@ -667,6 +666,7 @@
       "conda-forge/ipyvizzu-feedstock": 2,
       "conda-forge/stackvana-core-feedstock": 2,
       "conda-forge/gdstk-feedstock": 2,
+      "conda-forge/core-notes": 1,
       "conda-forge/marbles-feedstock": 1,
       "conda-forge/cognite-sdk-feedstock": 1,
       "conda-forge/imp-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 1,
     "rates": {
+      "2023-12-21T10:25:00-05:00": 0,
       "2023-12-21T10:20:00-05:00": 0,
       "2023-12-21T10:15:00-05:00": 0,
       "2023-12-21T10:10:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2023-12-21T02:45:00-05:00": 0,
       "2023-12-21T02:40:00-05:00": 0,
       "2023-12-21T02:35:00-05:00": 0,
-      "2023-12-21T02:30:00-05:00": 0,
-      "2023-12-21T02:25:00-05:00": 0
+      "2023-12-21T02:30:00-05:00": 0
     },
     "repos": {
       "conda-forge/nest-simulator-feedstock": 6,
@@ -899,6 +899,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-12-21T10:25:00-05:00": 0,
       "2023-12-21T10:20:00-05:00": 0,
       "2023-12-21T10:15:00-05:00": 0,
       "2023-12-21T10:10:00-05:00": 0,
@@ -993,8 +994,7 @@
       "2023-12-21T02:45:00-05:00": 0,
       "2023-12-21T02:40:00-05:00": 0,
       "2023-12-21T02:35:00-05:00": 0,
-      "2023-12-21T02:30:00-05:00": 0,
-      "2023-12-21T02:25:00-05:00": 0
+      "2023-12-21T02:30:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 16,
@@ -1020,6 +1020,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-12-21T10:25:00-05:00": 0,
       "2023-12-21T10:20:00-05:00": 0,
       "2023-12-21T10:15:00-05:00": 0,
       "2023-12-21T10:10:00-05:00": 0,
@@ -1114,8 +1115,7 @@
       "2023-12-21T02:45:00-05:00": 0,
       "2023-12-21T02:40:00-05:00": 0,
       "2023-12-21T02:35:00-05:00": 0,
-      "2023-12-21T02:30:00-05:00": 0,
-      "2023-12-21T02:25:00-05:00": 0
+      "2023-12-21T02:30:00-05:00": 0
     },
     "repos": {}
   }
