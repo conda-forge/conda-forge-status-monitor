@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 394,
+    "total": 411,
     "rates": {
-      "2023-12-31T15:05:00-05:00": 0,
+      "2023-12-31T15:10:00-05:00": 11,
+      "2023-12-31T15:05:00-05:00": 9,
       "2023-12-31T15:00:00-05:00": 8,
       "2023-12-31T14:55:00-05:00": 3,
       "2023-12-31T14:50:00-05:00": 3,
@@ -96,8 +97,7 @@
       "2023-12-31T07:30:00-05:00": 41,
       "2023-12-31T07:25:00-05:00": 49,
       "2023-12-31T07:20:00-05:00": 9,
-      "2023-12-31T07:15:00-05:00": 0,
-      "2023-12-31T07:10:00-05:00": 3
+      "2023-12-31T07:15:00-05:00": 0
     },
     "repos": {
       "conda-forge/scikit-survival-feedstock": 124,
@@ -131,6 +131,7 @@
       "conda-forge/r-lwgeom-feedstock": 6,
       "conda-forge/osmnx-feedstock": 6,
       "conda-forge/universal-ctags-feedstock": 6,
+      "conda-forge/apache-airflow-providers-amazon-feedstock": 6,
       "conda-forge/wetterdienst-feedstock": 6,
       "conda-forge/utfcpp-feedstock": 5,
       "conda-forge/r-rgdal-feedstock": 5,
@@ -144,6 +145,8 @@
       "conda-forge/responsibleai-text-feedstock": 4,
       "conda-forge/tabcmd-feedstock": 4,
       "conda-forge/nlp-feature-extractors-feedstock": 4,
+      "conda-forge/apache-airflow-providers-apache-hdfs-feedstock": 4,
+      "conda-forge/apache-airflow-providers-alibaba-feedstock": 4,
       "conda-forge/dcmtk-feedstock": 4,
       "conda-forge/magic-feedstock": 4,
       "conda-forge/sanic-routing-feedstock": 4,
@@ -155,8 +158,14 @@
       "conda-forge/pymdown-extensions-feedstock": 4,
       "conda-forge/pyngrok-feedstock": 4,
       "conda-forge/yandexcloud-feedstock": 4,
-      "conda-forge/apache-airflow-providers-amazon-feedstock": 4,
+      "conda-forge/apache-airflow-providers-arangodb-feedstock": 4,
+      "conda-forge/apache-airflow-providers-apache-spark-feedstock": 4,
+      "conda-forge/apache-airflow-providers-apache-sqoop-feedstock": 4,
+      "conda-forge/apache-airflow-providers-apprise-feedstock": 4,
       "conda-forge/apache-airflow-providers-cncf-kubernetes-feedstock": 4,
+      "conda-forge/apache-airflow-providers-apache-cassandra-feedstock": 2,
+      "conda-forge/apache-airflow-providers-apache-beam-feedstock": 2,
+      "conda-forge/apache-airflow-providers-apache-hive-feedstock": 2,
       "conda-forge/apache-airflow-providers-common-sql-feedstock": 2,
       "conda-forge/netaddr-feedstock": 2,
       "conda-forge/types-appdirs-feedstock": 2,
@@ -166,11 +175,9 @@
       "conda-forge/pyinstaller-versionfile-feedstock": 2,
       "conda-forge/tabpy-feedstock": 2,
       "conda-forge/apache-airflow-providers-google-feedstock": 2,
-      "conda-forge/apache-airflow-providers-apache-hdfs-feedstock": 2,
       "conda-forge/apache-airflow-providers-zendesk-feedstock": 2,
       "conda-forge/cyclonedx-python-lib-feedstock": 2,
       "conda-forge/apache-airflow-providers-elasticsearch-feedstock": 2,
-      "conda-forge/apache-airflow-providers-alibaba-feedstock": 2,
       "conda-forge/sanic-testing-feedstock": 2,
       "conda-forge/sanic-ext-feedstock": 2,
       "conda-forge/apache-airflow-providers-apache-kylin-feedstock": 2,
@@ -193,10 +200,6 @@
       "conda-forge/python-memcached-feedstock": 2,
       "conda-forge/css_inline-feedstock": 2,
       "conda-forge/ultralytics-feedstock": 2,
-      "conda-forge/apache-airflow-providers-arangodb-feedstock": 2,
-      "conda-forge/apache-airflow-providers-apache-spark-feedstock": 2,
-      "conda-forge/apache-airflow-providers-apache-sqoop-feedstock": 2,
-      "conda-forge/apache-airflow-providers-apprise-feedstock": 2,
       "conda-forge/typos-feedstock": 2,
       "conda-forge/apache-airflow-providers-tabular-feedstock": 2,
       "conda-forge/apache-airflow-providers-databricks-feedstock": 2,
@@ -224,15 +227,13 @@
       "conda-forge/multiset-feedstock": 2,
       "conda-forge/datasets-feedstock": 2,
       "conda-forge/flet-feedstock": 2,
-      "conda-forge/flet-runtime-feedstock": 2,
-      "conda-forge/flet-core-feedstock": 2,
-      "conda-forge/py2puml-feedstock": 2,
-      "conda-forge/auto-dotenv-feedstock": 2
+      "conda-forge/flet-runtime-feedstock": 2
     }
   },
   "travis-ci": {
     "total": 4,
     "rates": {
+      "2023-12-31T15:10:00-05:00": 0,
       "2023-12-31T15:05:00-05:00": 0,
       "2023-12-31T15:00:00-05:00": 0,
       "2023-12-31T14:55:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2023-12-31T07:30:00-05:00": 0,
       "2023-12-31T07:25:00-05:00": 0,
       "2023-12-31T07:20:00-05:00": 0,
-      "2023-12-31T07:15:00-05:00": 0,
-      "2023-12-31T07:10:00-05:00": 0
+      "2023-12-31T07:15:00-05:00": 0
     },
     "repos": {
       "conda-forge/aria2-feedstock": 3,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 508,
+    "total": 522,
     "rates": {
-      "2023-12-31T15:05:00-05:00": 2,
+      "2023-12-31T15:10:00-05:00": 7,
+      "2023-12-31T15:05:00-05:00": 9,
       "2023-12-31T15:00:00-05:00": 7,
       "2023-12-31T14:55:00-05:00": 30,
       "2023-12-31T14:50:00-05:00": 3,
@@ -558,8 +559,7 @@
       "2023-12-31T07:30:00-05:00": 5,
       "2023-12-31T07:25:00-05:00": 10,
       "2023-12-31T07:20:00-05:00": 18,
-      "2023-12-31T07:15:00-05:00": 4,
-      "2023-12-31T07:10:00-05:00": 0
+      "2023-12-31T07:15:00-05:00": 4
     },
     "repos": {
       "conda-forge/staged-recipes": 292,
@@ -571,7 +571,6 @@
       "conda-forge/admin-migrations": 20,
       "conda-forge/cp2k-feedstock": 8,
       "conda-forge/miniforge": 8,
-      "conda-forge/svmbir-feedstock": 7,
       "conda-forge/django-socio-grpc-feedstock": 6,
       "conda-forge/libint-feedstock": 6,
       "conda-forge/django-cms-feedstock": 6,
@@ -581,6 +580,7 @@
       "conda-forge/orekit-feedstock": 5,
       "conda-forge/pysr-feedstock": 5,
       "conda-forge/scikit-survival-feedstock": 5,
+      "conda-forge/vmprof-feedstock": 4,
       "conda-forge/mss-feedstock": 4,
       "conda-forge/webservices-dispatch-action": 4,
       "conda-forge/conda-forge-repodata-patches-feedstock": 4,
@@ -589,8 +589,10 @@
       "conda-forge/utfcpp-feedstock": 3,
       "conda-forge/pypsa-feedstock": 3,
       "conda-forge/pytest-feedstock": 3,
-      "conda-forge/vmprof-feedstock": 3,
+      "conda-forge/apache-airflow-providers-apache-hdfs-feedstock": 3,
+      "conda-forge/apache-airflow-providers-amazon-feedstock": 3,
       "conda-forge/nuitka-feedstock": 3,
+      "conda-forge/apache-airflow-providers-alibaba-feedstock": 3,
       "conda-forge/by-the-numbers": 3,
       "conda-forge/sanic-routing-feedstock": 3,
       "conda-forge/imagecodecs-feedstock": 3,
@@ -600,7 +602,7 @@
       "conda-forge/pandas_market_calendars-feedstock": 3,
       "conda-forge/systemc-feedstock": 3,
       "conda-forge/ffmpeg-feedstock": 3,
-      "conda-forge/yandexcloud-feedstock": 3,
+      "conda-forge/apache-airflow-providers-apache-sqoop-feedstock": 2,
       "conda-forge/cctbx-base-feedstock": 2,
       "conda-forge/r-rgdal-feedstock": 2,
       "conda-forge/catch2-feedstock": 2,
@@ -611,16 +613,13 @@
       "conda-forge/responsibleai-text-feedstock": 2,
       "conda-forge/tabcmd-feedstock": 2,
       "conda-forge/nlp-feature-extractors-feedstock": 2,
-      "conda-forge/apache-airflow-providers-apache-hdfs-feedstock": 2,
       "conda-forge/imagemagick-feedstock": 2,
       "conda-forge/apache-airflow-providers-zendesk-feedstock": 2,
-      "conda-forge/apache-airflow-providers-amazon-feedstock": 2,
       "conda-forge/apache-airflow-providers-google-feedstock": 2,
       "conda-forge/cyclonedx-python-lib-feedstock": 2,
       "conda-forge/apache-airflow-providers-cncf-kubernetes-feedstock": 2,
       "conda-forge/sanic-testing-feedstock": 2,
       "conda-forge/sanic-ext-feedstock": 2,
-      "conda-forge/apache-airflow-providers-alibaba-feedstock": 2,
       "conda-forge/apache-airflow-providers-elasticsearch-feedstock": 2,
       "conda-forge/apache-airflow-providers-microsoft-azure-feedstock": 2,
       "conda-forge/apache-airflow-providers-apache-kylin-feedstock": 2,
@@ -645,15 +644,16 @@
       "conda-forge/fastui-feedstock": 2,
       "conda-forge/pydflow-feedstock": 2,
       "conda-forge/structlog-feedstock": 2,
-      "conda-forge/stemflow-feedstock": 2,
-      "conda-forge/textdistance-feedstock": 2,
-      "conda-forge/tf2onnx-feedstock": 2,
-      "conda-forge/python-memcached-feedstock": 2,
-      "conda-forge/rb-jekyll-github-metadata-feedstock": 2,
-      "conda-forge/awscrt-feedstock": 2,
-      "conda-forge/stackvana-feedstock": 2,
+      "conda-forge/shared-feedstock": 1,
+      "conda-forge/apache-airflow-providers-datadog-feedstock": 1,
+      "conda-forge/apache-airflow-providers-apache-cassandra-feedstock": 1,
+      "conda-forge/apache-airflow-providers-apache-beam-feedstock": 1,
+      "conda-forge/apache-airflow-providers-cloudant-feedstock": 1,
+      "conda-forge/apache-airflow-providers-celery-feedstock": 1,
+      "conda-forge/apache-airflow-providers-apache-hive-feedstock": 1,
+      "conda-forge/apache-airflow-providers-asana-feedstock": 1,
+      "conda-forge/apache-airflow-providers-arangodb-feedstock": 1,
       "conda-forge/apache-airflow-providers-apprise-feedstock": 1,
-      "conda-forge/apache-airflow-providers-apache-sqoop-feedstock": 1,
       "conda-forge/apache-airflow-providers-common-sql-feedstock": 1,
       "conda-forge/mbedtls-feedstock": 1,
       "conda-forge/r-lwgeom-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2023-12-31T15:10:00-05:00": 0,
       "2023-12-31T15:05:00-05:00": 0,
       "2023-12-31T15:00:00-05:00": 0,
       "2023-12-31T14:55:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2023-12-31T07:30:00-05:00": 0,
       "2023-12-31T07:25:00-05:00": 0,
       "2023-12-31T07:20:00-05:00": 0,
-      "2023-12-31T07:15:00-05:00": 0,
-      "2023-12-31T07:10:00-05:00": 0
+      "2023-12-31T07:15:00-05:00": 0
     },
     "repos": {
       "conda-forge/nest-simulator-feedstock": 6,
@@ -901,6 +901,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2023-12-31T15:10:00-05:00": 0,
       "2023-12-31T15:05:00-05:00": 0,
       "2023-12-31T15:00:00-05:00": 0,
       "2023-12-31T14:55:00-05:00": 0,
@@ -995,8 +996,7 @@
       "2023-12-31T07:30:00-05:00": 0,
       "2023-12-31T07:25:00-05:00": 0,
       "2023-12-31T07:20:00-05:00": 0,
-      "2023-12-31T07:15:00-05:00": 0,
-      "2023-12-31T07:10:00-05:00": 0
+      "2023-12-31T07:15:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 16,
@@ -1022,6 +1022,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2023-12-31T15:10:00-05:00": 0,
       "2023-12-31T15:05:00-05:00": 0,
       "2023-12-31T15:00:00-05:00": 0,
       "2023-12-31T14:55:00-05:00": 0,
@@ -1116,8 +1117,7 @@
       "2023-12-31T07:30:00-05:00": 0,
       "2023-12-31T07:25:00-05:00": 0,
       "2023-12-31T07:20:00-05:00": 0,
-      "2023-12-31T07:15:00-05:00": 0,
-      "2023-12-31T07:10:00-05:00": 0
+      "2023-12-31T07:15:00-05:00": 0
     },
     "repos": {}
   }
