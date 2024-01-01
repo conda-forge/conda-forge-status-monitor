@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 809,
+    "total": 819,
     "rates": {
-      "2024-01-01T17:35:00-05:00": 0,
+      "2024-01-01T17:40:00-05:00": 1,
+      "2024-01-01T17:35:00-05:00": 10,
       "2024-01-01T17:30:00-05:00": 18,
       "2024-01-01T17:25:00-05:00": 20,
       "2024-01-01T17:20:00-05:00": 27,
@@ -96,14 +97,13 @@
       "2024-01-01T10:00:00-05:00": 3,
       "2024-01-01T09:55:00-05:00": 4,
       "2024-01-01T09:50:00-05:00": 4,
-      "2024-01-01T09:45:00-05:00": 1,
-      "2024-01-01T09:40:00-05:00": 1
+      "2024-01-01T09:45:00-05:00": 1
     },
     "repos": {
       "conda-forge/gnuradio-feedstock": 124,
       "conda-forge/fiona-feedstock": 122,
       "conda-forge/airflow-feedstock": 102,
-      "conda-forge/staged-recipes": 75,
+      "conda-forge/staged-recipes": 78,
       "conda-forge/frozendict-feedstock": 72,
       "conda-forge/folly-feedstock": 68,
       "conda-forge/kanapy-feedstock": 58,
@@ -112,18 +112,18 @@
       "conda-forge/python-chromedriver-binary-feedstock": 38,
       "conda-forge/jupyter_core-feedstock": 31,
       "conda-forge/bitarray-feedstock": 31,
+      "conda-forge/dav1d-feedstock": 27,
       "conda-forge/cctbx-base-feedstock": 25,
-      "conda-forge/dav1d-feedstock": 25,
       "conda-forge/soqt-feedstock": 22,
       "conda-forge/dclab-feedstock": 21,
       "conda-forge/python-planarity-feedstock": 20,
+      "conda-forge/qtserialport-feedstock": 16,
       "conda-forge/jupyter-sphinx-feedstock": 16,
-      "conda-forge/qtserialport-feedstock": 14,
+      "conda-forge/openimageio-feedstock": 14,
       "conda-forge/fmt-feedstock": 14,
       "conda-forge/jasper-feedstock": 14,
       "conda-forge/gtk3-feedstock": 13,
       "conda-forge/mosec-feedstock": 13,
-      "conda-forge/openimageio-feedstock": 12,
       "conda-forge/fzf-feedstock": 12,
       "conda-forge/r-terra-feedstock": 9,
       "conda-forge/dtools-feedstock": 8,
@@ -179,6 +179,7 @@
       "conda-forge/pymolpro-feedstock": 4,
       "conda-forge/sanic-routing-feedstock": 4,
       "conda-forge/magic-feedstock": 4,
+      "conda-forge/libint-feedstock": 3,
       "conda-forge/wgrib2-feedstock": 3,
       "conda-forge/pandas-gbq-feedstock": 3,
       "conda-forge/talipp-feedstock": 2,
@@ -226,13 +227,13 @@
       "conda-forge/shared-feedstock": 2,
       "conda-forge/apache-airflow-providers-oracle-feedstock": 2,
       "conda-forge/pytest-dependency-feedstock": 2,
-      "conda-forge/ssort-feedstock": 2,
-      "conda-forge/libint-feedstock": 1
+      "conda-forge/ssort-feedstock": 2
     }
   },
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2024-01-01T17:40:00-05:00": 0,
       "2024-01-01T17:35:00-05:00": 0,
       "2024-01-01T17:30:00-05:00": 0,
       "2024-01-01T17:25:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2024-01-01T10:00:00-05:00": 0,
       "2024-01-01T09:55:00-05:00": 0,
       "2024-01-01T09:50:00-05:00": 0,
-      "2024-01-01T09:45:00-05:00": 0,
-      "2024-01-01T09:40:00-05:00": 0
+      "2024-01-01T09:45:00-05:00": 0
     },
     "repos": {
       "conda-forge/aria2-feedstock": 3,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 320,
+    "total": 322,
     "rates": {
-      "2024-01-01T17:35:00-05:00": 0,
+      "2024-01-01T17:40:00-05:00": 1,
+      "2024-01-01T17:35:00-05:00": 2,
       "2024-01-01T17:30:00-05:00": 7,
       "2024-01-01T17:25:00-05:00": 2,
       "2024-01-01T17:20:00-05:00": 10,
@@ -558,8 +559,7 @@
       "2024-01-01T10:00:00-05:00": 4,
       "2024-01-01T09:55:00-05:00": 4,
       "2024-01-01T09:50:00-05:00": 3,
-      "2024-01-01T09:45:00-05:00": 1,
-      "2024-01-01T09:40:00-05:00": 1
+      "2024-01-01T09:45:00-05:00": 1
     },
     "repos": {
       "conda-forge/staged-recipes": 258,
@@ -568,16 +568,17 @@
       "conda-forge/conda-forge-webservices": 22,
       "conda-forge/admin-migrations": 21,
       "conda-forge/jupyter-sphinx-feedstock": 15,
-      "conda-forge/qtserialport-feedstock": 11,
+      "conda-forge/qtserialport-feedstock": 12,
       "conda-forge/conda-forge-pinning-feedstock": 10,
       "conda-forge/miniforge": 8,
       "conda-forge/conda-forge-repodata-patches-feedstock": 7,
       "conda-forge/kanapy-feedstock": 7,
+      "conda-forge/dav1d-feedstock": 7,
       "conda-forge/insert-license-header-feedstock": 6,
       "conda-forge/dclab-feedstock": 6,
       "conda-forge/airflow-feedstock": 6,
-      "conda-forge/dav1d-feedstock": 6,
       "conda-forge/seaborn-feedstock": 6,
+      "conda-forge/wgrib2-feedstock": 5,
       "conda-forge/fmt-feedstock": 5,
       "conda-forge/torch_em-feedstock": 5,
       "conda-forge/fiona-feedstock": 5,
@@ -585,7 +586,6 @@
       "conda-forge/floweaver-feedstock": 5,
       "conda-forge/mdaencore-feedstock": 5,
       "conda-forge/pangeo-notebook-feedstock": 5,
-      "conda-forge/wgrib2-feedstock": 4,
       "conda-forge/bear-feedstock": 4,
       "conda-forge/seamm-dashboard-feedstock": 4,
       "conda-forge/pandas-gbq-feedstock": 4,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2024-01-01T17:40:00-05:00": 0,
       "2024-01-01T17:35:00-05:00": 0,
       "2024-01-01T17:30:00-05:00": 0,
       "2024-01-01T17:25:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2024-01-01T10:00:00-05:00": 0,
       "2024-01-01T09:55:00-05:00": 0,
       "2024-01-01T09:50:00-05:00": 0,
-      "2024-01-01T09:45:00-05:00": 0,
-      "2024-01-01T09:40:00-05:00": 0
+      "2024-01-01T09:45:00-05:00": 0
     },
     "repos": {
       "conda-forge/nest-simulator-feedstock": 6,
@@ -901,6 +901,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2024-01-01T17:40:00-05:00": 0,
       "2024-01-01T17:35:00-05:00": 0,
       "2024-01-01T17:30:00-05:00": 0,
       "2024-01-01T17:25:00-05:00": 0,
@@ -995,8 +996,7 @@
       "2024-01-01T10:00:00-05:00": 0,
       "2024-01-01T09:55:00-05:00": 0,
       "2024-01-01T09:50:00-05:00": 0,
-      "2024-01-01T09:45:00-05:00": 0,
-      "2024-01-01T09:40:00-05:00": 0
+      "2024-01-01T09:45:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 16,
@@ -1022,6 +1022,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2024-01-01T17:40:00-05:00": 0,
       "2024-01-01T17:35:00-05:00": 0,
       "2024-01-01T17:30:00-05:00": 0,
       "2024-01-01T17:25:00-05:00": 0,
@@ -1116,8 +1117,7 @@
       "2024-01-01T10:00:00-05:00": 0,
       "2024-01-01T09:55:00-05:00": 0,
       "2024-01-01T09:50:00-05:00": 0,
-      "2024-01-01T09:45:00-05:00": 0,
-      "2024-01-01T09:40:00-05:00": 0
+      "2024-01-01T09:45:00-05:00": 0
     },
     "repos": {}
   }
