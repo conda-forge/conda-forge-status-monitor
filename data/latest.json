@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 757,
+    "total": 788,
     "rates": {
-      "2024-01-28T07:25:00-05:00": 9,
+      "2024-01-28T07:30:00-05:00": 33,
+      "2024-01-28T07:25:00-05:00": 11,
       "2024-01-28T07:20:00-05:00": 13,
       "2024-01-28T07:15:00-05:00": 7,
       "2024-01-28T07:10:00-05:00": 8,
@@ -96,8 +97,7 @@
       "2024-01-27T23:50:00-05:00": 0,
       "2024-01-27T23:45:00-05:00": 2,
       "2024-01-27T23:40:00-05:00": 0,
-      "2024-01-27T23:35:00-05:00": 0,
-      "2024-01-27T23:30:00-05:00": 4
+      "2024-01-27T23:35:00-05:00": 0
     },
     "repos": {
       "conda-forge/lammps-feedstock": 351,
@@ -106,21 +106,17 @@
       "conda-forge/python-chromedriver-binary-feedstock": 38,
       "conda-forge/ftd2xx-feedstock": 38,
       "conda-forge/black-feedstock": 36,
-      "conda-forge/hidefix-feedstock": 21,
+      "conda-forge/wisdem-feedstock": 32,
+      "conda-forge/hidefix-feedstock": 24,
       "conda-forge/airflow-feedstock": 21,
       "conda-forge/cyipopt-feedstock": 21,
       "conda-forge/arrow_odbc-feedstock": 21,
       "conda-forge/boost-feedstock": 12,
+      "conda-forge/pixsfm-feedstock": 11,
       "conda-forge/mpich-feedstock": 11,
       "conda-forge/cf-autotick-bot-test-package-feedstock": 11,
-      "conda-forge/pixsfm-feedstock": 10,
-      "conda-forge/ngram-feedstock": 10,
-      "conda-forge/openfst-feedstock": 10,
-      "conda-forge/wisdem-feedstock": 9,
-      "conda-forge/waves-feedstock": 9,
       "conda-forge/simmate-feedstock": 8,
       "conda-forge/moto-feedstock": 8,
-      "conda-forge/findent-feedstock": 8,
       "conda-forge/calliope-feedstock": 7,
       "conda-forge/pyribs-feedstock": 7,
       "conda-forge/sdl2-feedstock": 7,
@@ -158,10 +154,13 @@
       "conda-forge/otter-grader-feedstock": 4,
       "conda-forge/overrides-feedstock": 4,
       "conda-forge/types-aiobotocore-cloudformation-feedstock": 4,
+      "conda-forge/r-yulab.utils-feedstock": 3,
       "conda-forge/arcticdb-feedstock": 3,
       "conda-forge/google-cloud-cpp-feedstock": 3,
       "conda-forge/antarctic-plots-feedstock": 3,
       "conda-forge/vl-convert-feedstock": 3,
+      "conda-forge/levenshtein-feedstock": 2,
+      "conda-forge/mashumaro-feedstock": 2,
       "conda-forge/pcl-feedstock": 2,
       "conda-forge/vl-convert-python-feedstock": 2,
       "conda-forge/equilibrator-api-feedstock": 2,
@@ -227,12 +226,14 @@
       "conda-forge/apache-airflow-providers-cncf-kubernetes-feedstock": 2,
       "conda-forge/apache-airflow-providers-openlineage-feedstock": 2,
       "conda-forge/lightning-cloud-feedstock": 2,
-      "conda-forge/large_image_source_rasterio-feedstock": 2
+      "conda-forge/large_image_source_rasterio-feedstock": 2,
+      "conda-forge/r-ezplot-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 5,
     "rates": {
+      "2024-01-28T07:30:00-05:00": 0,
       "2024-01-28T07:25:00-05:00": 0,
       "2024-01-28T07:20:00-05:00": 0,
       "2024-01-28T07:15:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2024-01-27T23:50:00-05:00": 0,
       "2024-01-27T23:45:00-05:00": 0,
       "2024-01-27T23:40:00-05:00": 0,
-      "2024-01-27T23:35:00-05:00": 0,
-      "2024-01-27T23:30:00-05:00": 0
+      "2024-01-27T23:35:00-05:00": 0
     },
     "repos": {
       "conda-forge/cf-autotick-bot-test-package-feedstock": 5,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 313,
+    "total": 311,
     "rates": {
-      "2024-01-28T07:25:00-05:00": 6,
+      "2024-01-28T07:30:00-05:00": 2,
+      "2024-01-28T07:25:00-05:00": 7,
       "2024-01-28T07:20:00-05:00": 4,
       "2024-01-28T07:15:00-05:00": 1,
       "2024-01-28T07:10:00-05:00": 0,
@@ -558,8 +559,7 @@
       "2024-01-27T23:50:00-05:00": 1,
       "2024-01-27T23:45:00-05:00": 3,
       "2024-01-27T23:40:00-05:00": 1,
-      "2024-01-27T23:35:00-05:00": 5,
-      "2024-01-27T23:30:00-05:00": 5
+      "2024-01-27T23:35:00-05:00": 5
     },
     "repos": {
       "conda-forge/admin-requests": 78,
@@ -584,6 +584,8 @@
       "conda-forge/vl-convert-python-feedstock": 3,
       "conda-forge/pox-feedstock": 3,
       "conda-forge/pangeo-dask-feedstock": 3,
+      "conda-forge/r-yulab.utils-feedstock": 2,
+      "conda-forge/mashumaro-feedstock": 2,
       "conda-forge/miniforge": 2,
       "conda-forge/conda-forge-webservices": 2,
       "conda-forge/equilibrator-api-feedstock": 2,
@@ -669,11 +671,9 @@
       "conda-forge/apache-airflow-providers-apache-beam-feedstock": 2,
       "conda-forge/gz-gui-feedstock": 2,
       "conda-forge/types-aiobotocore-cloudformation-feedstock": 2,
-      "conda-forge/universal-ctags-feedstock": 2,
+      "conda-forge/r-ga-feedstock": 1,
       "conda-forge/levenshtein-feedstock": 1,
-      "conda-forge/r-yulab.utils-feedstock": 1,
       "conda-forge/r-ezplot-feedstock": 1,
-      "conda-forge/mashumaro-feedstock": 1,
       "conda-forge/wisdem-feedstock": 1,
       "conda-forge/pixsfm-feedstock": 1,
       "conda-forge/cyipopt-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2024-01-28T07:30:00-05:00": 0,
       "2024-01-28T07:25:00-05:00": 0,
       "2024-01-28T07:20:00-05:00": 0,
       "2024-01-28T07:15:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2024-01-27T23:50:00-05:00": 0,
       "2024-01-27T23:45:00-05:00": 0,
       "2024-01-27T23:40:00-05:00": 0,
-      "2024-01-27T23:35:00-05:00": 0,
-      "2024-01-27T23:30:00-05:00": 0
+      "2024-01-27T23:35:00-05:00": 0
     },
     "repos": {
       "conda-forge/nest-simulator-feedstock": 6,
@@ -914,6 +914,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2024-01-28T07:30:00-05:00": 0,
       "2024-01-28T07:25:00-05:00": 0,
       "2024-01-28T07:20:00-05:00": 0,
       "2024-01-28T07:15:00-05:00": 0,
@@ -1008,8 +1009,7 @@
       "2024-01-27T23:50:00-05:00": 0,
       "2024-01-27T23:45:00-05:00": 0,
       "2024-01-27T23:40:00-05:00": 0,
-      "2024-01-27T23:35:00-05:00": 0,
-      "2024-01-27T23:30:00-05:00": 0
+      "2024-01-27T23:35:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 20,
@@ -1037,6 +1037,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2024-01-28T07:30:00-05:00": 0,
       "2024-01-28T07:25:00-05:00": 0,
       "2024-01-28T07:20:00-05:00": 0,
       "2024-01-28T07:15:00-05:00": 0,
@@ -1131,8 +1132,7 @@
       "2024-01-27T23:50:00-05:00": 0,
       "2024-01-27T23:45:00-05:00": 0,
       "2024-01-27T23:40:00-05:00": 0,
-      "2024-01-27T23:35:00-05:00": 0,
-      "2024-01-27T23:30:00-05:00": 0
+      "2024-01-27T23:35:00-05:00": 0
     },
     "repos": {}
   }
