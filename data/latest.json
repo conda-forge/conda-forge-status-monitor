@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2887,
+    "total": 2866,
     "rates": {
-      "2024-02-02T18:00:00-05:00": 2,
+      "2024-02-02T18:05:00-05:00": 0,
+      "2024-02-02T18:00:00-05:00": 9,
       "2024-02-02T17:55:00-05:00": 13,
       "2024-02-02T17:50:00-05:00": 7,
       "2024-02-02T17:45:00-05:00": 5,
@@ -96,8 +97,7 @@
       "2024-02-02T10:25:00-05:00": 35,
       "2024-02-02T10:20:00-05:00": 20,
       "2024-02-02T10:15:00-05:00": 29,
-      "2024-02-02T10:10:00-05:00": 44,
-      "2024-02-02T10:05:00-05:00": 28
+      "2024-02-02T10:10:00-05:00": 44
     },
     "repos": {
       "conda-forge/numcosmo-feedstock": 235,
@@ -124,14 +124,14 @@
       "conda-forge/kaldi-feedstock": 31,
       "conda-forge/cytoolz-feedstock": 31,
       "conda-forge/awscli-feedstock": 30,
+      "conda-forge/azure-core-cpp-feedstock": 29,
       "conda-forge/libprotobuf-feedstock": 29,
       "conda-forge/qiskit-feedstock": 29,
-      "conda-forge/azure-core-cpp-feedstock": 26,
       "conda-forge/llvmlite-feedstock": 24,
       "conda-forge/r-adaptgauss-feedstock": 23,
+      "conda-forge/warpx-feedstock": 22,
       "conda-forge/wxpython-feedstock": 21,
       "conda-forge/nuitka-feedstock": 21,
-      "conda-forge/warpx-feedstock": 20,
       "conda-forge/micromamba-feedstock": 20,
       "conda-forge/simexpal-feedstock": 19,
       "conda-forge/pdal-feedstock": 17,
@@ -185,6 +185,7 @@
       "conda-forge/pyiron_base-feedstock": 4,
       "conda-forge/rubicon-ml-feedstock": 4,
       "conda-forge/robocorp-vault-feedstock": 4,
+      "conda-forge/bentoml-feedstock": 4,
       "conda-forge/benchling-api-client-feedstock": 4,
       "conda-forge/pyecospold-feedstock": 4,
       "conda-forge/databroker-feedstock": 4,
@@ -210,7 +211,6 @@
       "conda-forge/nwbinspector-feedstock": 2,
       "conda-forge/tricycle-feedstock": 2,
       "conda-forge/isabelle-client-feedstock": 2,
-      "conda-forge/bentoml-feedstock": 2,
       "conda-forge/chessanalysispipeline-feedstock": 2,
       "conda-forge/numactl-feedstock": 2,
       "conda-forge/python-neo-feedstock": 2,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 19,
     "rates": {
+      "2024-02-02T18:05:00-05:00": 0,
       "2024-02-02T18:00:00-05:00": 0,
       "2024-02-02T17:55:00-05:00": 0,
       "2024-02-02T17:50:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2024-02-02T10:25:00-05:00": 0,
       "2024-02-02T10:20:00-05:00": 0,
       "2024-02-02T10:15:00-05:00": 0,
-      "2024-02-02T10:10:00-05:00": 0,
-      "2024-02-02T10:05:00-05:00": 0
+      "2024-02-02T10:10:00-05:00": 0
     },
     "repos": {
       "conda-forge/cf-autotick-bot-test-package-feedstock": 16,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 674,
+    "total": 686,
     "rates": {
-      "2024-02-02T18:00:00-05:00": 0,
+      "2024-02-02T18:05:00-05:00": 0,
+      "2024-02-02T18:00:00-05:00": 15,
       "2024-02-02T17:55:00-05:00": 1,
       "2024-02-02T17:50:00-05:00": 2,
       "2024-02-02T17:45:00-05:00": 4,
@@ -558,13 +559,12 @@
       "2024-02-02T10:25:00-05:00": 6,
       "2024-02-02T10:20:00-05:00": 21,
       "2024-02-02T10:15:00-05:00": 5,
-      "2024-02-02T10:10:00-05:00": 4,
-      "2024-02-02T10:05:00-05:00": 3
+      "2024-02-02T10:10:00-05:00": 4
     },
     "repos": {
-      "conda-forge/staged-recipes": 114,
-      "conda-forge/admin-requests": 80,
-      "conda-forge/core-notes": 29,
+      "conda-forge/staged-recipes": 124,
+      "conda-forge/admin-requests": 81,
+      "conda-forge/core-notes": 30,
       "conda-forge/cf-autotick-bot-test-package-feedstock": 16,
       "conda-forge/numcosmo-feedstock": 14,
       "conda-forge/conda-forge-repodata-patches-feedstock": 14,
@@ -574,10 +574,10 @@
       "conda-forge/marimo-feedstock": 8,
       "conda-forge/arraylake-feedstock": 7,
       "conda-forge/r-adaptgauss-feedstock": 7,
+      "conda-forge/conda-forge-webservices": 7,
       "conda-forge/admin-migrations": 7,
       "conda-forge/geospatial-feedstock": 6,
       "conda-forge/abi3audit-feedstock": 6,
-      "conda-forge/conda-forge-webservices": 6,
       "conda-forge/nanoarrow-feedstock": 6,
       "conda-forge/libprotobuf-feedstock": 6,
       "conda-forge/qiskit-feedstock": 6,
@@ -597,6 +597,7 @@
       "conda-forge/openff-interchange-feedstock": 4,
       "conda-forge/psutil-feedstock": 4,
       "conda-forge/juliaup-feedstock": 4,
+      "conda-forge/bentoml-feedstock": 4,
       "conda-forge/micromamba-feedstock": 4,
       "conda-forge/panel-jstree-feedstock": 4,
       "conda-forge/numactl-feedstock": 4,
@@ -607,7 +608,6 @@
       "conda-forge/pcmdi_metrics-feedstock": 3,
       "conda-forge/finetuning-scheduler-feedstock": 3,
       "conda-forge/pydantic-core-feedstock": 3,
-      "conda-forge/bentoml-feedstock": 3,
       "conda-forge/rubicon-ml-feedstock": 3,
       "conda-forge/pyecospold-feedstock": 3,
       "conda-forge/databroker-feedstock": 3,
@@ -622,7 +622,6 @@
       "conda-forge/oidc-agent-feedstock": 3,
       "conda-forge/meson-feedstock": 3,
       "conda-forge/doubleml-feedstock": 3,
-      "conda-forge/glibmm-feedstock": 3,
       "conda-forge/r-rstan-feedstock": 2,
       "conda-forge/mkdocs-git-revision-date-localized-plugin-feedstock": 2,
       "conda-forge/maggma-feedstock": 2,
@@ -676,6 +675,7 @@
       "conda-forge/terragrunt-feedstock": 2,
       "conda-forge/igraph-feedstock": 2,
       "conda-forge/grpc-cpp-feedstock": 2,
+      "conda-forge/dioptas-feedstock": 1,
       "conda-forge/warpx-feedstock": 1,
       "conda-forge/isabelle-client-feedstock": 1,
       "conda-forge/stackvana-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2024-02-02T18:05:00-05:00": 0,
       "2024-02-02T18:00:00-05:00": 0,
       "2024-02-02T17:55:00-05:00": 0,
       "2024-02-02T17:50:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2024-02-02T10:25:00-05:00": 0,
       "2024-02-02T10:20:00-05:00": 0,
       "2024-02-02T10:15:00-05:00": 0,
-      "2024-02-02T10:10:00-05:00": 0,
-      "2024-02-02T10:05:00-05:00": 0
+      "2024-02-02T10:10:00-05:00": 0
     },
     "repos": {
       "conda-forge/nest-simulator-feedstock": 6,
@@ -918,6 +918,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2024-02-02T18:05:00-05:00": 0,
       "2024-02-02T18:00:00-05:00": 0,
       "2024-02-02T17:55:00-05:00": 0,
       "2024-02-02T17:50:00-05:00": 0,
@@ -1012,8 +1013,7 @@
       "2024-02-02T10:25:00-05:00": 0,
       "2024-02-02T10:20:00-05:00": 0,
       "2024-02-02T10:15:00-05:00": 0,
-      "2024-02-02T10:10:00-05:00": 0,
-      "2024-02-02T10:05:00-05:00": 0
+      "2024-02-02T10:10:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 20,
@@ -1041,6 +1041,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2024-02-02T18:05:00-05:00": 0,
       "2024-02-02T18:00:00-05:00": 0,
       "2024-02-02T17:55:00-05:00": 0,
       "2024-02-02T17:50:00-05:00": 0,
@@ -1135,8 +1136,7 @@
       "2024-02-02T10:25:00-05:00": 0,
       "2024-02-02T10:20:00-05:00": 0,
       "2024-02-02T10:15:00-05:00": 0,
-      "2024-02-02T10:10:00-05:00": 0,
-      "2024-02-02T10:05:00-05:00": 0
+      "2024-02-02T10:10:00-05:00": 0
     },
     "repos": {}
   }
