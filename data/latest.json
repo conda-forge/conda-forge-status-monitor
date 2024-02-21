@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1943,
+    "total": 1911,
     "rates": {
-      "2024-02-20T19:15:00-05:00": 11,
+      "2024-02-20T19:20:00-05:00": 8,
+      "2024-02-20T19:15:00-05:00": 12,
       "2024-02-20T19:10:00-05:00": 11,
       "2024-02-20T19:05:00-05:00": 8,
       "2024-02-20T19:00:00-05:00": 0,
@@ -96,15 +97,14 @@
       "2024-02-20T11:40:00-05:00": 24,
       "2024-02-20T11:35:00-05:00": 28,
       "2024-02-20T11:30:00-05:00": 32,
-      "2024-02-20T11:25:00-05:00": 77,
-      "2024-02-20T11:20:00-05:00": 41
+      "2024-02-20T11:25:00-05:00": 77
     },
     "repos": {
       "conda-forge/pyzmq-feedstock": 142,
       "conda-forge/libtiledb-sql-py-feedstock": 113,
       "conda-forge/clingo-feedstock": 108,
       "conda-forge/pyside2-feedstock": 103,
-      "conda-forge/staged-recipes": 90,
+      "conda-forge/staged-recipes": 91,
       "conda-forge/compas_fab-feedstock": 83,
       "conda-forge/coverage-feedstock": 72,
       "conda-forge/urwid-feedstock": 72,
@@ -113,9 +113,9 @@
       "conda-forge/firecrown-feedstock": 38,
       "conda-forge/awscli-feedstock": 36,
       "conda-forge/awscrt-feedstock": 36,
+      "conda-forge/py-ed25519-zebra-bindings-feedstock": 32,
+      "conda-forge/py-sr25519-bindings-feedstock": 32,
       "conda-forge/py-bip39-bindings-feedstock": 32,
-      "conda-forge/py-ed25519-zebra-bindings-feedstock": 30,
-      "conda-forge/py-sr25519-bindings-feedstock": 30,
       "conda-forge/stripy-feedstock": 30,
       "conda-forge/qt-main-feedstock": 29,
       "conda-forge/r-tiledb-feedstock": 27,
@@ -134,15 +134,15 @@
       "conda-forge/azure-storage-files-shares-cpp-feedstock": 14,
       "conda-forge/azure-storage-queues-cpp-feedstock": 14,
       "conda-forge/azure-storage-files-datalake-cpp-feedstock": 14,
+      "conda-forge/cwinpy-feedstock": 13,
       "conda-forge/conda-forge-pinning-feedstock": 12,
       "conda-forge/nnetsauce-feedstock": 11,
       "conda-forge/libsecp256k1-feedstock": 10,
-      "conda-forge/cwinpy-feedstock": 10,
       "conda-forge/llama-index-embeddings-openai-feedstock": 10,
       "conda-forge/llama-index-llms-openai-feedstock": 10,
       "conda-forge/mcstas-suite-feedstock": 10,
+      "conda-forge/google-cloud-cpp-feedstock": 9,
       "conda-forge/terraform-provider-google-feedstock": 8,
-      "conda-forge/google-cloud-cpp-feedstock": 8,
       "conda-forge/terragrunt-feedstock": 8,
       "conda-forge/openai-feedstock": 8,
       "conda-forge/soci-feedstock": 7,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 10,
     "rates": {
+      "2024-02-20T19:20:00-05:00": 0,
       "2024-02-20T19:15:00-05:00": 0,
       "2024-02-20T19:10:00-05:00": 0,
       "2024-02-20T19:05:00-05:00": 0,
@@ -327,8 +328,7 @@
       "2024-02-20T11:40:00-05:00": 1,
       "2024-02-20T11:35:00-05:00": 0,
       "2024-02-20T11:30:00-05:00": 1,
-      "2024-02-20T11:25:00-05:00": 0,
-      "2024-02-20T11:20:00-05:00": 0
+      "2024-02-20T11:25:00-05:00": 0
     },
     "repos": {
       "conda-forge/libtiledb-sql-py-feedstock": 9,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 670,
+    "total": 663,
     "rates": {
-      "2024-02-20T19:15:00-05:00": 5,
+      "2024-02-20T19:20:00-05:00": 2,
+      "2024-02-20T19:15:00-05:00": 6,
       "2024-02-20T19:10:00-05:00": 2,
       "2024-02-20T19:05:00-05:00": 2,
       "2024-02-20T19:00:00-05:00": 6,
@@ -558,8 +559,7 @@
       "2024-02-20T11:40:00-05:00": 10,
       "2024-02-20T11:35:00-05:00": 20,
       "2024-02-20T11:30:00-05:00": 6,
-      "2024-02-20T11:25:00-05:00": 17,
-      "2024-02-20T11:20:00-05:00": 10
+      "2024-02-20T11:25:00-05:00": 17
     },
     "repos": {
       "conda-forge/staged-recipes": 120,
@@ -597,6 +597,9 @@
       "conda-forge/miniforge": 4,
       "conda-forge/xpra-feedstock": 4,
       "conda-forge/hdlib-feedstock": 3,
+      "conda-forge/py-ed25519-zebra-bindings-feedstock": 3,
+      "conda-forge/py-sr25519-bindings-feedstock": 3,
+      "conda-forge/py-bip39-bindings-feedstock": 3,
       "conda-forge/azure-storage-queues-cpp-feedstock": 3,
       "conda-forge/azure-storage-files-datalake-cpp-feedstock": 3,
       "conda-forge/fooof-feedstock": 3,
@@ -624,9 +627,6 @@
       "conda-forge/amplpy-feedstock": 2,
       "conda-forge/qiskit-ibm-provider-feedstock": 2,
       "conda-forge/llama-index-program-openai-feedstock": 2,
-      "conda-forge/py-ed25519-zebra-bindings-feedstock": 2,
-      "conda-forge/py-sr25519-bindings-feedstock": 2,
-      "conda-forge/py-bip39-bindings-feedstock": 2,
       "conda-forge/cwinpy-feedstock": 2,
       "conda-forge/fileseq-feedstock": 2,
       "conda-forge/qiskit-ibm-runtime-feedstock": 2,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2024-02-20T19:20:00-05:00": 0,
       "2024-02-20T19:15:00-05:00": 0,
       "2024-02-20T19:10:00-05:00": 0,
       "2024-02-20T19:05:00-05:00": 0,
@@ -789,8 +790,7 @@
       "2024-02-20T11:40:00-05:00": 0,
       "2024-02-20T11:35:00-05:00": 0,
       "2024-02-20T11:30:00-05:00": 0,
-      "2024-02-20T11:25:00-05:00": 0,
-      "2024-02-20T11:20:00-05:00": 0
+      "2024-02-20T11:25:00-05:00": 0
     },
     "repos": {
       "conda-forge/nest-simulator-feedstock": 6,
@@ -924,6 +924,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2024-02-20T19:20:00-05:00": 0,
       "2024-02-20T19:15:00-05:00": 0,
       "2024-02-20T19:10:00-05:00": 0,
       "2024-02-20T19:05:00-05:00": 0,
@@ -1018,8 +1019,7 @@
       "2024-02-20T11:40:00-05:00": 0,
       "2024-02-20T11:35:00-05:00": 0,
       "2024-02-20T11:30:00-05:00": 0,
-      "2024-02-20T11:25:00-05:00": 0,
-      "2024-02-20T11:20:00-05:00": 0
+      "2024-02-20T11:25:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 20,
@@ -1049,6 +1049,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2024-02-20T19:20:00-05:00": 0,
       "2024-02-20T19:15:00-05:00": 0,
       "2024-02-20T19:10:00-05:00": 0,
       "2024-02-20T19:05:00-05:00": 0,
@@ -1143,8 +1144,7 @@
       "2024-02-20T11:40:00-05:00": 0,
       "2024-02-20T11:35:00-05:00": 0,
       "2024-02-20T11:30:00-05:00": 0,
-      "2024-02-20T11:25:00-05:00": 0,
-      "2024-02-20T11:20:00-05:00": 0
+      "2024-02-20T11:25:00-05:00": 0
     },
     "repos": {}
   }
