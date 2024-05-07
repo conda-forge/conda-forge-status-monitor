@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2770,
+    "total": 2753,
     "rates": {
-      "2024-05-07T19:35:00-04:00": 0,
+      "2024-05-07T19:40:00-04:00": 0,
+      "2024-05-07T19:35:00-04:00": 18,
       "2024-05-07T19:30:00-04:00": 38,
       "2024-05-07T19:25:00-04:00": 26,
       "2024-05-07T19:20:00-04:00": 28,
@@ -96,16 +97,15 @@
       "2024-05-07T12:00:00-04:00": 30,
       "2024-05-07T11:55:00-04:00": 65,
       "2024-05-07T11:50:00-04:00": 116,
-      "2024-05-07T11:45:00-04:00": 51,
-      "2024-05-07T11:40:00-04:00": 35
+      "2024-05-07T11:45:00-04:00": 51
     },
     "repos": {
       "conda-forge/scikit-learn-feedstock": 309,
       "conda-forge/rosco-feedstock": 273,
       "conda-forge/awscrt-feedstock": 144,
       "conda-forge/staged-recipes": 131,
+      "conda-forge/pyarrow-feedstock": 103,
       "conda-forge/pyopencl-feedstock": 100,
-      "conda-forge/pyarrow-feedstock": 99,
       "conda-forge/marimo-feedstock": 93,
       "conda-forge/thriftpy2-feedstock": 91,
       "conda-forge/pennylane-feedstock": 87,
@@ -131,11 +131,11 @@
       "conda-forge/arrow-cpp-feedstock": 33,
       "conda-forge/cuda-nvcc-impl-feedstock": 32,
       "conda-forge/des-pizza-cutter-masking-feedstock": 32,
-      "conda-forge/ctng-compilers-feedstock": 27,
+      "conda-forge/ctng-compilers-feedstock": 31,
+      "conda-forge/kvxopt-feedstock": 29,
       "conda-forge/ucx-split-feedstock": 26,
       "conda-forge/muscat-split-feedstock": 26,
       "conda-forge/r-ragg-feedstock": 24,
-      "conda-forge/kvxopt-feedstock": 21,
       "conda-forge/zig-feedstock": 21,
       "conda-forge/hpp-manipulation-urdf-feedstock": 21,
       "conda-forge/mnelab-feedstock": 21,
@@ -207,6 +207,7 @@
       "conda-forge/openmetadata-managed-apis-feedstock": 4,
       "conda-forge/rust-feedstock": 3,
       "conda-forge/julia-feedstock": 3,
+      "conda-forge/flang-feedstock": 2,
       "conda-forge/jax-feedstock": 2,
       "conda-forge/mpire-feedstock": 2,
       "conda-forge/buildbot-feedstock": 2,
@@ -226,13 +227,13 @@
       "conda-forge/django-streamfield-feedstock": 2,
       "conda-forge/jinja2-feedstock": 2,
       "conda-forge/menpowidgets-feedstock": 2,
-      "conda-forge/algotom-feedstock": 2,
-      "conda-forge/ipyslides-feedstock": 2
+      "conda-forge/algotom-feedstock": 2
     }
   },
   "travis-ci": {
-    "total": 16,
+    "total": 13,
     "rates": {
+      "2024-05-07T19:40:00-04:00": 0,
       "2024-05-07T19:35:00-04:00": 0,
       "2024-05-07T19:30:00-04:00": 0,
       "2024-05-07T19:25:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2024-05-07T12:00:00-04:00": 0,
       "2024-05-07T11:55:00-04:00": 0,
       "2024-05-07T11:50:00-04:00": 1,
-      "2024-05-07T11:45:00-04:00": 0,
-      "2024-05-07T11:40:00-04:00": 3
+      "2024-05-07T11:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/ucx-split-feedstock": 5,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 701,
+    "total": 695,
     "rates": {
-      "2024-05-07T19:35:00-04:00": 0,
+      "2024-05-07T19:40:00-04:00": 0,
+      "2024-05-07T19:35:00-04:00": 5,
       "2024-05-07T19:30:00-04:00": 5,
       "2024-05-07T19:25:00-04:00": 4,
       "2024-05-07T19:20:00-04:00": 2,
@@ -558,11 +559,10 @@
       "2024-05-07T12:00:00-04:00": 11,
       "2024-05-07T11:55:00-04:00": 6,
       "2024-05-07T11:50:00-04:00": 11,
-      "2024-05-07T11:45:00-04:00": 12,
-      "2024-05-07T11:40:00-04:00": 11
+      "2024-05-07T11:45:00-04:00": 12
     },
     "repos": {
-      "conda-forge/pytorch-cpu-feedstock": 42,
+      "conda-forge/pytorch-cpu-feedstock": 44,
       "conda-forge/miniforge": 27,
       "conda-forge/scikit-learn-feedstock": 21,
       "conda-forge/openvino-tokenizers-feedstock": 21,
@@ -570,11 +570,11 @@
       "conda-forge/zig-feedstock": 15,
       "conda-forge/itemadapter-feedstock": 14,
       "conda-forge/conda-forge-pinning-feedstock": 14,
+      "conda-forge/grits-feedstock": 12,
       "conda-forge/chemcoord-feedstock": 12,
       "conda-forge/arcticdb-feedstock": 12,
       "conda-forge/pennylane-lightning-gpu-feedstock": 11,
       "conda-forge/admin-requests": 10,
-      "conda-forge/grits-feedstock": 10,
       "conda-forge/admin-migrations": 10,
       "conda-forge/cuda-nvcc-impl-feedstock": 9,
       "conda-forge/nbappinator-feedstock": 9,
@@ -673,7 +673,7 @@
       "conda-forge/openmetadata-ingestion-feedstock": 2,
       "conda-forge/buildbot-worker-feedstock": 2,
       "conda-forge/apache-airflow-providers-apache-pinot-feedstock": 2,
-      "conda-forge/openmetadata-managed-apis-feedstock": 2,
+      "conda-forge/flang-feedstock": 1,
       "conda-forge/kvxopt-feedstock": 1,
       "conda-forge/ucx-split-feedstock": 1,
       "conda-forge/rust-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 1,
     "rates": {
+      "2024-05-07T19:40:00-04:00": 0,
       "2024-05-07T19:35:00-04:00": 0,
       "2024-05-07T19:30:00-04:00": 0,
       "2024-05-07T19:25:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2024-05-07T12:00:00-04:00": 0,
       "2024-05-07T11:55:00-04:00": 0,
       "2024-05-07T11:50:00-04:00": 0,
-      "2024-05-07T11:45:00-04:00": 0,
-      "2024-05-07T11:40:00-04:00": 0
+      "2024-05-07T11:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/scikit-learn-feedstock": 2,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2024-05-07T19:40:00-04:00": 0,
       "2024-05-07T19:35:00-04:00": 0,
       "2024-05-07T19:30:00-04:00": 0,
       "2024-05-07T19:25:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2024-05-07T12:00:00-04:00": 0,
       "2024-05-07T11:55:00-04:00": 0,
       "2024-05-07T11:50:00-04:00": 0,
-      "2024-05-07T11:45:00-04:00": 0,
-      "2024-05-07T11:40:00-04:00": 0
+      "2024-05-07T11:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 20,
@@ -1063,6 +1063,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2024-05-07T19:40:00-04:00": 0,
       "2024-05-07T19:35:00-04:00": 0,
       "2024-05-07T19:30:00-04:00": 0,
       "2024-05-07T19:25:00-04:00": 0,
@@ -1157,8 +1158,7 @@
       "2024-05-07T12:00:00-04:00": 0,
       "2024-05-07T11:55:00-04:00": 0,
       "2024-05-07T11:50:00-04:00": 0,
-      "2024-05-07T11:45:00-04:00": 0,
-      "2024-05-07T11:40:00-04:00": 0
+      "2024-05-07T11:45:00-04:00": 0
     },
     "repos": {}
   }
