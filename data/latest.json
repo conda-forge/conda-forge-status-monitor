@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2958,
+    "total": 2990,
     "rates": {
-      "2024-07-20T02:05:00-04:00": 0,
+      "2024-07-20T02:10:00-04:00": 0,
+      "2024-07-20T02:05:00-04:00": 39,
       "2024-07-20T02:00:00-04:00": 44,
       "2024-07-20T01:55:00-04:00": 50,
       "2024-07-20T01:50:00-04:00": 42,
@@ -96,8 +97,7 @@
       "2024-07-19T18:30:00-04:00": 21,
       "2024-07-19T18:25:00-04:00": 10,
       "2024-07-19T18:20:00-04:00": 11,
-      "2024-07-19T18:15:00-04:00": 8,
-      "2024-07-19T18:10:00-04:00": 7
+      "2024-07-19T18:15:00-04:00": 8
     },
     "repos": {
       "conda-forge/marimo-feedstock": 62,
@@ -111,6 +111,7 @@
       "conda-forge/mupdf-feedstock": 22,
       "conda-forge/cpprb-feedstock": 16,
       "conda-forge/xgboost-feedstock": 14,
+      "conda-forge/r-ghql-feedstock": 14,
       "conda-forge/r-gert-feedstock": 14,
       "conda-forge/r-iptools-feedstock": 14,
       "conda-forge/r-kerasformula-feedstock": 14,
@@ -119,17 +120,18 @@
       "conda-forge/r-openair-feedstock": 14,
       "conda-forge/r-prider-feedstock": 14,
       "conda-forge/r-purrrlyr-feedstock": 14,
-      "conda-forge/r-rioja-feedstock": 14,
       "conda-forge/batoid-feedstock": 13,
       "conda-forge/warpx-feedstock": 13,
       "conda-forge/libxmlsec1-feedstock": 12,
-      "conda-forge/r-ghql-feedstock": 11,
       "conda-forge/r-mvord-feedstock": 11,
       "conda-forge/r-sads-feedstock": 11,
       "conda-forge/qgis-feedstock": 9,
-      "conda-forge/r-r2dii.analysis-feedstock": 8,
       "conda-forge/r-jmbayes2-feedstock": 7,
       "conda-forge/r-ocedata-feedstock": 7,
+      "conda-forge/r-ggpointless-feedstock": 6,
+      "conda-forge/r-ggpolypath-feedstock": 6,
+      "conda-forge/r-ggprism-feedstock": 6,
+      "conda-forge/r-ggragged-feedstock": 6,
       "conda-forge/r-ggraptr-feedstock": 6,
       "conda-forge/r-ggstar-feedstock": 6,
       "conda-forge/r-ggsurvfit-feedstock": 6,
@@ -142,6 +144,7 @@
       "conda-forge/r-grimport-feedstock": 6,
       "conda-forge/r-gson-feedstock": 6,
       "conda-forge/r-msigdbr-feedstock": 6,
+      "conda-forge/litdata-feedstock": 6,
       "conda-forge/jive-feedstock": 6,
       "conda-forge/r-ggnewscale-feedstock": 6,
       "conda-forge/r-hdm-feedstock": 6,
@@ -180,13 +183,8 @@
       "conda-forge/r-pool-feedstock": 6,
       "conda-forge/r-predictnmb-feedstock": 6,
       "conda-forge/r-psychometric-feedstock": 6,
-      "conda-forge/r-purrrogress-feedstock": 6,
-      "conda-forge/r-qiimer-feedstock": 6,
-      "conda-forge/r-rattle-feedstock": 6,
-      "conda-forge/r-rcartocolor-feedstock": 6,
-      "conda-forge/r-rccmisc-feedstock": 6,
       "conda-forge/gstreamer-orc-feedstock": 5,
-      "conda-forge/litdata-feedstock": 4,
+      "conda-forge/r-ggpointdensity-feedstock": 4,
       "conda-forge/staged-recipes": 4,
       "conda-forge/clickhouse-odbc-feedstock": 4,
       "conda-forge/boto3-stubs-lite-feedstock": 4,
@@ -203,10 +201,12 @@
       "conda-forge/cusparselt-feedstock": 4,
       "conda-forge/mypy_boto3_rds-feedstock": 4,
       "conda-forge/pipefunc-feedstock": 4,
-      "conda-forge/r-ggpointless-feedstock": 3,
-      "conda-forge/r-ggpolypath-feedstock": 3,
-      "conda-forge/r-ggprism-feedstock": 3,
-      "conda-forge/r-ggragged-feedstock": 3,
+      "conda-forge/r-ggmulti-feedstock": 3,
+      "conda-forge/r-ggpackets-feedstock": 3,
+      "conda-forge/r-rmarkdown-feedstock": 3,
+      "conda-forge/r-ggparallel-feedstock": 3,
+      "conda-forge/r-ggplot.multistats-feedstock": 3,
+      "conda-forge/r-ggplate-feedstock": 3,
       "conda-forge/r-gutenbergr-feedstock": 3,
       "conda-forge/opendebugad7-feedstock": 2,
       "conda-forge/omnisharp-roslyn-feedstock": 2,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 13,
     "rates": {
+      "2024-07-20T02:10:00-04:00": 0,
       "2024-07-20T02:05:00-04:00": 0,
       "2024-07-20T02:00:00-04:00": 0,
       "2024-07-20T01:55:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2024-07-19T18:30:00-04:00": 0,
       "2024-07-19T18:25:00-04:00": 0,
       "2024-07-19T18:20:00-04:00": 0,
-      "2024-07-19T18:15:00-04:00": 0,
-      "2024-07-19T18:10:00-04:00": 0
+      "2024-07-19T18:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/tk-feedstock": 4,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 713,
+    "total": 726,
     "rates": {
-      "2024-07-20T02:05:00-04:00": 0,
+      "2024-07-20T02:10:00-04:00": 0,
+      "2024-07-20T02:05:00-04:00": 14,
       "2024-07-20T02:00:00-04:00": 21,
       "2024-07-20T01:55:00-04:00": 15,
       "2024-07-20T01:50:00-04:00": 12,
@@ -558,22 +559,26 @@
       "2024-07-19T18:30:00-04:00": 11,
       "2024-07-19T18:25:00-04:00": 7,
       "2024-07-19T18:20:00-04:00": 4,
-      "2024-07-19T18:15:00-04:00": 1,
-      "2024-07-19T18:10:00-04:00": 1
+      "2024-07-19T18:15:00-04:00": 1
     },
     "repos": {
       "conda-forge/admin-requests": 14,
       "conda-forge/feedstock-outputs": 6,
       "conda-forge/staged-recipes": 5,
+      "conda-forge/litdata-feedstock": 5,
       "conda-forge/momentum-feedstock": 5,
-      "conda-forge/litdata-feedstock": 4,
       "conda-forge/pangeo-dask-feedstock": 4,
       "conda-forge/admin-migrations": 4,
+      "conda-forge/r-ggplot.multistats-feedstock": 3,
       "conda-forge/xgboost-feedstock": 3,
       "conda-forge/jive-feedstock": 3,
       "conda-forge/gstreamer-orc-feedstock": 3,
       "conda-forge/langchain-feedstock": 3,
       "conda-forge/vit-pytorch-feedstock": 3,
+      "conda-forge/r-ggmulti-feedstock": 2,
+      "conda-forge/r-ggpackets-feedstock": 2,
+      "conda-forge/r-ggparallel-feedstock": 2,
+      "conda-forge/r-ggplate-feedstock": 2,
       "conda-forge/miniforge": 2,
       "conda-forge/r-ggpointless-feedstock": 2,
       "conda-forge/r-ggpolypath-feedstock": 2,
@@ -661,21 +666,16 @@
       "conda-forge/polyagamma-feedstock": 2,
       "conda-forge/r-pafr-feedstock": 2,
       "conda-forge/r-paireddata-feedstock": 2,
-      "conda-forge/r-patpro-feedstock": 2,
-      "conda-forge/r-patrick-feedstock": 2,
-      "conda-forge/r-phater-feedstock": 2,
-      "conda-forge/r-platetools-feedstock": 2,
-      "conda-forge/r-plotroc-feedstock": 2,
-      "conda-forge/r-pmdplyr-feedstock": 2,
-      "conda-forge/r-poissonreg-feedstock": 2,
-      "conda-forge/r-ggpackets-feedstock": 1,
+      "conda-forge/r-gginnards-feedstock": 1,
+      "conda-forge/by-the-numbers": 1,
+      "conda-forge/r-ggjoy-feedstock": 1,
+      "conda-forge/r-rmarkdown-feedstock": 1,
+      "conda-forge/r-gglogo-feedstock": 1,
+      "conda-forge/r-ggmuller-feedstock": 1,
       "conda-forge/opendebugad7-feedstock": 1,
       "conda-forge/conda-forge-webservices": 1,
-      "conda-forge/r-ggparallel-feedstock": 1,
       "conda-forge/omnisharp-roslyn-feedstock": 1,
-      "conda-forge/r-ggplate-feedstock": 1,
       "conda-forge/miniforge-images": 1,
-      "conda-forge/r-ggplot.multistats-feedstock": 1,
       "conda-forge/r-ggpointdensity-feedstock": 1,
       "conda-forge/cpprb-feedstock": 1,
       "conda-forge/paraview-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2024-07-20T02:10:00-04:00": 0,
       "2024-07-20T02:05:00-04:00": 0,
       "2024-07-20T02:00:00-04:00": 0,
       "2024-07-20T01:55:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2024-07-19T18:30:00-04:00": 0,
       "2024-07-19T18:25:00-04:00": 0,
       "2024-07-19T18:20:00-04:00": 0,
-      "2024-07-19T18:15:00-04:00": 0,
-      "2024-07-19T18:10:00-04:00": 0
+      "2024-07-19T18:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/librsvg-feedstock": 1,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2024-07-20T02:10:00-04:00": 0,
       "2024-07-20T02:05:00-04:00": 0,
       "2024-07-20T02:00:00-04:00": 0,
       "2024-07-20T01:55:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2024-07-19T18:30:00-04:00": 0,
       "2024-07-19T18:25:00-04:00": 0,
       "2024-07-19T18:20:00-04:00": 0,
-      "2024-07-19T18:15:00-04:00": 0,
-      "2024-07-19T18:10:00-04:00": 0
+      "2024-07-19T18:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 28,
@@ -1067,6 +1067,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2024-07-20T02:10:00-04:00": 0,
       "2024-07-20T02:05:00-04:00": 0,
       "2024-07-20T02:00:00-04:00": 0,
       "2024-07-20T01:55:00-04:00": 0,
@@ -1161,8 +1162,7 @@
       "2024-07-19T18:30:00-04:00": 0,
       "2024-07-19T18:25:00-04:00": 0,
       "2024-07-19T18:20:00-04:00": 0,
-      "2024-07-19T18:15:00-04:00": 0,
-      "2024-07-19T18:10:00-04:00": 0
+      "2024-07-19T18:15:00-04:00": 0
     },
     "repos": {}
   }
