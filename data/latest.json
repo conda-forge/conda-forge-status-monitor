@@ -1,7 +1,8 @@
 {
   "azure-pipelines": {
-    "total": 2178,
+    "total": 2171,
     "rates": {
+      "2024-08-12T07:15:00-04:00": 8,
       "2024-08-12T07:10:00-04:00": 4,
       "2024-08-12T07:05:00-04:00": 13,
       "2024-08-12T07:00:00-04:00": 26,
@@ -96,8 +97,7 @@
       "2024-08-11T23:35:00-04:00": 14,
       "2024-08-11T23:30:00-04:00": 2,
       "2024-08-11T23:25:00-04:00": 6,
-      "2024-08-11T23:20:00-04:00": 20,
-      "2024-08-11T23:15:00-04:00": 15
+      "2024-08-11T23:20:00-04:00": 20
     },
     "repos": {
       "conda-forge/tokenizers-feedstock": 359,
@@ -109,15 +109,15 @@
       "conda-forge/zen-engine-feedstock": 96,
       "conda-forge/numcodecs-feedstock": 80,
       "conda-forge/staged-recipes": 53,
+      "conda-forge/geant4-feedstock": 47,
       "conda-forge/r-raster-feedstock": 46,
-      "conda-forge/geant4-feedstock": 45,
       "conda-forge/r-tsp-feedstock": 45,
       "conda-forge/openpyxl-feedstock": 38,
       "conda-forge/r-terra-feedstock": 38,
-      "conda-forge/clangdev-feedstock": 37,
+      "conda-forge/clangdev-feedstock": 38,
       "conda-forge/lxml-feedstock": 36,
+      "conda-forge/biotite-feedstock": 35,
       "conda-forge/r-rsclient-feedstock": 34,
-      "conda-forge/biotite-feedstock": 31,
       "conda-forge/gunicorn-feedstock": 30,
       "conda-forge/lfortran-feedstock": 27,
       "conda-forge/sktime-feedstock": 21,
@@ -192,6 +192,7 @@
       "conda-forge/miniforge-images": 5,
       "conda-forge/r-xmisc-feedstock": 5,
       "conda-forge/modelbase-feedstock": 4,
+      "conda-forge/mcxtrace-suite-feedstock": 4,
       "conda-forge/python-fasthtml-feedstock": 4,
       "conda-forge/leafmap-feedstock": 4,
       "conda-forge/tianshou-feedstock": 4,
@@ -205,7 +206,6 @@
       "conda-forge/readchar-feedstock": 4,
       "conda-forge/pyrate-limiter-feedstock": 4,
       "conda-forge/r-tinyplot-feedstock": 3,
-      "conda-forge/mcxtrace-suite-feedstock": 3,
       "conda-forge/manif-feedstock": 3,
       "conda-forge/openml-feedstock": 3,
       "conda-forge/conda-forge-tick-feedstock": 2,
@@ -233,6 +233,7 @@
   "travis-ci": {
     "total": 10,
     "rates": {
+      "2024-08-12T07:15:00-04:00": 0,
       "2024-08-12T07:10:00-04:00": 0,
       "2024-08-12T07:05:00-04:00": 0,
       "2024-08-12T07:00:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2024-08-11T23:35:00-04:00": 0,
       "2024-08-11T23:30:00-04:00": 0,
       "2024-08-11T23:25:00-04:00": 0,
-      "2024-08-11T23:20:00-04:00": 0,
-      "2024-08-11T23:15:00-04:00": 0
+      "2024-08-11T23:20:00-04:00": 0
     },
     "repos": {
       "conda-forge/r-raster-feedstock": 5,
@@ -462,8 +462,9 @@
     }
   },
   "github-actions": {
-    "total": 520,
+    "total": 523,
     "rates": {
+      "2024-08-12T07:15:00-04:00": 5,
       "2024-08-12T07:10:00-04:00": 4,
       "2024-08-12T07:05:00-04:00": 3,
       "2024-08-12T07:00:00-04:00": 10,
@@ -558,18 +559,17 @@
       "2024-08-11T23:35:00-04:00": 0,
       "2024-08-11T23:30:00-04:00": 2,
       "2024-08-11T23:25:00-04:00": 1,
-      "2024-08-11T23:20:00-04:00": 7,
-      "2024-08-11T23:15:00-04:00": 2
+      "2024-08-11T23:20:00-04:00": 7
     },
     "repos": {
       "conda-forge/staged-recipes": 67,
-      "conda-forge/admin-requests": 46,
+      "conda-forge/admin-requests": 47,
       "conda-forge/r-raster-feedstock": 21,
-      "conda-forge/nodejs-feedstock": 15,
+      "conda-forge/nodejs-feedstock": 16,
       "conda-forge/folly-feedstock": 14,
       "conda-forge/python-isal-feedstock": 12,
+      "conda-forge/zen-engine-feedstock": 12,
       "conda-forge/tokenizers-feedstock": 12,
-      "conda-forge/zen-engine-feedstock": 11,
       "conda-forge/r-tsp-feedstock": 10,
       "conda-forge/r-rsclient-feedstock": 10,
       "conda-forge/foundry-dev-tools-feedstock": 9,
@@ -589,12 +589,14 @@
       "conda-forge/conda-forge-ci-setup-feedstock": 5,
       "conda-forge/r-tidyxl-feedstock": 5,
       "conda-forge/r-uniqueatommat-feedstock": 5,
+      "conda-forge/biotite-feedstock": 4,
       "conda-forge/tianshou-feedstock": 4,
       "conda-forge/r-destinie-feedstock": 4,
       "conda-forge/openml-feedstock": 4,
       "conda-forge/r-rrapply-feedstock": 4,
       "conda-forge/r-fastshap-feedstock": 4,
       "conda-forge/r-bayesm-feedstock": 4,
+      "conda-forge/geant4-feedstock": 4,
       "conda-forge/r-spatialpack-feedstock": 4,
       "conda-forge/tiledb-feedstock": 4,
       "conda-forge/r-xmisc-feedstock": 4,
@@ -605,7 +607,6 @@
       "conda-forge/r-qtl-feedstock": 4,
       "conda-forge/r-bain-feedstock": 4,
       "conda-forge/python-fasthtml-feedstock": 3,
-      "conda-forge/biotite-feedstock": 3,
       "conda-forge/r-changeforest-feedstock": 3,
       "conda-forge/r-freetypeharfbuzz-feedstock": 3,
       "conda-forge/r-box-feedstock": 3,
@@ -615,7 +616,6 @@
       "conda-forge/r-n2r-feedstock": 3,
       "conda-forge/r-rapidatetime-feedstock": 3,
       "conda-forge/r-rcppalgos-feedstock": 3,
-      "conda-forge/geant4-feedstock": 3,
       "conda-forge/jrsync-feedstock": 3,
       "conda-forge/tifffile-feedstock": 3,
       "conda-forge/gmshmodel-feedstock": 3,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2024-08-12T07:15:00-04:00": 0,
       "2024-08-12T07:10:00-04:00": 0,
       "2024-08-12T07:05:00-04:00": 0,
       "2024-08-12T07:00:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2024-08-11T23:35:00-04:00": 0,
       "2024-08-11T23:30:00-04:00": 0,
       "2024-08-11T23:25:00-04:00": 0,
-      "2024-08-11T23:20:00-04:00": 0,
-      "2024-08-11T23:15:00-04:00": 0
+      "2024-08-11T23:20:00-04:00": 0
     },
     "repos": {
       "conda-forge/jcc-feedstock": 2,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2024-08-12T07:15:00-04:00": 0,
       "2024-08-12T07:10:00-04:00": 0,
       "2024-08-12T07:05:00-04:00": 0,
       "2024-08-12T07:00:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2024-08-11T23:35:00-04:00": 0,
       "2024-08-11T23:30:00-04:00": 0,
       "2024-08-11T23:25:00-04:00": 0,
-      "2024-08-11T23:20:00-04:00": 0,
-      "2024-08-11T23:15:00-04:00": 0
+      "2024-08-11T23:20:00-04:00": 0
     },
     "repos": {
       "conda-forge/fiona-feedstock": 34,
@@ -1072,6 +1072,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2024-08-12T07:15:00-04:00": 0,
       "2024-08-12T07:10:00-04:00": 0,
       "2024-08-12T07:05:00-04:00": 0,
       "2024-08-12T07:00:00-04:00": 0,
@@ -1166,8 +1167,7 @@
       "2024-08-11T23:35:00-04:00": 0,
       "2024-08-11T23:30:00-04:00": 0,
       "2024-08-11T23:25:00-04:00": 0,
-      "2024-08-11T23:20:00-04:00": 0,
-      "2024-08-11T23:15:00-04:00": 0
+      "2024-08-11T23:20:00-04:00": 0
     },
     "repos": {}
   }
