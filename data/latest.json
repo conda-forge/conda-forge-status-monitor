@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2531,
+    "total": 2576,
     "rates": {
-      "2024-08-29T11:05:00-04:00": 10,
+      "2024-08-29T11:10:00-04:00": 50,
+      "2024-08-29T11:05:00-04:00": 16,
       "2024-08-29T11:00:00-04:00": 18,
       "2024-08-29T10:55:00-04:00": 59,
       "2024-08-29T10:50:00-04:00": 78,
@@ -96,28 +97,27 @@
       "2024-08-29T03:30:00-04:00": 19,
       "2024-08-29T03:25:00-04:00": 31,
       "2024-08-29T03:20:00-04:00": 25,
-      "2024-08-29T03:15:00-04:00": 32,
-      "2024-08-29T03:10:00-04:00": 11
+      "2024-08-29T03:15:00-04:00": 32
     },
     "repos": {
-      "conda-forge/staged-recipes": 123,
+      "conda-forge/staged-recipes": 124,
       "conda-forge/cross-python-feedstock": 97,
-      "conda-forge/arcticdb-feedstock": 88,
-      "conda-forge/sqlglotrs-feedstock": 86,
+      "conda-forge/sqlglotrs-feedstock": 91,
+      "conda-forge/arcticdb-feedstock": 89,
       "conda-forge/netcdf-fortran-feedstock": 68,
+      "conda-forge/pdm-backend-feedstock": 61,
       "conda-forge/shap-feedstock": 57,
       "conda-forge/cythonbiogeme-feedstock": 49,
       "conda-forge/perspective-feedstock": 37,
       "conda-forge/dimod-feedstock": 36,
-      "conda-forge/pdm-backend-feedstock": 31,
       "conda-forge/casacore-feedstock": 31,
+      "conda-forge/pinocchio-feedstock": 26,
       "conda-forge/libmetatensor-feedstock": 26,
       "conda-forge/librerun-sdk-feedstock": 25,
-      "conda-forge/pinocchio-feedstock": 24,
       "conda-forge/checkov-feedstock": 22,
       "conda-forge/rerun-sdk-feedstock": 21,
       "conda-forge/qubovert-feedstock": 20,
-      "conda-forge/rdkit-feedstock": 18,
+      "conda-forge/rdkit-feedstock": 19,
       "conda-forge/lsst-sphgeom-feedstock": 17,
       "conda-forge/e3sm-unified-feedstock": 17,
       "conda-forge/torchmd-net-feedstock": 17,
@@ -133,7 +133,8 @@
       "conda-forge/easygems-feedstock": 9,
       "conda-forge/harper-feedstock": 8,
       "conda-forge/gospel-feedstock": 8,
-      "conda-forge/plothist-feedstock": 8,
+      "conda-forge/python-feedstock": 7,
+      "conda-forge/biorbd-feedstock": 7,
       "conda-forge/selenium-feedstock": 7,
       "conda-forge/micromamba-feedstock": 7,
       "conda-forge/ostaphep-feedstock": 7,
@@ -156,9 +157,11 @@
       "conda-forge/cp2kdata-feedstock": 6,
       "conda-forge/libmetatensor-torch-feedstock": 5,
       "conda-forge/metatensor-feedstock": 5,
+      "conda-forge/opentelemetry-instrumentation-aiopg-feedstock": 4,
       "conda-forge/opentelemetry-instrumentation-wsgi-feedstock": 4,
       "conda-forge/opentelemetry-instrumentation-mysql-feedstock": 4,
       "conda-forge/opentelemetry-instrumentation-asgi-feedstock": 4,
+      "conda-forge/openturns-feedstock": 4,
       "conda-forge/atpublic-feedstock": 4,
       "conda-forge/djlint-feedstock": 4,
       "conda-forge/deepdiff-feedstock": 4,
@@ -198,7 +201,6 @@
       "conda-forge/opentelemetry-instrumentation-pymongo-feedstock": 4,
       "conda-forge/opentelemetry-instrumentation-boto-feedstock": 4,
       "conda-forge/pygwalker-feedstock": 4,
-      "conda-forge/biorbd-feedstock": 3,
       "conda-forge/lxml-html-clean-feedstock": 3,
       "conda-forge/nwchem-feedstock": 3,
       "conda-forge/pip-feedstock": 3,
@@ -207,7 +209,6 @@
       "conda-forge/ssubmit-feedstock": 3,
       "conda-forge/anaconda-cloud-cli-feedstock": 3,
       "conda-forge/dockle-feedstock": 3,
-      "conda-forge/opentelemetry-instrumentation-aiopg-feedstock": 2,
       "conda-forge/opentelemetry-instrumentation-pymysql-feedstock": 2,
       "conda-forge/albucore-feedstock": 2,
       "conda-forge/mudirac-feedstock": 2,
@@ -226,13 +227,13 @@
       "conda-forge/overturemaps-feedstock": 2,
       "conda-forge/e3sm-tools-feedstock": 2,
       "conda-forge/sphinx-autoapi-feedstock": 2,
-      "conda-forge/python-feedstock": 1,
-      "conda-forge/openturns-feedstock": 1
+      "conda-forge/stackvana-core-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 10,
     "rates": {
+      "2024-08-29T11:10:00-04:00": 0,
       "2024-08-29T11:05:00-04:00": 0,
       "2024-08-29T11:00:00-04:00": 0,
       "2024-08-29T10:55:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2024-08-29T03:30:00-04:00": 0,
       "2024-08-29T03:25:00-04:00": 0,
       "2024-08-29T03:20:00-04:00": 0,
-      "2024-08-29T03:15:00-04:00": 0,
-      "2024-08-29T03:10:00-04:00": 0
+      "2024-08-29T03:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/crest-feedstock": 9,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 929,
+    "total": 926,
     "rates": {
-      "2024-08-29T11:05:00-04:00": 4,
+      "2024-08-29T11:10:00-04:00": 3,
+      "2024-08-29T11:05:00-04:00": 5,
       "2024-08-29T11:00:00-04:00": 8,
       "2024-08-29T10:55:00-04:00": 19,
       "2024-08-29T10:50:00-04:00": 19,
@@ -558,8 +559,7 @@
       "2024-08-29T03:30:00-04:00": 12,
       "2024-08-29T03:25:00-04:00": 10,
       "2024-08-29T03:20:00-04:00": 11,
-      "2024-08-29T03:15:00-04:00": 9,
-      "2024-08-29T03:10:00-04:00": 7
+      "2024-08-29T03:15:00-04:00": 9
     },
     "repos": {
       "conda-forge/staged-recipes": 40,
@@ -568,9 +568,9 @@
       "conda-forge/arcticdb-feedstock": 14,
       "conda-forge/cythonbiogeme-feedstock": 10,
       "conda-forge/conda-forge-pinning-feedstock": 9,
+      "conda-forge/sqlglotrs-feedstock": 8,
       "conda-forge/easygems-feedstock": 8,
       "conda-forge/admin-requests": 7,
-      "conda-forge/sqlglotrs-feedstock": 7,
       "conda-forge/crest-feedstock": 7,
       "conda-forge/cdflib-feedstock": 7,
       "conda-forge/jupyter-server-proxy-feedstock": 6,
@@ -579,6 +579,7 @@
       "conda-forge/cp2kdata-feedstock": 6,
       "conda-forge/libmetatensor-feedstock": 5,
       "conda-forge/opentelemetry-proto-feedstock": 5,
+      "conda-forge/pdm-backend-feedstock": 4,
       "conda-forge/python-cinderclient-feedstock": 4,
       "conda-forge/selenium-feedstock": 4,
       "conda-forge/perspective-feedstock": 4,
@@ -607,8 +608,8 @@
       "conda-forge/opentelemetry-instrumentation-mysql-feedstock": 2,
       "conda-forge/opentelemetry-instrumentation-asgi-feedstock": 2,
       "conda-forge/opentelemetry-instrumentation-pymysql-feedstock": 2,
+      "conda-forge/openturns-feedstock": 2,
       "conda-forge/cads-api-client-feedstock": 2,
-      "conda-forge/pdm-backend-feedstock": 2,
       "conda-forge/djlint-feedstock": 2,
       "conda-forge/deepdiff-feedstock": 2,
       "conda-forge/librerun-sdk-feedstock": 2,
@@ -667,7 +668,6 @@
       "conda-forge/albucore-feedstock": 1,
       "conda-forge/mudirac-feedstock": 1,
       "conda-forge/python-feedstock": 1,
-      "conda-forge/openturns-feedstock": 1,
       "conda-forge/stream-inflate-feedstock": 1,
       "conda-forge/stackvana-core-feedstock": 1,
       "conda-forge/biorbd-feedstock": 1,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2024-08-29T11:10:00-04:00": 0,
       "2024-08-29T11:05:00-04:00": 0,
       "2024-08-29T11:00:00-04:00": 0,
       "2024-08-29T10:55:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2024-08-29T03:30:00-04:00": 0,
       "2024-08-29T03:25:00-04:00": 0,
       "2024-08-29T03:20:00-04:00": 0,
-      "2024-08-29T03:15:00-04:00": 0,
-      "2024-08-29T03:10:00-04:00": 0
+      "2024-08-29T03:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/r-stanheaders-feedstock": 1,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2024-08-29T11:10:00-04:00": 0,
       "2024-08-29T11:05:00-04:00": 0,
       "2024-08-29T11:00:00-04:00": 0,
       "2024-08-29T10:55:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2024-08-29T03:30:00-04:00": 0,
       "2024-08-29T03:25:00-04:00": 0,
       "2024-08-29T03:20:00-04:00": 0,
-      "2024-08-29T03:15:00-04:00": 0,
-      "2024-08-29T03:10:00-04:00": 0
+      "2024-08-29T03:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/fiona-feedstock": 34,
@@ -1073,6 +1073,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2024-08-29T11:10:00-04:00": 0,
       "2024-08-29T11:05:00-04:00": 0,
       "2024-08-29T11:00:00-04:00": 0,
       "2024-08-29T10:55:00-04:00": 0,
@@ -1167,8 +1168,7 @@
       "2024-08-29T03:30:00-04:00": 0,
       "2024-08-29T03:25:00-04:00": 0,
       "2024-08-29T03:20:00-04:00": 0,
-      "2024-08-29T03:15:00-04:00": 0,
-      "2024-08-29T03:10:00-04:00": 0
+      "2024-08-29T03:15:00-04:00": 0
     },
     "repos": {}
   }
