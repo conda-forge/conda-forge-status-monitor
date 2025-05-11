@@ -1,7 +1,8 @@
 {
   "azure-pipelines": {
-    "total": 638,
+    "total": 649,
     "rates": {
+      "2025-05-11T06:25:00-04:00": 20,
       "2025-05-11T06:20:00-04:00": 4,
       "2025-05-11T06:15:00-04:00": 3,
       "2025-05-11T06:10:00-04:00": 5,
@@ -96,8 +97,7 @@
       "2025-05-10T22:45:00-04:00": 6,
       "2025-05-10T22:40:00-04:00": 3,
       "2025-05-10T22:35:00-04:00": 4,
-      "2025-05-10T22:30:00-04:00": 4,
-      "2025-05-10T22:25:00-04:00": 9
+      "2025-05-10T22:30:00-04:00": 4
     },
     "repos": {
       "conda-forge/staged-recipes": 96,
@@ -107,11 +107,11 @@
       "conda-forge/pyscipopt-feedstock": 44,
       "conda-forge/libplanc-feedstock": 43,
       "conda-forge/lfdfiles-feedstock": 43,
-      "conda-forge/ray-packages-feedstock": 38,
+      "conda-forge/ray-packages-feedstock": 40,
+      "conda-forge/apsw-feedstock": 37,
       "conda-forge/astroid-feedstock": 32,
       "conda-forge/r-betareg-feedstock": 28,
       "conda-forge/nvimgcodec-feedstock": 27,
-      "conda-forge/apsw-feedstock": 23,
       "conda-forge/ty-feedstock": 20,
       "conda-forge/openvino-feedstock": 19,
       "conda-forge/lightningcss-feedstock": 16,
@@ -126,6 +126,7 @@
       "conda-forge/azure-mgmt-iotcentral-feedstock": 10,
       "conda-forge/ostaphep-feedstock": 10,
       "conda-forge/azure-mgmt-policyinsights-feedstock": 9,
+      "conda-forge/textstat-feedstock": 9,
       "conda-forge/opentelemetry-instrumentation-groq-feedstock": 9,
       "conda-forge/opentelemetry-instrumentation-lancedb-feedstock": 9,
       "conda-forge/opentelemetry-instrumentation-crewai-feedstock": 9,
@@ -143,7 +144,6 @@
       "conda-forge/sphinx-github-changelog-feedstock": 6,
       "conda-forge/litellm-feedstock": 6,
       "conda-forge/opentelemetry-distro-feedstock": 6,
-      "conda-forge/textstat-feedstock": 6,
       "conda-forge/types-setuptools-feedstock": 6,
       "conda-forge/stdlibs-feedstock": 6,
       "conda-forge/naif_eop_high_prec-feedstock": 6,
@@ -187,7 +187,6 @@
       "conda-forge/opentelemetry-instrumentation-system-metrics-feedstock": 6,
       "conda-forge/foamlib-feedstock": 6,
       "conda-forge/ford-feedstock": 6,
-      "conda-forge/opentelemetry-exporter-otlp-proto-grpc-feedstock": 6,
       "conda-forge/wasmer-feedstock": 5,
       "conda-forge/pythran-feedstock": 5,
       "conda-forge/markdownlint-cli2-feedstock": 4,
@@ -227,12 +226,14 @@
       "conda-forge/pypdfform-feedstock": 3,
       "conda-forge/fastcrud-feedstock": 3,
       "conda-forge/aiida-core-feedstock": 3,
+      "conda-forge/opentelemetry-instrumentation-dbapi-feedstock": 1,
       "conda-forge/apache-airflow-providers-amazon-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2025-05-11T06:25:00-04:00": 0,
       "2025-05-11T06:20:00-04:00": 0,
       "2025-05-11T06:15:00-04:00": 0,
       "2025-05-11T06:10:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2025-05-10T22:45:00-04:00": 0,
       "2025-05-10T22:40:00-04:00": 0,
       "2025-05-10T22:35:00-04:00": 0,
-      "2025-05-10T22:30:00-04:00": 0,
-      "2025-05-10T22:25:00-04:00": 0
+      "2025-05-10T22:30:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 677,
+    "total": 691,
     "rates": {
-      "2025-05-11T06:20:00-04:00": 18,
+      "2025-05-11T06:25:00-04:00": 12,
+      "2025-05-11T06:20:00-04:00": 24,
       "2025-05-11T06:15:00-04:00": 5,
       "2025-05-11T06:10:00-04:00": 0,
       "2025-05-11T06:05:00-04:00": 1,
@@ -558,13 +559,12 @@
       "2025-05-10T22:45:00-04:00": 5,
       "2025-05-10T22:40:00-04:00": 4,
       "2025-05-10T22:35:00-04:00": 0,
-      "2025-05-10T22:30:00-04:00": 3,
-      "2025-05-10T22:25:00-04:00": 4
+      "2025-05-10T22:30:00-04:00": 3
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 299,
+      "conda-forge/conda-forge-webservices": 316,
       "conda-forge/admin-migrations": 44,
-      "conda-forge/admin-requests": 41,
+      "conda-forge/admin-requests": 42,
       "conda-forge/tensorflow-feedstock": 28,
       "conda-forge/miniforge-images": 23,
       "conda-forge/by-the-numbers": 22,
@@ -693,9 +693,10 @@
     }
   },
   "appveyor": {
-    "total": 0,
+    "total": 1,
     "rates": {
-      "2025-05-11T06:20:00-04:00": 0,
+      "2025-05-11T06:25:00-04:00": 0,
+      "2025-05-11T06:20:00-04:00": 1,
       "2025-05-11T06:15:00-04:00": 0,
       "2025-05-11T06:10:00-04:00": 0,
       "2025-05-11T06:05:00-04:00": 0,
@@ -789,10 +790,10 @@
       "2025-05-10T22:45:00-04:00": 0,
       "2025-05-10T22:40:00-04:00": 0,
       "2025-05-10T22:35:00-04:00": 0,
-      "2025-05-10T22:30:00-04:00": 0,
-      "2025-05-10T22:25:00-04:00": 0
+      "2025-05-10T22:30:00-04:00": 0
     },
     "repos": {
+      "conda-forge/apsw-feedstock": 1,
       "conda-forge/glib-feedstock": 1,
       "conda-forge/ibis-framework-feedstock": 1,
       "conda-forge/python-feedstock": 1,
@@ -919,13 +920,13 @@
       "conda-forge/namaster-feedstock": 1,
       "conda-forge/atpublic-feedstock": 1,
       "conda-forge/aws-iam-authenticator-feedstock": 1,
-      "conda-forge/cyan-feedstock": 1,
-      "conda-forge/scijava-jupyter-kernel-feedstock": 1
+      "conda-forge/cyan-feedstock": 1
     }
   },
   "circleci": {
     "total": 0,
     "rates": {
+      "2025-05-11T06:25:00-04:00": 0,
       "2025-05-11T06:20:00-04:00": 0,
       "2025-05-11T06:15:00-04:00": 0,
       "2025-05-11T06:10:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2025-05-10T22:45:00-04:00": 0,
       "2025-05-10T22:40:00-04:00": 0,
       "2025-05-10T22:35:00-04:00": 0,
-      "2025-05-10T22:30:00-04:00": 0,
-      "2025-05-10T22:25:00-04:00": 0
+      "2025-05-10T22:30:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 52,
@@ -1106,6 +1106,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2025-05-11T06:25:00-04:00": 0,
       "2025-05-11T06:20:00-04:00": 0,
       "2025-05-11T06:15:00-04:00": 0,
       "2025-05-11T06:10:00-04:00": 0,
@@ -1200,8 +1201,7 @@
       "2025-05-10T22:45:00-04:00": 0,
       "2025-05-10T22:40:00-04:00": 0,
       "2025-05-10T22:35:00-04:00": 0,
-      "2025-05-10T22:30:00-04:00": 0,
-      "2025-05-10T22:25:00-04:00": 0
+      "2025-05-10T22:30:00-04:00": 0
     },
     "repos": {}
   }
