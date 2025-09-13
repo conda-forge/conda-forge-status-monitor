@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 3087,
+    "total": 3228,
     "rates": {
-      "2025-09-13T02:05:00-04:00": 26,
+      "2025-09-13T02:10:00-04:00": 14,
+      "2025-09-13T02:05:00-04:00": 187,
       "2025-09-13T02:00:00-04:00": 45,
       "2025-09-13T01:55:00-04:00": 63,
       "2025-09-13T01:50:00-04:00": 28,
@@ -96,13 +97,13 @@
       "2025-09-12T18:30:00-04:00": 40,
       "2025-09-12T18:25:00-04:00": 31,
       "2025-09-12T18:20:00-04:00": 42,
-      "2025-09-12T18:15:00-04:00": 52,
-      "2025-09-12T18:10:00-04:00": 34
+      "2025-09-12T18:15:00-04:00": 52
     },
     "repos": {
       "conda-forge/cupy-feedstock": 341,
       "conda-forge/cyrsoxs-feedstock": 124,
       "conda-forge/pbcuda-feedstock": 104,
+      "conda-forge/openpmd-api-feedstock": 95,
       "conda-forge/ghc-bootstrap-feedstock": 88,
       "conda-forge/sqsgenerator-feedstock": 85,
       "conda-forge/pari_jupyter-feedstock": 81,
@@ -120,6 +121,7 @@
       "conda-forge/r-gnm-feedstock": 46,
       "conda-forge/bipedal-locomotion-framework-feedstock": 44,
       "conda-forge/yt_astro_analysis-feedstock": 41,
+      "conda-forge/jenkinsapi-feedstock": 40,
       "conda-forge/apache-sedona-feedstock": 40,
       "conda-forge/r-fst-feedstock": 39,
       "conda-forge/r-paramhelpers-feedstock": 38,
@@ -127,23 +129,24 @@
       "conda-forge/pymeshfix-feedstock": 33,
       "conda-forge/r-earth-feedstock": 32,
       "conda-forge/r-mlr3misc-feedstock": 32,
+      "conda-forge/skia-pathops-feedstock": 31,
       "conda-forge/verapdf-feedstock": 31,
       "conda-forge/r-fastghquad-feedstock": 31,
       "conda-forge/python-pcl-feedstock": 29,
       "conda-forge/graphblas-feedstock": 27,
       "conda-forge/ghc-feedstock": 27,
       "conda-forge/r-mcmcpack-feedstock": 27,
+      "conda-forge/pixsfm-feedstock": 26,
       "conda-forge/vmtk-feedstock": 26,
       "conda-forge/libmobility-feedstock": 26,
       "conda-forge/oh-my-posh-feedstock": 26,
-      "conda-forge/jenkinsapi-feedstock": 25,
       "conda-forge/singular-feedstock": 23,
       "conda-forge/e-antic-feedstock": 23,
+      "conda-forge/r-chron-feedstock": 22,
       "conda-forge/quarto-feedstock": 22,
       "conda-forge/cigetcert-feedstock": 22,
-      "conda-forge/r-chron-feedstock": 20,
+      "conda-forge/python-augeas-feedstock": 20,
       "conda-forge/extra-cmake-modules-feedstock": 19,
-      "conda-forge/skia-pathops-feedstock": 18,
       "conda-forge/sagelib-feedstock": 18,
       "conda-forge/libutf8proc-feedstock": 16,
       "conda-forge/r-itertools-feedstock": 16,
@@ -159,7 +162,6 @@
       "conda-forge/r-coro-feedstock": 16,
       "conda-forge/r-globaloptions-feedstock": 16,
       "conda-forge/r-sn-feedstock": 16,
-      "conda-forge/vue-language-server-feedstock": 16,
       "conda-forge/r-clustergeneration-feedstock": 15,
       "conda-forge/r-mosaiccore-feedstock": 15,
       "conda-forge/r-metafor-feedstock": 15,
@@ -172,6 +174,7 @@
       "conda-forge/psrchive-feedstock": 14,
       "conda-forge/eclib-feedstock": 13,
       "conda-forge/linbox-feedstock": 13,
+      "conda-forge/opentelemetry-instrumentation-pymysql-feedstock": 12,
       "conda-forge/opentelemetry-instrumentation-httpx-feedstock": 12,
       "conda-forge/sidpy-feedstock": 12,
       "conda-forge/composio-client-feedstock": 12,
@@ -188,8 +191,6 @@
       "conda-forge/opentelemetry-instrumentation-sqlite3-feedstock": 12,
       "conda-forge/anaconda-client-feedstock": 12,
       "conda-forge/iam-units-feedstock": 12,
-      "conda-forge/legend-pygeom-tools-feedstock": 12,
-      "conda-forge/tldr-feedstock": 12,
       "conda-forge/opentelemetry-instrumentation-boto-feedstock": 11,
       "conda-forge/opentelemetry-sdk-feedstock": 11,
       "conda-forge/opentelemetry-instrumentation-aiopg-feedstock": 11,
@@ -200,10 +201,9 @@
       "conda-forge/scipy-stubs-feedstock": 11,
       "conda-forge/llama-index-cli-feedstock": 10,
       "conda-forge/llama-index-workflows-feedstock": 10,
-      "conda-forge/opentelemetry-instrumentation-pymysql-feedstock": 8,
       "conda-forge/typescript-language-server-feedstock": 8,
       "conda-forge/r-circstats-feedstock": 7,
-      "conda-forge/python-augeas-feedstock": 6,
+      "conda-forge/aiobotocore-feedstock": 6,
       "conda-forge/opera-utils-feedstock": 6,
       "conda-forge/boutiques-feedstock": 6,
       "conda-forge/multidimio-feedstock": 6,
@@ -212,7 +212,6 @@
       "conda-forge/pygsp-feedstock": 6,
       "conda-forge/parsy-feedstock": 6,
       "conda-forge/msgraph-sdk-feedstock": 6,
-      "conda-forge/google-cloud-aiplatform-feedstock": 6,
       "conda-forge/zope.component-feedstock": 5,
       "conda-forge/botocore-feedstock": 5,
       "conda-forge/zope.sqlalchemy-feedstock": 5,
@@ -223,16 +222,18 @@
       "conda-forge/snowflake-ml-python-feedstock": 5,
       "conda-forge/py-shiny-feedstock": 5,
       "conda-forge/python-manilaclient-feedstock": 5,
-      "conda-forge/pixsfm-feedstock": 4,
       "conda-forge/dogpile.cache-feedstock": 4,
       "conda-forge/libflint-feedstock": 3,
-      "conda-forge/aiobotocore-feedstock": 2,
-      "conda-forge/openpmd-api-feedstock": 2
+      "conda-forge/hdf5-feedstock": 2,
+      "conda-forge/appscript-feedstock": 2,
+      "conda-forge/adios2-feedstock": 2,
+      "conda-forge/opentelemetry-instrumentation-wsgi-feedstock": 2
     }
   },
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2025-09-13T02:10:00-04:00": 0,
       "2025-09-13T02:05:00-04:00": 0,
       "2025-09-13T02:00:00-04:00": 0,
       "2025-09-13T01:55:00-04:00": 0,
@@ -327,8 +328,7 @@
       "2025-09-12T18:30:00-04:00": 0,
       "2025-09-12T18:25:00-04:00": 0,
       "2025-09-12T18:20:00-04:00": 0,
-      "2025-09-12T18:15:00-04:00": 0,
-      "2025-09-12T18:10:00-04:00": 0
+      "2025-09-12T18:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -462,9 +462,10 @@
     }
   },
   "github-actions": {
-    "total": 1383,
+    "total": 1403,
     "rates": {
-      "2025-09-13T02:05:00-04:00": 8,
+      "2025-09-13T02:10:00-04:00": 5,
+      "2025-09-13T02:05:00-04:00": 41,
       "2025-09-13T02:00:00-04:00": 25,
       "2025-09-13T01:55:00-04:00": 27,
       "2025-09-13T01:50:00-04:00": 26,
@@ -558,16 +559,15 @@
       "2025-09-12T18:30:00-04:00": 6,
       "2025-09-12T18:25:00-04:00": 22,
       "2025-09-12T18:20:00-04:00": 9,
-      "2025-09-12T18:15:00-04:00": 20,
-      "2025-09-12T18:10:00-04:00": 18
+      "2025-09-12T18:15:00-04:00": 20
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 6092,
+      "conda-forge/conda-forge-webservices": 6129,
       "conda-forge/staged-recipes": 362,
       "conda-forge/admin-requests": 218,
       "conda-forge/jaxlib-feedstock": 61,
+      "conda-forge/by-the-numbers": 25,
       "conda-forge/miniforge-images": 25,
-      "conda-forge/by-the-numbers": 24,
       "conda-forge/pytorch-cpu-feedstock": 24,
       "conda-forge/admin-migrations": 21,
       "conda-forge/core-notes": 21,
@@ -695,6 +695,7 @@
   "appveyor": {
     "total": 1,
     "rates": {
+      "2025-09-13T02:10:00-04:00": 0,
       "2025-09-13T02:05:00-04:00": 0,
       "2025-09-13T02:00:00-04:00": 0,
       "2025-09-13T01:55:00-04:00": 0,
@@ -789,8 +790,7 @@
       "2025-09-12T18:30:00-04:00": 0,
       "2025-09-12T18:25:00-04:00": 0,
       "2025-09-12T18:20:00-04:00": 0,
-      "2025-09-12T18:15:00-04:00": 0,
-      "2025-09-12T18:10:00-04:00": 0
+      "2025-09-12T18:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/ghc-bootstrap-feedstock": 1,
@@ -926,6 +926,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2025-09-13T02:10:00-04:00": 0,
       "2025-09-13T02:05:00-04:00": 0,
       "2025-09-13T02:00:00-04:00": 0,
       "2025-09-13T01:55:00-04:00": 0,
@@ -1020,8 +1021,7 @@
       "2025-09-12T18:30:00-04:00": 0,
       "2025-09-12T18:25:00-04:00": 0,
       "2025-09-12T18:20:00-04:00": 0,
-      "2025-09-12T18:15:00-04:00": 0,
-      "2025-09-12T18:10:00-04:00": 0
+      "2025-09-12T18:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1111,6 +1111,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2025-09-13T02:10:00-04:00": 0,
       "2025-09-13T02:05:00-04:00": 0,
       "2025-09-13T02:00:00-04:00": 0,
       "2025-09-13T01:55:00-04:00": 0,
@@ -1205,8 +1206,7 @@
       "2025-09-12T18:30:00-04:00": 0,
       "2025-09-12T18:25:00-04:00": 0,
       "2025-09-12T18:20:00-04:00": 0,
-      "2025-09-12T18:15:00-04:00": 0,
-      "2025-09-12T18:10:00-04:00": 0
+      "2025-09-12T18:15:00-04:00": 0
     },
     "repos": {}
   }
