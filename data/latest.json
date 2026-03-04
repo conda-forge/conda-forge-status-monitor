@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 3493,
+    "total": 3495,
     "rates": {
-      "2026-03-03T19:15:00-05:00": 3,
+      "2026-03-03T19:20:00-05:00": 7,
+      "2026-03-03T19:15:00-05:00": 8,
       "2026-03-03T19:10:00-05:00": 17,
       "2026-03-03T19:05:00-05:00": 24,
       "2026-03-03T19:00:00-05:00": 14,
@@ -144,8 +145,7 @@
       "2026-03-03T07:40:00-05:00": 4,
       "2026-03-03T07:35:00-05:00": 16,
       "2026-03-03T07:30:00-05:00": 4,
-      "2026-03-03T07:25:00-05:00": 18,
-      "2026-03-03T07:20:00-05:00": 10
+      "2026-03-03T07:25:00-05:00": 18
     },
     "repos": {
       "conda-forge/rosettasciio-feedstock": 213,
@@ -166,6 +166,7 @@
       "conda-forge/onnxruntime-feedstock": 18,
       "conda-forge/classixclustering-feedstock": 18,
       "conda-forge/google-cloud-storage-control-feedstock": 18,
+      "conda-forge/zig-feedstock": 17,
       "conda-forge/openexr-python-feedstock": 17,
       "conda-forge/argo-cli-feedstock": 17,
       "conda-forge/nvidia-dali-python-feedstock": 17,
@@ -174,7 +175,6 @@
       "conda-forge/rav1e-feedstock": 16,
       "conda-forge/pwlf-feedstock": 15,
       "conda-forge/brainglobe-utils-feedstock": 15,
-      "conda-forge/zig-feedstock": 13,
       "conda-forge/ncbi-datasets-cli-feedstock": 13,
       "conda-forge/scalable-vs-packs-feedstock": 12,
       "conda-forge/uv-feedstock": 12,
@@ -190,6 +190,7 @@
       "conda-forge/csp-gateway-feedstock": 11,
       "conda-forge/sqlalchemy-searchable-feedstock": 10,
       "conda-forge/iverilog-feedstock": 10,
+      "conda-forge/nccl-feedstock": 10,
       "conda-forge/babel-feedstock": 10,
       "conda-forge/compressed-tensors-feedstock": 9,
       "conda-forge/geoai-py-feedstock": 9,
@@ -211,7 +212,6 @@
       "conda-forge/linux-sysroot-feedstock": 7,
       "conda-forge/fastmcp-feedstock": 6,
       "conda-forge/sagemaker-core-feedstock": 6,
-      "conda-forge/nccl-feedstock": 6,
       "conda-forge/executorlib-feedstock": 6,
       "conda-forge/kmsxx-feedstock": 6,
       "conda-forge/jupyterlite-terminal-feedstock": 6,
@@ -224,6 +224,8 @@
       "conda-forge/libcups-feedstock": 5,
       "conda-forge/nebi-feedstock": 5,
       "conda-forge/nono-feedstock": 4,
+      "conda-forge/openonload-feedstock": 3,
+      "conda-forge/pandas_market_calendars-feedstock": 3,
       "conda-forge/llmcompressor-feedstock": 3,
       "conda-forge/auto-round-feedstock": 3,
       "conda-forge/jupyter-server-mcp-feedstock": 3,
@@ -271,8 +273,6 @@
       "conda-forge/root-feedstock": 2,
       "conda-forge/sagemaker-jupyterlab-emr-extension-feedstock": 2,
       "conda-forge/arviz-stats-feedstock": 2,
-      "conda-forge/openonload-feedstock": 1,
-      "conda-forge/pandas_market_calendars-feedstock": 1,
       "conda-forge/xilinx-runtime-feedstock": 1,
       "conda-forge/cdt-builds": 1,
       "conda-forge/icechunk-feedstock": 1
@@ -281,6 +281,7 @@
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-03-03T19:20:00-05:00": 0,
       "2026-03-03T19:15:00-05:00": 0,
       "2026-03-03T19:10:00-05:00": 0,
       "2026-03-03T19:05:00-05:00": 0,
@@ -423,8 +424,7 @@
       "2026-03-03T07:40:00-05:00": 0,
       "2026-03-03T07:35:00-05:00": 0,
       "2026-03-03T07:30:00-05:00": 0,
-      "2026-03-03T07:25:00-05:00": 0,
-      "2026-03-03T07:20:00-05:00": 0
+      "2026-03-03T07:25:00-05:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 2839,
+    "total": 2830,
     "rates": {
-      "2026-03-03T19:15:00-05:00": 9,
+      "2026-03-03T19:20:00-05:00": 3,
+      "2026-03-03T19:15:00-05:00": 10,
       "2026-03-03T19:10:00-05:00": 14,
       "2026-03-03T19:05:00-05:00": 6,
       "2026-03-03T19:00:00-05:00": 6,
@@ -702,8 +703,7 @@
       "2026-03-03T07:40:00-05:00": 4,
       "2026-03-03T07:35:00-05:00": 15,
       "2026-03-03T07:30:00-05:00": 4,
-      "2026-03-03T07:25:00-05:00": 68,
-      "2026-03-03T07:20:00-05:00": 13
+      "2026-03-03T07:25:00-05:00": 68
     },
     "repos": {
       "conda-forge/onnxruntime-feedstock": 311,
@@ -711,7 +711,7 @@
       "conda-forge/conda-forge.github.io": 56,
       "conda-forge/pytorch-cpu-feedstock": 48,
       "conda-forge/jaxlib-feedstock": 36,
-      "conda-forge/conda-forge-webservices": 22,
+      "conda-forge/conda-forge-webservices": 25,
       "conda-forge/cf-autotick-bot-test-package-feedstock": 21,
       "conda-forge/docker-images": 18,
       "conda-forge/admin-migrations": 16,
@@ -724,6 +724,7 @@
       "conda-forge/core-notes": 7,
       "conda-forge/conda-forge-feedstock-ops": 6,
       "conda-forge/conda-forge-repodata-patches-feedstock": 6,
+      "conda-forge/miniforge": 4,
       "conda-forge/pyarrow-feedstock": 4,
       "conda-forge/pixman-feedstock": 4,
       "conda-forge/intel_repack-feedstock": 4,
@@ -742,7 +743,6 @@
       "conda-forge/pydeprecate-feedstock": 4,
       "conda-forge/datasketches-feedstock": 4,
       "conda-forge/muscat-split-feedstock": 4,
-      "conda-forge/miniforge": 3,
       "conda-forge/xformers-feedstock": 3,
       "conda-forge/python-semantic-release-feedstock": 3,
       "conda-forge/wannierberri-feedstock": 3,
@@ -839,6 +839,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-03-03T19:20:00-05:00": 0,
       "2026-03-03T19:15:00-05:00": 0,
       "2026-03-03T19:10:00-05:00": 0,
       "2026-03-03T19:05:00-05:00": 0,
@@ -981,8 +982,7 @@
       "2026-03-03T07:40:00-05:00": 0,
       "2026-03-03T07:35:00-05:00": 0,
       "2026-03-03T07:30:00-05:00": 0,
-      "2026-03-03T07:25:00-05:00": 0,
-      "2026-03-03T07:20:00-05:00": 0
+      "2026-03-03T07:25:00-05:00": 0
     },
     "repos": {
       "conda-forge/tensorflow-feedstock": 1,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-03-03T19:20:00-05:00": 0,
       "2026-03-03T19:15:00-05:00": 0,
       "2026-03-03T19:10:00-05:00": 0,
       "2026-03-03T19:05:00-05:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-03-03T07:40:00-05:00": 0,
       "2026-03-03T07:35:00-05:00": 0,
       "2026-03-03T07:30:00-05:00": 0,
-      "2026-03-03T07:25:00-05:00": 0,
-      "2026-03-03T07:20:00-05:00": 0
+      "2026-03-03T07:25:00-05:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1357,6 +1357,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-03-03T19:20:00-05:00": 0,
       "2026-03-03T19:15:00-05:00": 0,
       "2026-03-03T19:10:00-05:00": 0,
       "2026-03-03T19:05:00-05:00": 0,
@@ -1499,8 +1500,7 @@
       "2026-03-03T07:40:00-05:00": 0,
       "2026-03-03T07:35:00-05:00": 0,
       "2026-03-03T07:30:00-05:00": 0,
-      "2026-03-03T07:25:00-05:00": 0,
-      "2026-03-03T07:20:00-05:00": 0
+      "2026-03-03T07:25:00-05:00": 0
     },
     "repos": {}
   }
