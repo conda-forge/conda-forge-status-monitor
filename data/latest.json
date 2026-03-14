@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 5008,
+    "total": 5016,
     "rates": {
-      "2026-03-13T22:25:00-04:00": 0,
+      "2026-03-13T22:30:00-04:00": 0,
+      "2026-03-13T22:25:00-04:00": 34,
       "2026-03-13T22:20:00-04:00": 25,
       "2026-03-13T22:15:00-04:00": 9,
       "2026-03-13T22:10:00-04:00": 21,
@@ -144,8 +145,7 @@
       "2026-03-13T10:50:00-04:00": 25,
       "2026-03-13T10:45:00-04:00": 84,
       "2026-03-13T10:40:00-04:00": 48,
-      "2026-03-13T10:35:00-04:00": 31,
-      "2026-03-13T10:30:00-04:00": 26
+      "2026-03-13T10:35:00-04:00": 31
     },
     "repos": {
       "conda-forge/pyafv-feedstock": 153,
@@ -153,9 +153,9 @@
       "conda-forge/python-lmdb-feedstock": 38,
       "conda-forge/vim-feedstock": 38,
       "conda-forge/awscli-feedstock": 32,
-      "conda-forge/arrow-cpp-feedstock": 27,
+      "conda-forge/python-duckdb-feedstock": 30,
+      "conda-forge/arrow-cpp-feedstock": 30,
       "conda-forge/tiledb-feedstock": 16,
-      "conda-forge/python-duckdb-feedstock": 15,
       "conda-forge/xapian-core-feedstock": 15,
       "conda-forge/python-uv-feedstock": 11,
       "conda-forge/staged-recipes": 10,
@@ -167,6 +167,7 @@
       "conda-forge/gws-feedstock": 7,
       "conda-forge/scitokens-cpp-feedstock": 7,
       "conda-forge/ty-feedstock": 7,
+      "conda-forge/python-fasthtml-feedstock": 6,
       "conda-forge/tafra-feedstock": 6,
       "conda-forge/microbench-feedstock": 6,
       "conda-forge/pytinytex-feedstock": 6,
@@ -185,17 +186,12 @@
       "conda-forge/llama-index-llms-openai-feedstock": 6,
       "conda-forge/hpp-constraints-feedstock": 6,
       "conda-forge/realtime-feedstock": 6,
-      "conda-forge/supabase-auth-feedstock": 6,
-      "conda-forge/pyjsg-feedstock": 6,
-      "conda-forge/postgrest-feedstock": 6,
-      "conda-forge/robocorp-tasks-feedstock": 6,
       "conda-forge/wxdata-feedstock": 5,
       "conda-forge/simpleini-feedstock": 5,
       "conda-forge/libiges-feedstock": 5,
       "conda-forge/alacritty-graphics-feedstock": 5,
       "conda-forge/bun-feedstock": 5,
       "conda-forge/openff-bespokefit-feedstock": 5,
-      "conda-forge/python-fasthtml-feedstock": 4,
       "conda-forge/hpp-core-feedstock": 4,
       "conda-forge/uv-feedstock": 4,
       "conda-forge/net-snmp-feedstock": 4,
@@ -204,6 +200,10 @@
       "conda-forge/create-qwik-feedstock": 4,
       "conda-forge/systemd-feedstock": 4,
       "conda-forge/r-dbplot-feedstock": 4,
+      "conda-forge/supabase-functions-feedstock": 3,
+      "conda-forge/ckanapi-feedstock": 3,
+      "conda-forge/apache-airflow-providers-standard-feedstock": 3,
+      "conda-forge/vak-feedstock": 3,
       "conda-forge/supabase-feedstock": 3,
       "conda-forge/pydeprecate-feedstock": 3,
       "conda-forge/arelle-release-feedstock": 3,
@@ -222,6 +222,7 @@
       "conda-forge/pyjwt-feedstock": 3,
       "conda-forge/mistralai-feedstock": 3,
       "conda-forge/tsgettoolbox-feedstock": 3,
+      "conda-forge/gstreamer-feedstock": 3,
       "conda-forge/bioservices-feedstock": 3,
       "conda-forge/goatools-feedstock": 3,
       "conda-forge/boto3-stubs-feedstock": 3,
@@ -273,14 +274,14 @@
       "conda-forge/aws-c-io-feedstock": 2,
       "conda-forge/snowflake-ml-python-feedstock": 2,
       "conda-forge/cppbmad-feedstock": 2,
-      "conda-forge/apache-airflow-providers-standard-feedstock": 1,
-      "conda-forge/vak-feedstock": 1,
-      "conda-forge/gstreamer-feedstock": 1
+      "conda-forge/awscli2-feedstock": 1,
+      "conda-forge/phonenumbers-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-03-13T22:30:00-04:00": 0,
       "2026-03-13T22:25:00-04:00": 0,
       "2026-03-13T22:20:00-04:00": 0,
       "2026-03-13T22:15:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-03-13T10:50:00-04:00": 0,
       "2026-03-13T10:45:00-04:00": 0,
       "2026-03-13T10:40:00-04:00": 0,
-      "2026-03-13T10:35:00-04:00": 0,
-      "2026-03-13T10:30:00-04:00": 0
+      "2026-03-13T10:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 4364,
+    "total": 4361,
     "rates": {
-      "2026-03-13T22:25:00-04:00": 1,
+      "2026-03-13T22:30:00-04:00": 3,
+      "2026-03-13T22:25:00-04:00": 41,
       "2026-03-13T22:20:00-04:00": 15,
       "2026-03-13T22:15:00-04:00": 19,
       "2026-03-13T22:10:00-04:00": 16,
@@ -702,12 +703,11 @@
       "2026-03-13T10:50:00-04:00": 24,
       "2026-03-13T10:45:00-04:00": 68,
       "2026-03-13T10:40:00-04:00": 48,
-      "2026-03-13T10:35:00-04:00": 40,
-      "2026-03-13T10:30:00-04:00": 46
+      "2026-03-13T10:35:00-04:00": 40
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 347,
-      "conda-forge/staged-recipes": 20,
+      "conda-forge/conda-forge-webservices": 388,
+      "conda-forge/staged-recipes": 22,
       "conda-forge/by-the-numbers": 19,
       "conda-forge/miniforge-images": 19,
       "conda-forge/miniforge": 18,
@@ -839,6 +839,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-03-13T22:30:00-04:00": 0,
       "2026-03-13T22:25:00-04:00": 0,
       "2026-03-13T22:20:00-04:00": 0,
       "2026-03-13T22:15:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-03-13T10:50:00-04:00": 0,
       "2026-03-13T10:45:00-04:00": 0,
       "2026-03-13T10:40:00-04:00": 0,
-      "2026-03-13T10:35:00-04:00": 0,
-      "2026-03-13T10:30:00-04:00": 0
+      "2026-03-13T10:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/awscli-feedstock": 2,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-03-13T22:30:00-04:00": 0,
       "2026-03-13T22:25:00-04:00": 0,
       "2026-03-13T22:20:00-04:00": 0,
       "2026-03-13T22:15:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-03-13T10:50:00-04:00": 0,
       "2026-03-13T10:45:00-04:00": 0,
       "2026-03-13T10:40:00-04:00": 0,
-      "2026-03-13T10:35:00-04:00": 0,
-      "2026-03-13T10:30:00-04:00": 0
+      "2026-03-13T10:35:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1357,6 +1357,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-03-13T22:30:00-04:00": 0,
       "2026-03-13T22:25:00-04:00": 0,
       "2026-03-13T22:20:00-04:00": 0,
       "2026-03-13T22:15:00-04:00": 0,
@@ -1499,8 +1500,7 @@
       "2026-03-13T10:50:00-04:00": 0,
       "2026-03-13T10:45:00-04:00": 0,
       "2026-03-13T10:40:00-04:00": 0,
-      "2026-03-13T10:35:00-04:00": 0,
-      "2026-03-13T10:30:00-04:00": 0
+      "2026-03-13T10:35:00-04:00": 0
     },
     "repos": {}
   }
