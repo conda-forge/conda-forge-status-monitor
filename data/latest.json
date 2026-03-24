@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 4465,
+    "total": 4462,
     "rates": {
-      "2026-03-24T10:45:00-04:00": 8,
+      "2026-03-24T10:50:00-04:00": 15,
+      "2026-03-24T10:45:00-04:00": 13,
       "2026-03-24T10:40:00-04:00": 37,
       "2026-03-24T10:35:00-04:00": 20,
       "2026-03-24T10:30:00-04:00": 40,
@@ -144,22 +145,19 @@
       "2026-03-23T23:10:00-04:00": 17,
       "2026-03-23T23:05:00-04:00": 95,
       "2026-03-23T23:00:00-04:00": 58,
-      "2026-03-23T22:55:00-04:00": 82,
-      "2026-03-23T22:50:00-04:00": 23
+      "2026-03-23T22:55:00-04:00": 82
     },
     "repos": {
       "conda-forge/netcdf-fortran-feedstock": 65,
-      "conda-forge/srsly-feedstock": 49,
-      "conda-forge/libpninexus-feedstock": 48,
+      "conda-forge/libpninexus-feedstock": 50,
       "conda-forge/netcdf-cxx-legacy-feedstock": 36,
       "conda-forge/pythonocc-core-feedstock": 31,
-      "conda-forge/pytables-feedstock": 26,
       "conda-forge/medcoupling-feedstock": 24,
+      "conda-forge/power-grid-model-feedstock": 24,
+      "conda-forge/jaxlib-feedstock": 24,
       "conda-forge/fenics-feedstock": 24,
       "conda-forge/pyccl-feedstock": 24,
-      "conda-forge/h5cpp-feedstock": 24,
       "conda-forge/tempest-remap-feedstock": 23,
-      "conda-forge/jaxlib-feedstock": 23,
       "conda-forge/vigra-feedstock": 23,
       "conda-forge/nebi-feedstock": 22,
       "conda-forge/genomekit-feedstock": 22,
@@ -168,13 +166,12 @@
       "conda-forge/xeus-python-feedstock": 22,
       "conda-forge/opensees-feedstock": 22,
       "conda-forge/geant4-feedstock": 22,
+      "conda-forge/hdf5-feedstock": 20,
       "conda-forge/sagelib-feedstock": 20,
       "conda-forge/hiredis-feedstock": 20,
       "conda-forge/genesis4-feedstock": 20,
       "conda-forge/spacy-transformers-feedstock": 20,
-      "conda-forge/hdf5-feedstock": 19,
       "conda-forge/libnetcdf-feedstock": 18,
-      "conda-forge/power-grid-model-feedstock": 18,
       "conda-forge/mbsolve-feedstock": 18,
       "conda-forge/ecell4_base-feedstock": 18,
       "conda-forge/pygetm-feedstock": 17,
@@ -187,6 +184,7 @@
       "conda-forge/mpb-feedstock": 16,
       "conda-forge/warpx-feedstock": 16,
       "conda-forge/cadet-feedstock": 16,
+      "conda-forge/cel-expr-python-feedstock": 14,
       "conda-forge/deepmd-kit-feedstock": 14,
       "conda-forge/just-feedstock": 14,
       "conda-forge/singlejar-feedstock": 14,
@@ -200,7 +198,6 @@
       "conda-forge/torchaudio-feedstock": 12,
       "conda-forge/muq-feedstock": 12,
       "conda-forge/vbmicrolensing-feedstock": 12,
-      "conda-forge/cel-expr-python-feedstock": 11,
       "conda-forge/visp-feedstock": 11,
       "conda-forge/intel_repack-feedstock": 11,
       "conda-forge/dart-sdk-feedstock": 10,
@@ -250,6 +247,7 @@
       "conda-forge/lld-feedstock": 5,
       "conda-forge/gauxc-feedstock": 5,
       "conda-forge/moonrepo-moon-feedstock": 5,
+      "conda-forge/staged-recipes": 4,
       "conda-forge/qt6-serialport-feedstock": 4,
       "conda-forge/erlang-feedstock": 4,
       "conda-forge/rattler-build-feedstock": 4,
@@ -266,6 +264,7 @@
       "conda-forge/dataeval-feedstock": 3,
       "conda-forge/fleur-feedstock": 3,
       "conda-forge/borb-feedstock": 3,
+      "conda-forge/redis-server-feedstock": 2,
       "conda-forge/pikepdf-feedstock": 2,
       "conda-forge/ncas-amof-netcdf-template-feedstock": 2,
       "conda-forge/clang-win-activation-feedstock": 2,
@@ -273,14 +272,16 @@
       "conda-forge/jupytercad-feedstock": 2,
       "conda-forge/easydev-feedstock": 2,
       "conda-forge/crun-feedstock": 2,
+      "conda-forge/tardigrade_stress_tools-feedstock": 1,
+      "conda-forge/smspp-project-feedstock": 1,
       "conda-forge/sip-feedstock": 1,
-      "conda-forge/redis-server-feedstock": 1,
       "conda-forge/libmongocxx-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-03-24T10:50:00-04:00": 0,
       "2026-03-24T10:45:00-04:00": 0,
       "2026-03-24T10:40:00-04:00": 0,
       "2026-03-24T10:35:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-03-23T23:10:00-04:00": 0,
       "2026-03-23T23:05:00-04:00": 0,
       "2026-03-23T23:00:00-04:00": 0,
-      "2026-03-23T22:55:00-04:00": 0,
-      "2026-03-23T22:50:00-04:00": 0
+      "2026-03-23T22:55:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 8054,
+    "total": 7967,
     "rates": {
-      "2026-03-24T10:45:00-04:00": 46,
+      "2026-03-24T10:50:00-04:00": 25,
+      "2026-03-24T10:45:00-04:00": 59,
       "2026-03-24T10:40:00-04:00": 48,
       "2026-03-24T10:35:00-04:00": 58,
       "2026-03-24T10:30:00-04:00": 71,
@@ -702,26 +703,21 @@
       "2026-03-23T23:10:00-04:00": 48,
       "2026-03-23T23:05:00-04:00": 67,
       "2026-03-23T23:00:00-04:00": 123,
-      "2026-03-23T22:55:00-04:00": 36,
-      "2026-03-23T22:50:00-04:00": 125
+      "2026-03-23T22:55:00-04:00": 36
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 973,
       "conda-forge/netcdf-fortran-feedstock": 36,
+      "conda-forge/conda-forge-webservices": 25,
       "conda-forge/medcoupling-feedstock": 20,
       "conda-forge/netcdf-cxx-legacy-feedstock": 18,
       "conda-forge/srsly-feedstock": 15,
       "conda-forge/libpninexus-feedstock": 12,
       "conda-forge/admin-requests": 11,
       "conda-forge/genomekit-feedstock": 9,
+      "conda-forge/sip-feedstock": 6,
       "conda-forge/mpc-feedstock": 6,
       "conda-forge/tempest-remap-feedstock": 6,
       "conda-forge/imp-feedstock": 5,
-      "conda-forge/pyqtads-feedstock": 5,
-      "conda-forge/pygetm-feedstock": 5,
-      "conda-forge/metakernel-feedstock": 5,
-      "conda-forge/vbmicrolensing-feedstock": 5,
-      "conda-forge/helios-feedstock": 5,
       "conda-forge/cel-expr-python-feedstock": 4,
       "conda-forge/dart-sdk-feedstock": 4,
       "conda-forge/tad-dftd4-feedstock": 4,
@@ -737,6 +733,7 @@
       "conda-forge/admin-migrations": 4,
       "conda-forge/lal-feedstock": 4,
       "conda-forge/weasel-feedstock": 4,
+      "conda-forge/redis-server-feedstock": 3,
       "conda-forge/staged-recipes": 3,
       "conda-forge/erlang-feedstock": 3,
       "conda-forge/pertpy-feedstock": 3,
@@ -751,6 +748,7 @@
       "conda-forge/coin3d-feedstock": 3,
       "conda-forge/anyio-feedstock": 3,
       "conda-forge/sofa-feedstock": 3,
+      "conda-forge/libmongocxx-feedstock": 2,
       "conda-forge/ncas-amof-netcdf-template-feedstock": 2,
       "conda-forge/nxmx-feedstock": 2,
       "conda-forge/json_stream-feedstock": 2,
@@ -790,6 +788,8 @@
       "conda-forge/python-binance-feedstock": 2,
       "conda-forge/skore-mlflow-project-feedstock": 2,
       "conda-forge/exchcxx-feedstock": 2,
+      "conda-forge/conda-forge-pinning-feedstock": 1,
+      "conda-forge/twilio-feedstock": 1,
       "conda-forge/timm-feedstock": 1,
       "conda-forge/spatialdata-plot-feedstock": 1,
       "conda-forge/glances-feedstock": 1,
@@ -839,6 +839,7 @@
   "appveyor": {
     "total": 2,
     "rates": {
+      "2026-03-24T10:50:00-04:00": 0,
       "2026-03-24T10:45:00-04:00": 0,
       "2026-03-24T10:40:00-04:00": 0,
       "2026-03-24T10:35:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-03-23T23:10:00-04:00": 0,
       "2026-03-23T23:05:00-04:00": 0,
       "2026-03-23T23:00:00-04:00": 0,
-      "2026-03-23T22:55:00-04:00": 0,
-      "2026-03-23T22:50:00-04:00": 0
+      "2026-03-23T22:55:00-04:00": 0
     },
     "repos": {
       "conda-forge/tornado-feedstock": 1,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-03-24T10:50:00-04:00": 0,
       "2026-03-24T10:45:00-04:00": 0,
       "2026-03-24T10:40:00-04:00": 0,
       "2026-03-24T10:35:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-03-23T23:10:00-04:00": 0,
       "2026-03-23T23:05:00-04:00": 0,
       "2026-03-23T23:00:00-04:00": 0,
-      "2026-03-23T22:55:00-04:00": 0,
-      "2026-03-23T22:50:00-04:00": 0
+      "2026-03-23T22:55:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1357,6 +1357,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-03-24T10:50:00-04:00": 0,
       "2026-03-24T10:45:00-04:00": 0,
       "2026-03-24T10:40:00-04:00": 0,
       "2026-03-24T10:35:00-04:00": 0,
@@ -1499,8 +1500,7 @@
       "2026-03-23T23:10:00-04:00": 0,
       "2026-03-23T23:05:00-04:00": 0,
       "2026-03-23T23:00:00-04:00": 0,
-      "2026-03-23T22:55:00-04:00": 0,
-      "2026-03-23T22:50:00-04:00": 0
+      "2026-03-23T22:55:00-04:00": 0
     },
     "repos": {}
   }
