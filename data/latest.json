@@ -1,7 +1,8 @@
 {
   "azure-pipelines": {
-    "total": 641,
+    "total": 630,
     "rates": {
+      "2026-03-29T11:00:00-04:00": 0,
       "2026-03-29T10:55:00-04:00": 0,
       "2026-03-29T10:50:00-04:00": 1,
       "2026-03-29T10:45:00-04:00": 0,
@@ -144,8 +145,7 @@
       "2026-03-28T23:20:00-04:00": 2,
       "2026-03-28T23:15:00-04:00": 23,
       "2026-03-28T23:10:00-04:00": 0,
-      "2026-03-28T23:05:00-04:00": 0,
-      "2026-03-28T23:00:00-04:00": 11
+      "2026-03-28T23:05:00-04:00": 0
     },
     "repos": {
       "conda-forge/opencv-feedstock": 707,
@@ -281,6 +281,7 @@
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-03-29T11:00:00-04:00": 0,
       "2026-03-29T10:55:00-04:00": 0,
       "2026-03-29T10:50:00-04:00": 0,
       "2026-03-29T10:45:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-03-28T23:20:00-04:00": 0,
       "2026-03-28T23:15:00-04:00": 0,
       "2026-03-28T23:10:00-04:00": 0,
-      "2026-03-28T23:05:00-04:00": 0,
-      "2026-03-28T23:00:00-04:00": 0
+      "2026-03-28T23:05:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 1983,
+    "total": 2012,
     "rates": {
-      "2026-03-29T10:55:00-04:00": 9,
+      "2026-03-29T11:00:00-04:00": 9,
+      "2026-03-29T10:55:00-04:00": 34,
       "2026-03-29T10:50:00-04:00": 3,
       "2026-03-29T10:45:00-04:00": 7,
       "2026-03-29T10:40:00-04:00": 10,
@@ -702,12 +703,11 @@
       "2026-03-28T23:20:00-04:00": 0,
       "2026-03-28T23:15:00-04:00": 65,
       "2026-03-28T23:10:00-04:00": 78,
-      "2026-03-28T23:05:00-04:00": 15,
-      "2026-03-28T23:00:00-04:00": 5
+      "2026-03-28T23:05:00-04:00": 15
     },
     "repos": {
       "conda-forge/opencv-feedstock": 1227,
-      "conda-forge/conda-forge-webservices": 832,
+      "conda-forge/conda-forge-webservices": 861,
       "conda-forge/staged-recipes": 97,
       "conda-forge/admin-requests": 65,
       "conda-forge/timezonefinder-feedstock": 36,
@@ -754,6 +754,7 @@
       "conda-forge/fresh-editor-feedstock": 2,
       "conda-forge/ramp-toplevel-feedstock": 2,
       "conda-forge/poetry-feedstock": 2,
+      "conda-forge/opentelemetry-instrumentation-google-generativeai-feedstock": 2,
       "conda-forge/opentelemetry-instrumentation-openai-feedstock": 2,
       "conda-forge/addr2line-rust-feedstock": 2,
       "conda-forge/by-the-numbers": 2,
@@ -762,6 +763,8 @@
       "conda-forge/spectrafit-feedstock": 2,
       "conda-forge/pixi-ros-feedstock": 2,
       "conda-forge/omicverse-feedstock": 2,
+      "conda-forge/opentelemetry-instrumentation-llamaindex-feedstock": 2,
+      "conda-forge/opentelemetry-instrumentation-transformers-feedstock": 2,
       "conda-forge/opentelemetry-instrumentation-sagemaker-feedstock": 2,
       "conda-forge/opentelemetry-instrumentation-anthropic-feedstock": 2,
       "conda-forge/opentelemetry-instrumentation-chromadb-feedstock": 2,
@@ -793,19 +796,18 @@
       "conda-forge/pyjanitor-feedstock": 2,
       "conda-forge/colored-feedstock": 2,
       "conda-forge/r-rex-feedstock": 2,
+      "conda-forge/pygments-feedstock": 1,
+      "conda-forge/poetry-plugin-tweak-dependencies-version-feedstock": 1,
       "conda-forge/tox-feedstock": 1,
       "conda-forge/conda-forge.github.io": 1,
       "conda-forge/opentelemetry-instrumentation-langchain-feedstock": 1,
       "conda-forge/opentelemetry-instrumentation-bedrock-feedstock": 1,
-      "conda-forge/opentelemetry-instrumentation-google-generativeai-feedstock": 1,
       "conda-forge/opentelemetry-instrumentation-milvus-feedstock": 1,
       "conda-forge/opentelemetry-instrumentation-weaviate-feedstock": 1,
       "conda-forge/miniforge-images": 1,
       "conda-forge/opentelemetry-instrumentation-crewai-feedstock": 1,
       "conda-forge/opentelemetry-instrumentation-watsonx-feedstock": 1,
       "conda-forge/opentelemetry-instrumentation-replicate-feedstock": 1,
-      "conda-forge/opentelemetry-instrumentation-llamaindex-feedstock": 1,
-      "conda-forge/opentelemetry-instrumentation-transformers-feedstock": 1,
       "conda-forge/opentelemetry-instrumentation-agno-feedstock": 1,
       "conda-forge/opentelemetry-instrumentation-openai-agents-feedstock": 1,
       "conda-forge/opentelemetry-instrumentation-writer-feedstock": 1,
@@ -831,14 +833,13 @@
       "conda-forge/apache-airflow-providers-elasticsearch-feedstock": 1,
       "conda-forge/apache-airflow-providers-ftp-feedstock": 1,
       "conda-forge/apache-airflow-providers-sftp-feedstock": 1,
-      "conda-forge/apache-airflow-providers-snowflake-feedstock": 1,
-      "conda-forge/creosote-feedstock": 1,
-      "conda-forge/gradio-feedstock": 1
+      "conda-forge/apache-airflow-providers-snowflake-feedstock": 1
     }
   },
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-03-29T11:00:00-04:00": 0,
       "2026-03-29T10:55:00-04:00": 0,
       "2026-03-29T10:50:00-04:00": 0,
       "2026-03-29T10:45:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-03-28T23:20:00-04:00": 0,
       "2026-03-28T23:15:00-04:00": 0,
       "2026-03-28T23:10:00-04:00": 0,
-      "2026-03-28T23:05:00-04:00": 0,
-      "2026-03-28T23:00:00-04:00": 0
+      "2026-03-28T23:05:00-04:00": 0
     },
     "repos": {
       "conda-forge/petsc4py-feedstock": 1,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-03-29T11:00:00-04:00": 0,
       "2026-03-29T10:55:00-04:00": 0,
       "2026-03-29T10:50:00-04:00": 0,
       "2026-03-29T10:45:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-03-28T23:20:00-04:00": 0,
       "2026-03-28T23:15:00-04:00": 0,
       "2026-03-28T23:10:00-04:00": 0,
-      "2026-03-28T23:05:00-04:00": 0,
-      "2026-03-28T23:00:00-04:00": 0
+      "2026-03-28T23:05:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1358,6 +1358,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-03-29T11:00:00-04:00": 0,
       "2026-03-29T10:55:00-04:00": 0,
       "2026-03-29T10:50:00-04:00": 0,
       "2026-03-29T10:45:00-04:00": 0,
@@ -1500,8 +1501,7 @@
       "2026-03-28T23:20:00-04:00": 0,
       "2026-03-28T23:15:00-04:00": 0,
       "2026-03-28T23:10:00-04:00": 0,
-      "2026-03-28T23:05:00-04:00": 0,
-      "2026-03-28T23:00:00-04:00": 0
+      "2026-03-28T23:05:00-04:00": 0
     },
     "repos": {}
   }
