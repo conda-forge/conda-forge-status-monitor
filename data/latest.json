@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2490,
+    "total": 2487,
     "rates": {
-      "2026-04-08T10:05:00-04:00": 0,
+      "2026-04-08T10:10:00-04:00": 0,
+      "2026-04-08T10:05:00-04:00": 3,
       "2026-04-08T10:00:00-04:00": 3,
       "2026-04-08T09:55:00-04:00": 11,
       "2026-04-08T09:50:00-04:00": 18,
@@ -144,13 +145,12 @@
       "2026-04-07T22:30:00-04:00": 11,
       "2026-04-07T22:25:00-04:00": 12,
       "2026-04-07T22:20:00-04:00": 15,
-      "2026-04-07T22:15:00-04:00": 4,
-      "2026-04-07T22:10:00-04:00": 6
+      "2026-04-07T22:15:00-04:00": 4
     },
     "repos": {
       "conda-forge/power-grid-model-feedstock": 66,
       "conda-forge/libbraiding-feedstock": 51,
-      "conda-forge/staged-recipes": 39,
+      "conda-forge/staged-recipes": 40,
       "conda-forge/datalad-feedstock": 36,
       "conda-forge/qt6-serialport-feedstock": 33,
       "conda-forge/flt-feedstock": 29,
@@ -175,6 +175,8 @@
       "conda-forge/apache-tvm-ffi-feedstock": 12,
       "conda-forge/python-marisa-trie-feedstock": 12,
       "conda-forge/gstreamer-feedstock": 11,
+      "conda-forge/mcstas-suite-feedstock": 11,
+      "conda-forge/mcxtrace-suite-feedstock": 11,
       "conda-forge/boto3-feedstock": 11,
       "conda-forge/gnuplot-feedstock": 11,
       "conda-forge/broot-feedstock": 10,
@@ -187,8 +189,6 @@
       "conda-forge/clawpack-feedstock": 10,
       "conda-forge/fluidfft-fftwmpi-feedstock": 10,
       "conda-forge/h5utils-feedstock": 10,
-      "conda-forge/mcstas-suite-feedstock": 10,
-      "conda-forge/mcxtrace-suite-feedstock": 10,
       "conda-forge/fluidfft-mpi_with_fftw-feedstock": 10,
       "conda-forge/exiftool-feedstock": 10,
       "conda-forge/sbb-tui-feedstock": 10,
@@ -281,6 +281,7 @@
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-04-08T10:10:00-04:00": 0,
       "2026-04-08T10:05:00-04:00": 0,
       "2026-04-08T10:00:00-04:00": 0,
       "2026-04-08T09:55:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-04-07T22:30:00-04:00": 0,
       "2026-04-07T22:25:00-04:00": 0,
       "2026-04-07T22:20:00-04:00": 0,
-      "2026-04-07T22:15:00-04:00": 0,
-      "2026-04-07T22:10:00-04:00": 0
+      "2026-04-07T22:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 4902,
+    "total": 4924,
     "rates": {
-      "2026-04-08T10:05:00-04:00": 0,
+      "2026-04-08T10:10:00-04:00": 1,
+      "2026-04-08T10:05:00-04:00": 29,
       "2026-04-08T10:00:00-04:00": 7,
       "2026-04-08T09:55:00-04:00": 15,
       "2026-04-08T09:50:00-04:00": 24,
@@ -702,33 +703,32 @@
       "2026-04-07T22:30:00-04:00": 19,
       "2026-04-07T22:25:00-04:00": 19,
       "2026-04-07T22:20:00-04:00": 50,
-      "2026-04-07T22:15:00-04:00": 5,
-      "2026-04-07T22:10:00-04:00": 8
+      "2026-04-07T22:15:00-04:00": 5
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 508,
+      "conda-forge/conda-forge-webservices": 532,
       "conda-forge/flt-feedstock": 36,
       "conda-forge/libbraiding-feedstock": 21,
       "conda-forge/conda-forge.github.io": 19,
       "conda-forge/admin-requests": 19,
       "conda-forge/pymdi-feedstock": 15,
       "conda-forge/libastra-feedstock": 14,
+      "conda-forge/staged-recipes": 14,
       "conda-forge/fastar-feedstock": 12,
-      "conda-forge/staged-recipes": 12,
       "conda-forge/cvxpy-feedstock": 12,
+      "conda-forge/datalad-feedstock": 10,
       "conda-forge/cargo-update-feedstock": 10,
       "conda-forge/admin-migrations": 9,
-      "conda-forge/datalad-feedstock": 8,
       "conda-forge/qt6-serialport-feedstock": 7,
       "conda-forge/wisdem-feedstock": 7,
       "conda-forge/hyalo-feedstock": 7,
       "conda-forge/root-feedstock": 5,
       "conda-forge/broot-feedstock": 4,
       "conda-forge/cdo-feedstock": 4,
+      "conda-forge/infrastructure": 4,
       "conda-forge/ocaml-feedstock": 3,
       "conda-forge/aria2-feedstock": 3,
       "conda-forge/conda-smithy": 3,
-      "conda-forge/infrastructure": 3,
       "conda-forge/flux-feedstock": 3,
       "conda-forge/feedstock-outputs": 3,
       "conda-forge/openvino-feedstock": 3,
@@ -772,7 +772,7 @@
       "conda-forge/types-cachetools-feedstock": 2,
       "conda-forge/types-pymysql-feedstock": 2,
       "conda-forge/types-simplejson-feedstock": 2,
-      "conda-forge/types-requests-feedstock": 2,
+      "conda-forge/lerobot-feedstock": 1,
       "conda-forge/anaconda-auth-feedstock": 1,
       "conda-forge/types-toml-feedstock": 1,
       "conda-forge/by-the-numbers": 1,
@@ -839,6 +839,7 @@
   "appveyor": {
     "total": 2,
     "rates": {
+      "2026-04-08T10:10:00-04:00": 0,
       "2026-04-08T10:05:00-04:00": 0,
       "2026-04-08T10:00:00-04:00": 0,
       "2026-04-08T09:55:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-04-07T22:30:00-04:00": 0,
       "2026-04-07T22:25:00-04:00": 0,
       "2026-04-07T22:20:00-04:00": 0,
-      "2026-04-07T22:15:00-04:00": 0,
-      "2026-04-07T22:10:00-04:00": 0
+      "2026-04-07T22:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/annexremote-feedstock": 2,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-04-08T10:10:00-04:00": 0,
       "2026-04-08T10:05:00-04:00": 0,
       "2026-04-08T10:00:00-04:00": 0,
       "2026-04-08T09:55:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-04-07T22:30:00-04:00": 0,
       "2026-04-07T22:25:00-04:00": 0,
       "2026-04-07T22:20:00-04:00": 0,
-      "2026-04-07T22:15:00-04:00": 0,
-      "2026-04-07T22:10:00-04:00": 0
+      "2026-04-07T22:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1358,6 +1358,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-04-08T10:10:00-04:00": 0,
       "2026-04-08T10:05:00-04:00": 0,
       "2026-04-08T10:00:00-04:00": 0,
       "2026-04-08T09:55:00-04:00": 0,
@@ -1500,8 +1501,7 @@
       "2026-04-07T22:30:00-04:00": 0,
       "2026-04-07T22:25:00-04:00": 0,
       "2026-04-07T22:20:00-04:00": 0,
-      "2026-04-07T22:15:00-04:00": 0,
-      "2026-04-07T22:10:00-04:00": 0
+      "2026-04-07T22:15:00-04:00": 0
     },
     "repos": {}
   }
