@@ -1,7 +1,8 @@
 {
   "azure-pipelines": {
-    "total": 1676,
+    "total": 1675,
     "rates": {
+      "2026-06-07T01:45:00-04:00": 11,
       "2026-06-07T01:40:00-04:00": 1,
       "2026-06-07T01:35:00-04:00": 1,
       "2026-06-07T01:30:00-04:00": 1,
@@ -144,19 +145,17 @@
       "2026-06-06T14:05:00-04:00": 10,
       "2026-06-06T14:00:00-04:00": 8,
       "2026-06-06T13:55:00-04:00": 19,
-      "2026-06-06T13:50:00-04:00": 12,
-      "2026-06-06T13:45:00-04:00": 12
+      "2026-06-06T13:50:00-04:00": 12
     },
     "repos": {
       "conda-forge/lammps-feedstock": 102,
       "conda-forge/deepmd-kit-feedstock": 91,
       "conda-forge/pyamrex-feedstock": 53,
       "conda-forge/pyqt-feedstock": 49,
+      "conda-forge/anuga-feedstock": 39,
       "conda-forge/ldas-tools-framecpp-swig-feedstock": 35,
-      "conda-forge/anuga-feedstock": 34,
       "conda-forge/ocaml-feedstock": 27,
       "conda-forge/torchvision-feedstock": 26,
-      "conda-forge/gwollum-feedstock": 24,
       "conda-forge/uv-feedstock": 23,
       "conda-forge/r-libcoin-feedstock": 23,
       "conda-forge/dd4hep-feedstock": 22,
@@ -169,6 +168,7 @@
       "conda-forge/mysql-connector-python-feedstock": 20,
       "conda-forge/ldas-tools-utilities-feedstock": 20,
       "conda-forge/tmux-feedstock": 20,
+      "conda-forge/torchvision-extra-decoders-feedstock": 18,
       "conda-forge/xgboost-feedstock": 18,
       "conda-forge/pillow-heif-feedstock": 17,
       "conda-forge/microed-tools-feedstock": 17,
@@ -186,7 +186,6 @@
       "conda-forge/zig-feedstock": 14,
       "conda-forge/gazebo-feedstock": 14,
       "conda-forge/ucrt-feedstock": 14,
-      "conda-forge/torchvision-extra-decoders-feedstock": 13,
       "conda-forge/csvtk-feedstock": 13,
       "conda-forge/bytewax-feedstock": 13,
       "conda-forge/gwframe-feedstock": 12,
@@ -275,12 +274,14 @@
       "conda-forge/uhdm-feedstock": 3,
       "conda-forge/mlflow-feedstock": 3,
       "conda-forge/wagtail-generic-chooser-feedstock": 2,
+      "conda-forge/cppbmad-feedstock": 1,
       "conda-forge/bmad-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-06-07T01:45:00-04:00": 0,
       "2026-06-07T01:40:00-04:00": 0,
       "2026-06-07T01:35:00-04:00": 0,
       "2026-06-07T01:30:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-06-06T14:05:00-04:00": 0,
       "2026-06-06T14:00:00-04:00": 0,
       "2026-06-06T13:55:00-04:00": 0,
-      "2026-06-06T13:50:00-04:00": 0,
-      "2026-06-06T13:45:00-04:00": 0
+      "2026-06-06T13:50:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 3285,
+    "total": 3242,
     "rates": {
-      "2026-06-07T01:40:00-04:00": 23,
+      "2026-06-07T01:45:00-04:00": 6,
+      "2026-06-07T01:40:00-04:00": 28,
       "2026-06-07T01:35:00-04:00": 11,
       "2026-06-07T01:30:00-04:00": 10,
       "2026-06-07T01:25:00-04:00": 2,
@@ -702,16 +703,15 @@
       "2026-06-06T14:05:00-04:00": 15,
       "2026-06-06T14:00:00-04:00": 13,
       "2026-06-06T13:55:00-04:00": 21,
-      "2026-06-06T13:50:00-04:00": 56,
-      "2026-06-06T13:45:00-04:00": 54
+      "2026-06-06T13:50:00-04:00": 56
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 556,
-      "conda-forge/conda-forge-bot": 428,
+      "conda-forge/conda-forge-webservices": 558,
+      "conda-forge/conda-forge-bot": 429,
       "conda-forge/pyamrex-feedstock": 160,
-      "conda-forge/deepmd-kit-feedstock": 96,
+      "conda-forge/deepmd-kit-feedstock": 98,
+      "conda-forge/torchvision-extra-decoders-feedstock": 39,
       "conda-forge/torchvision-feedstock": 35,
-      "conda-forge/torchvision-extra-decoders-feedstock": 34,
       "conda-forge/admin-migrations": 31,
       "conda-forge/lammps-feedstock": 30,
       "conda-forge/opencv-feedstock": 19,
@@ -731,6 +731,7 @@
       "conda-forge/bayesopt-feedstock": 5,
       "conda-forge/microed-tools-feedstock": 5,
       "conda-forge/pyqir-feedstock": 5,
+      "conda-forge/conda-forge-pinning-feedstock": 5,
       "conda-forge/bmad-feedstock": 4,
       "conda-forge/ptyrad-feedstock": 4,
       "conda-forge/ldas-tools-diskcacheapi-swig-feedstock": 4,
@@ -745,7 +746,6 @@
       "conda-forge/r-airr-feedstock": 4,
       "conda-forge/gdal-csharp-feedstock": 4,
       "conda-forge/llama-index-postprocessor-cohere-rerank-feedstock": 4,
-      "conda-forge/conda-forge-pinning-feedstock": 4,
       "conda-forge/gds-frameio-feedstock": 3,
       "conda-forge/sh-feedstock": 3,
       "conda-forge/ldas-tools-framecpp-feedstock": 3,
@@ -839,6 +839,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-06-07T01:45:00-04:00": 0,
       "2026-06-07T01:40:00-04:00": 0,
       "2026-06-07T01:35:00-04:00": 0,
       "2026-06-07T01:30:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-06-06T14:05:00-04:00": 0,
       "2026-06-06T14:00:00-04:00": 0,
       "2026-06-06T13:55:00-04:00": 0,
-      "2026-06-06T13:50:00-04:00": 0,
-      "2026-06-06T13:45:00-04:00": 0
+      "2026-06-06T13:50:00-04:00": 0
     },
     "repos": {
       "conda-forge/pycvodes-feedstock": 2,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-06-07T01:45:00-04:00": 0,
       "2026-06-07T01:40:00-04:00": 0,
       "2026-06-07T01:35:00-04:00": 0,
       "2026-06-07T01:30:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-06-06T14:05:00-04:00": 0,
       "2026-06-06T14:00:00-04:00": 0,
       "2026-06-06T13:55:00-04:00": 0,
-      "2026-06-06T13:50:00-04:00": 0,
-      "2026-06-06T13:45:00-04:00": 0
+      "2026-06-06T13:50:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1359,6 +1359,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-06-07T01:45:00-04:00": 0,
       "2026-06-07T01:40:00-04:00": 0,
       "2026-06-07T01:35:00-04:00": 0,
       "2026-06-07T01:30:00-04:00": 0,
@@ -1501,8 +1502,7 @@
       "2026-06-06T14:05:00-04:00": 0,
       "2026-06-06T14:00:00-04:00": 0,
       "2026-06-06T13:55:00-04:00": 0,
-      "2026-06-06T13:50:00-04:00": 0,
-      "2026-06-06T13:45:00-04:00": 0
+      "2026-06-06T13:50:00-04:00": 0
     },
     "repos": {}
   }
