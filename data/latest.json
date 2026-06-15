@@ -1,8 +1,8 @@
 {
   "azure-pipelines": {
-    "total": 2014,
+    "total": 2044,
     "rates": {
-      "2026-06-15T07:35:00-04:00": 0,
+      "2026-06-15T07:35:00-04:00": 30,
       "2026-06-15T07:30:00-04:00": 31,
       "2026-06-15T07:25:00-04:00": 25,
       "2026-06-15T07:20:00-04:00": 34,
@@ -149,7 +149,7 @@
     },
     "repos": {
       "conda-forge/pycolmap-feedstock": 153,
-      "conda-forge/staged-recipes": 131,
+      "conda-forge/staged-recipes": 141,
       "conda-forge/menuinst-feedstock": 67,
       "conda-forge/smspp-project-feedstock": 62,
       "conda-forge/awscli-feedstock": 60,
@@ -164,13 +164,14 @@
       "conda-forge/pi-coding-agent-feedstock": 32,
       "conda-forge/conda-feedstock": 30,
       "conda-forge/torchcodec-feedstock": 27,
+      "conda-forge/scifem-feedstock": 26,
+      "conda-forge/xorq-datafusion-feedstock": 26,
+      "conda-forge/pytensor-suite-feedstock": 24,
       "conda-forge/html-to-markdown-feedstock": 24,
-      "conda-forge/xorq-datafusion-feedstock": 24,
       "conda-forge/fastjet-contrib-feedstock": 23,
       "conda-forge/constructor-feedstock": 22,
       "conda-forge/smartmontools-feedstock": 20,
       "conda-forge/ujson-feedstock": 20,
-      "conda-forge/scifem-feedstock": 19,
       "conda-forge/conda-pypi-feedstock": 19,
       "conda-forge/copybara-feedstock": 19,
       "conda-forge/openslide-feedstock": 19,
@@ -180,7 +181,6 @@
       "conda-forge/arcticdb-feedstock": 17,
       "conda-forge/moar-feedstock": 17,
       "conda-forge/pnpm-feedstock": 16,
-      "conda-forge/pytensor-suite-feedstock": 14,
       "conda-forge/power-grid-model-feedstock": 14,
       "conda-forge/dartsim-feedstock": 14,
       "conda-forge/r-robcompositions-feedstock": 12,
@@ -204,7 +204,6 @@
       "conda-forge/binaryen-feedstock": 8,
       "conda-forge/gitlab-ci-ls-feedstock": 8,
       "conda-forge/tig-feedstock": 8,
-      "conda-forge/r-bbotk-feedstock": 8,
       "conda-forge/harfbuzz-feedstock": 7,
       "conda-forge/ergocub-software-feedstock": 7,
       "conda-forge/frozendict-feedstock": 7,
@@ -275,7 +274,8 @@
       "conda-forge/draccus-feedstock": 2,
       "conda-forge/python-chromedriver-binary-feedstock": 2,
       "conda-forge/pylint-feedstock": 2,
-      "conda-forge/conda-forge-pinning-feedstock": 2
+      "conda-forge/conda-forge-pinning-feedstock": 2,
+      "conda-forge/typst-feedstock": 1
     }
   },
   "travis-ci": {
@@ -558,9 +558,9 @@
     }
   },
   "github-actions": {
-    "total": 3663,
+    "total": 3732,
     "rates": {
-      "2026-06-15T07:35:00-04:00": 1,
+      "2026-06-15T07:35:00-04:00": 70,
       "2026-06-15T07:30:00-04:00": 69,
       "2026-06-15T07:25:00-04:00": 40,
       "2026-06-15T07:20:00-04:00": 64,
@@ -706,10 +706,10 @@
       "2026-06-14T19:40:00-04:00": 45
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 1480,
-      "conda-forge/conda-forge-bot": 565,
+      "conda-forge/conda-forge-webservices": 1520,
+      "conda-forge/conda-forge-bot": 573,
       "conda-forge/pycolmap-feedstock": 140,
-      "conda-forge/staged-recipes": 57,
+      "conda-forge/staged-recipes": 65,
       "conda-forge/smspp-project-feedstock": 51,
       "conda-forge/admin-migrations": 50,
       "conda-forge/menuinst-feedstock": 45,
@@ -726,14 +726,14 @@
       "conda-forge/rte_rrtmgp-feedstock": 25,
       "conda-forge/scifem-feedstock": 24,
       "conda-forge/pygamma_n-feedstock": 23,
+      "conda-forge/pytensor-suite-feedstock": 20,
       "conda-forge/pypdfium2-feedstock": 20,
       "conda-forge/ujson-feedstock": 18,
+      "conda-forge/gastown-feedstock": 16,
       "conda-forge/warpx-feedstock": 16,
       "conda-forge/conda-pypi-feedstock": 15,
       "conda-forge/pyshtools-feedstock": 15,
       "conda-forge/awscli2-feedstock": 15,
-      "conda-forge/gastown-feedstock": 13,
-      "conda-forge/pytensor-suite-feedstock": 12,
       "conda-forge/r-robcompositions-feedstock": 12,
       "conda-forge/pi-coding-agent-feedstock": 12,
       "conda-forge/openslide-feedstock": 12,
@@ -753,13 +753,13 @@
       "conda-forge/alsa-lib-feedstock": 6,
       "conda-forge/global-feedstock": 6,
       "conda-forge/moar-feedstock": 6,
+      "conda-forge/html-to-markdown-cli-feedstock": 6,
       "conda-forge/go-feedstock": 6,
       "conda-forge/millet-feedstock": 6,
       "conda-forge/kealib-feedstock": 6,
       "conda-forge/openimageio-feedstock": 6,
       "conda-forge/gmt-feedstock": 6,
       "conda-forge/imagemagick-feedstock": 6,
-      "conda-forge/html-to-markdown-cli-feedstock": 5,
       "conda-forge/dartsim-feedstock": 5,
       "conda-forge/llama-cpp-python-feedstock": 5,
       "conda-forge/elecsolver-feedstock": 4,
@@ -793,6 +793,7 @@
       "conda-forge/dagmc_h5m_file_inspector-feedstock": 2,
       "conda-forge/memory_graph-feedstock": 2,
       "conda-forge/datview-feedstock": 2,
+      "conda-forge/bibtex-updater-feedstock": 2,
       "conda-forge/publicsuffixlist-feedstock": 1,
       "conda-forge/podman-desktop-feedstock": 1,
       "conda-forge/cardiac-geometriesx-feedstock": 1,
@@ -831,7 +832,6 @@
       "conda-forge/hspf_utils-feedstock": 1,
       "conda-forge/jupyterlite-pdf-exporter-feedstock": 1,
       "conda-forge/svg2tikz-feedstock": 1,
-      "conda-forge/bibtex-updater-feedstock": 1,
       "conda-forge/deepagents-feedstock": 1,
       "conda-forge/opentelemetry-instrumentation-asyncio-feedstock": 1
     }
