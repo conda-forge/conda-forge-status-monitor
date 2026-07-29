@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2237,
+    "total": 2242,
     "rates": {
-      "2026-07-29T08:15:00-04:00": 12,
+      "2026-07-29T08:20:00-04:00": 6,
+      "2026-07-29T08:15:00-04:00": 17,
       "2026-07-29T08:10:00-04:00": 11,
       "2026-07-29T08:05:00-04:00": 16,
       "2026-07-29T08:00:00-04:00": 22,
@@ -144,20 +145,18 @@
       "2026-07-28T20:40:00-04:00": 28,
       "2026-07-28T20:35:00-04:00": 12,
       "2026-07-28T20:30:00-04:00": 19,
-      "2026-07-28T20:25:00-04:00": 15,
-      "2026-07-28T20:20:00-04:00": 6
+      "2026-07-28T20:25:00-04:00": 15
     },
     "repos": {
       "conda-forge/pot-feedstock": 222,
-      "conda-forge/staged-recipes": 88,
-      "conda-forge/ctng-compilers-feedstock": 46,
+      "conda-forge/staged-recipes": 93,
+      "conda-forge/ctng-compilers-feedstock": 47,
       "conda-forge/vulkan-tools-feedstock": 33,
       "conda-forge/zmesh-feedstock": 32,
       "conda-forge/awscli-feedstock": 32,
       "conda-forge/pytorchrl-feedstock": 27,
       "conda-forge/log4cxx-feedstock": 20,
       "conda-forge/rift-feedstock": 20,
-      "conda-forge/momentum-feedstock": 19,
       "conda-forge/vulkan-loader-feedstock": 18,
       "conda-forge/ocaml-feedstock": 18,
       "conda-forge/compiler-rt-feedstock": 16,
@@ -184,6 +183,7 @@
       "conda-forge/mistral-vibe-feedstock": 12,
       "conda-forge/pytorch_sparse-feedstock": 11,
       "conda-forge/aws-c-common-feedstock": 10,
+      "conda-forge/openmp-feedstock": 10,
       "conda-forge/grype-feedstock": 10,
       "conda-forge/sccache-feedstock": 10,
       "conda-forge/php-feedstock": 10,
@@ -213,7 +213,6 @@
       "conda-forge/mlflow-feedstock": 9,
       "conda-forge/deepspeed-feedstock": 9,
       "conda-forge/uv-feedstock": 9,
-      "conda-forge/openmp-feedstock": 8,
       "conda-forge/libcxx-feedstock": 8,
       "conda-forge/terraform-provider-google-feedstock": 8,
       "conda-forge/oh-my-posh-feedstock": 8,
@@ -262,6 +261,7 @@
       "conda-forge/brev-feedstock": 4,
       "conda-forge/strongtyping-feedstock": 4,
       "conda-forge/libmicrohttpd-feedstock": 4,
+      "conda-forge/flang-rt-feedstock": 3,
       "conda-forge/kosh-feedstock": 3,
       "conda-forge/boto3-feedstock": 3,
       "conda-forge/julia-feedstock": 3,
@@ -281,6 +281,7 @@
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-07-29T08:20:00-04:00": 0,
       "2026-07-29T08:15:00-04:00": 0,
       "2026-07-29T08:10:00-04:00": 0,
       "2026-07-29T08:05:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-07-28T20:40:00-04:00": 0,
       "2026-07-28T20:35:00-04:00": 0,
       "2026-07-28T20:30:00-04:00": 0,
-      "2026-07-28T20:25:00-04:00": 0,
-      "2026-07-28T20:20:00-04:00": 0
+      "2026-07-28T20:25:00-04:00": 0
     },
     "repos": {
       "conda-forge/tk-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 5978,
+    "total": 5980,
     "rates": {
-      "2026-07-29T08:15:00-04:00": 9,
+      "2026-07-29T08:20:00-04:00": 13,
+      "2026-07-29T08:15:00-04:00": 24,
       "2026-07-29T08:10:00-04:00": 26,
       "2026-07-29T08:05:00-04:00": 32,
       "2026-07-29T08:00:00-04:00": 37,
@@ -702,18 +703,17 @@
       "2026-07-28T20:40:00-04:00": 75,
       "2026-07-28T20:35:00-04:00": 13,
       "2026-07-28T20:30:00-04:00": 2,
-      "2026-07-28T20:25:00-04:00": 80,
-      "2026-07-28T20:20:00-04:00": 26
+      "2026-07-28T20:25:00-04:00": 80
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 642,
-      "conda-forge/conda-forge-bot": 255,
+      "conda-forge/conda-forge-webservices": 652,
+      "conda-forge/conda-forge-bot": 266,
       "conda-forge/ctng-compilers-feedstock": 131,
       "conda-forge/pot-feedstock": 30,
       "conda-forge/pytorch_sparse-feedstock": 30,
-      "conda-forge/staged-recipes": 21,
+      "conda-forge/staged-recipes": 22,
+      "conda-forge/vllm-feedstock": 18,
       "conda-forge/pytorchrl-feedstock": 15,
-      "conda-forge/vllm-feedstock": 13,
       "conda-forge/vulkan-tools-feedstock": 12,
       "conda-forge/zmesh-feedstock": 10,
       "conda-forge/lld-feedstock": 10,
@@ -775,7 +775,7 @@
       "conda-forge/python-chromedriver-binary-feedstock": 2,
       "conda-forge/miniforge": 2,
       "conda-forge/ultralytics-thop-feedstock": 2,
-      "conda-forge/apache-airflow-providers-airbyte-feedstock": 2,
+      "conda-forge/flang-rt-feedstock": 1,
       "conda-forge/wigglystuff-feedstock": 1,
       "conda-forge/bibtex-updater-feedstock": 1,
       "conda-forge/mlir-feedstock": 1,
@@ -839,6 +839,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-07-29T08:20:00-04:00": 0,
       "2026-07-29T08:15:00-04:00": 0,
       "2026-07-29T08:10:00-04:00": 0,
       "2026-07-29T08:05:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-07-28T20:40:00-04:00": 0,
       "2026-07-28T20:35:00-04:00": 0,
       "2026-07-28T20:30:00-04:00": 0,
-      "2026-07-28T20:25:00-04:00": 0,
-      "2026-07-28T20:20:00-04:00": 0
+      "2026-07-28T20:25:00-04:00": 0
     },
     "repos": {
       "conda-forge/pycvodes-feedstock": 2,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-07-29T08:20:00-04:00": 0,
       "2026-07-29T08:15:00-04:00": 0,
       "2026-07-29T08:10:00-04:00": 0,
       "2026-07-29T08:05:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-07-28T20:40:00-04:00": 0,
       "2026-07-28T20:35:00-04:00": 0,
       "2026-07-28T20:30:00-04:00": 0,
-      "2026-07-28T20:25:00-04:00": 0,
-      "2026-07-28T20:20:00-04:00": 0
+      "2026-07-28T20:25:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1359,6 +1359,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-07-29T08:20:00-04:00": 0,
       "2026-07-29T08:15:00-04:00": 0,
       "2026-07-29T08:10:00-04:00": 0,
       "2026-07-29T08:05:00-04:00": 0,
@@ -1501,8 +1502,7 @@
       "2026-07-28T20:40:00-04:00": 0,
       "2026-07-28T20:35:00-04:00": 0,
       "2026-07-28T20:30:00-04:00": 0,
-      "2026-07-28T20:25:00-04:00": 0,
-      "2026-07-28T20:20:00-04:00": 0
+      "2026-07-28T20:25:00-04:00": 0
     },
     "repos": {}
   }
