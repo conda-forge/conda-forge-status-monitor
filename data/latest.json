@@ -1,7 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2039,
+    "total": 2028,
     "rates": {
+      "2026-08-09T19:15:00-04:00": 0,
+      "2026-08-09T19:10:00-04:00": 2,
       "2026-08-09T19:05:00-04:00": 11,
       "2026-08-09T19:00:00-04:00": 8,
       "2026-08-09T18:55:00-04:00": 32,
@@ -143,9 +145,7 @@
       "2026-08-09T07:35:00-04:00": 0,
       "2026-08-09T07:30:00-04:00": 7,
       "2026-08-09T07:25:00-04:00": 3,
-      "2026-08-09T07:20:00-04:00": 5,
-      "2026-08-09T07:15:00-04:00": 2,
-      "2026-08-09T07:10:00-04:00": 11
+      "2026-08-09T07:20:00-04:00": 5
     },
     "repos": {
       "conda-forge/h5py-feedstock": 336,
@@ -166,7 +166,7 @@
       "conda-forge/vtk-feedstock": 37,
       "conda-forge/msgvault-feedstock": 36,
       "conda-forge/opencv-feedstock": 34,
-      "conda-forge/arrow-cpp-feedstock": 31,
+      "conda-forge/arrow-cpp-feedstock": 33,
       "conda-forge/onnxruntime-feedstock": 31,
       "conda-forge/lux-cli-feedstock": 28,
       "conda-forge/dscribe-feedstock": 28,
@@ -281,6 +281,8 @@
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-08-09T19:15:00-04:00": 0,
+      "2026-08-09T19:10:00-04:00": 0,
       "2026-08-09T19:05:00-04:00": 0,
       "2026-08-09T19:00:00-04:00": 0,
       "2026-08-09T18:55:00-04:00": 0,
@@ -422,9 +424,7 @@
       "2026-08-09T07:35:00-04:00": 0,
       "2026-08-09T07:30:00-04:00": 0,
       "2026-08-09T07:25:00-04:00": 0,
-      "2026-08-09T07:20:00-04:00": 0,
-      "2026-08-09T07:15:00-04:00": 0,
-      "2026-08-09T07:10:00-04:00": 0
+      "2026-08-09T07:20:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -558,9 +558,11 @@
     }
   },
   "github-actions": {
-    "total": 6373,
+    "total": 6333,
     "rates": {
-      "2026-08-09T19:05:00-04:00": 23,
+      "2026-08-09T19:15:00-04:00": 0,
+      "2026-08-09T19:10:00-04:00": 11,
+      "2026-08-09T19:05:00-04:00": 24,
       "2026-08-09T19:00:00-04:00": 40,
       "2026-08-09T18:55:00-04:00": 101,
       "2026-08-09T18:50:00-04:00": 81,
@@ -701,20 +703,18 @@
       "2026-08-09T07:35:00-04:00": 13,
       "2026-08-09T07:30:00-04:00": 17,
       "2026-08-09T07:25:00-04:00": 16,
-      "2026-08-09T07:20:00-04:00": 30,
-      "2026-08-09T07:15:00-04:00": 37,
-      "2026-08-09T07:10:00-04:00": 15
+      "2026-08-09T07:20:00-04:00": 30
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 1540,
+      "conda-forge/conda-forge-webservices": 1541,
       "conda-forge/h5py-feedstock": 696,
-      "conda-forge/conda-forge-bot": 580,
+      "conda-forge/conda-forge-bot": 587,
       "conda-forge/ffmpeg-feedstock": 304,
       "conda-forge/fdasrsf-feedstock": 120,
       "conda-forge/arrow-cpp-feedstock": 70,
       "conda-forge/ojph-feedstock": 64,
       "conda-forge/awscli2-feedstock": 60,
-      "conda-forge/admin-requests": 59,
+      "conda-forge/admin-requests": 60,
       "conda-forge/pylance-feedstock": 50,
       "conda-forge/wordcloud-feedstock": 48,
       "conda-forge/admin-migrations": 43,
@@ -786,6 +786,7 @@
       "conda-forge/conda-smithy": 4,
       "conda-forge/datafiles-feedstock": 4,
       "conda-forge/coverage-feedstock": 4,
+      "conda-forge/onnxruntime-feedstock": 3,
       "conda-forge/airflow-laminar-feedstock": 3,
       "conda-forge/dram-viz-feedstock": 3,
       "conda-forge/ndonnx-feedstock": 3,
@@ -812,13 +813,13 @@
       "conda-forge/fastdfe-feedstock": 2,
       "conda-forge/refnx-feedstock": 2,
       "conda-forge/unsloth-feedstock": 2,
+      "conda-forge/google-cloud-cpp-feedstock": 1,
       "conda-forge/apify_fingerprint_datapoints-feedstock": 1,
       "conda-forge/spoc-feedstock": 1,
       "conda-forge/starlette-feedstock": 1,
       "conda-forge/fastgit-feedstock": 1,
       "conda-forge/django-stubs-ext-feedstock": 1,
       "conda-forge/django-stubs-feedstock": 1,
-      "conda-forge/onnxruntime-feedstock": 1,
       "conda-forge/pylint-feedstock": 1,
       "conda-forge/imdtrack-feedstock": 1,
       "conda-forge/netron-feedstock": 1,
@@ -832,13 +833,14 @@
       "conda-forge/pony-feedstock": 1,
       "conda-forge/octave-signal-feedstock": 1,
       "conda-forge/anesthetic-feedstock": 1,
-      "conda-forge/core-notes": 1,
-      "conda-forge/dragon-ml-toolbox-feedstock": 1
+      "conda-forge/core-notes": 1
     }
   },
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-08-09T19:15:00-04:00": 0,
+      "2026-08-09T19:10:00-04:00": 0,
       "2026-08-09T19:05:00-04:00": 0,
       "2026-08-09T19:00:00-04:00": 0,
       "2026-08-09T18:55:00-04:00": 0,
@@ -980,9 +982,7 @@
       "2026-08-09T07:35:00-04:00": 0,
       "2026-08-09T07:30:00-04:00": 0,
       "2026-08-09T07:25:00-04:00": 0,
-      "2026-08-09T07:20:00-04:00": 0,
-      "2026-08-09T07:15:00-04:00": 0,
-      "2026-08-09T07:10:00-04:00": 0
+      "2026-08-09T07:20:00-04:00": 0
     },
     "repos": {
       "conda-forge/pycvodes-feedstock": 2,
@@ -1118,6 +1118,8 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-08-09T19:15:00-04:00": 0,
+      "2026-08-09T19:10:00-04:00": 0,
       "2026-08-09T19:05:00-04:00": 0,
       "2026-08-09T19:00:00-04:00": 0,
       "2026-08-09T18:55:00-04:00": 0,
@@ -1259,9 +1261,7 @@
       "2026-08-09T07:35:00-04:00": 0,
       "2026-08-09T07:30:00-04:00": 0,
       "2026-08-09T07:25:00-04:00": 0,
-      "2026-08-09T07:20:00-04:00": 0,
-      "2026-08-09T07:15:00-04:00": 0,
-      "2026-08-09T07:10:00-04:00": 0
+      "2026-08-09T07:20:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1359,6 +1359,8 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-08-09T19:15:00-04:00": 0,
+      "2026-08-09T19:10:00-04:00": 0,
       "2026-08-09T19:05:00-04:00": 0,
       "2026-08-09T19:00:00-04:00": 0,
       "2026-08-09T18:55:00-04:00": 0,
@@ -1500,9 +1502,7 @@
       "2026-08-09T07:35:00-04:00": 0,
       "2026-08-09T07:30:00-04:00": 0,
       "2026-08-09T07:25:00-04:00": 0,
-      "2026-08-09T07:20:00-04:00": 0,
-      "2026-08-09T07:15:00-04:00": 0,
-      "2026-08-09T07:10:00-04:00": 0
+      "2026-08-09T07:20:00-04:00": 0
     },
     "repos": {}
   }
