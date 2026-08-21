@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 3014,
+    "total": 2987,
     "rates": {
-      "2026-08-20T20:05:00-04:00": 3,
+      "2026-08-20T20:10:00-04:00": 2,
+      "2026-08-20T20:05:00-04:00": 4,
       "2026-08-20T20:00:00-04:00": 10,
       "2026-08-20T19:55:00-04:00": 7,
       "2026-08-20T19:50:00-04:00": 5,
@@ -144,8 +145,7 @@
       "2026-08-20T08:30:00-04:00": 38,
       "2026-08-20T08:25:00-04:00": 37,
       "2026-08-20T08:20:00-04:00": 51,
-      "2026-08-20T08:15:00-04:00": 29,
-      "2026-08-20T08:10:00-04:00": 30
+      "2026-08-20T08:15:00-04:00": 29
     },
     "repos": {
       "conda-forge/cf-autotick-bot-test-package-feedstock": 71,
@@ -175,6 +175,7 @@
       "conda-forge/python-feedstock": 10,
       "conda-forge/libprotobuf-feedstock": 9,
       "conda-forge/rsloop-feedstock": 9,
+      "conda-forge/cloud-sql-proxy-feedstock": 8,
       "conda-forge/flyctl-feedstock": 8,
       "conda-forge/ed-feedstock": 8,
       "conda-forge/rudof-feedstock": 8,
@@ -212,7 +213,6 @@
       "conda-forge/gtsam-points-feedstock": 6,
       "conda-forge/eigen-feedstock": 6,
       "conda-forge/geoschem-gcpy-feedstock": 6,
-      "conda-forge/cloud-sql-proxy-feedstock": 5,
       "conda-forge/terraform-provider-azurerm-feedstock": 5,
       "conda-forge/pugixml-feedstock": 5,
       "conda-forge/ruff-feedstock": 5,
@@ -281,6 +281,7 @@
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-08-20T20:10:00-04:00": 0,
       "2026-08-20T20:05:00-04:00": 0,
       "2026-08-20T20:00:00-04:00": 0,
       "2026-08-20T19:55:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-08-20T08:30:00-04:00": 0,
       "2026-08-20T08:25:00-04:00": 0,
       "2026-08-20T08:20:00-04:00": 0,
-      "2026-08-20T08:15:00-04:00": 0,
-      "2026-08-20T08:10:00-04:00": 0
+      "2026-08-20T08:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/tk-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 9241,
+    "total": 9228,
     "rates": {
-      "2026-08-20T20:05:00-04:00": 30,
+      "2026-08-20T20:10:00-04:00": 11,
+      "2026-08-20T20:05:00-04:00": 50,
       "2026-08-20T20:00:00-04:00": 52,
       "2026-08-20T19:55:00-04:00": 48,
       "2026-08-20T19:50:00-04:00": 21,
@@ -702,12 +703,11 @@
       "2026-08-20T08:30:00-04:00": 69,
       "2026-08-20T08:25:00-04:00": 64,
       "2026-08-20T08:20:00-04:00": 38,
-      "2026-08-20T08:15:00-04:00": 106,
-      "2026-08-20T08:10:00-04:00": 44
+      "2026-08-20T08:15:00-04:00": 106
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 599,
-      "conda-forge/conda-forge-bot": 345,
+      "conda-forge/conda-forge-webservices": 607,
+      "conda-forge/conda-forge-bot": 359,
       "conda-forge/pyzmq-feedstock": 48,
       "conda-forge/ruamel.yaml.clib-feedstock": 40,
       "conda-forge/tk-feedstock": 36,
@@ -736,6 +736,7 @@
       "conda-forge/libevent-feedstock": 10,
       "conda-forge/citeproc-py-feedstock": 10,
       "conda-forge/flyctl-feedstock": 9,
+      "conda-forge/cloud-sql-proxy-feedstock": 8,
       "conda-forge/cyclus-feedstock": 8,
       "conda-forge/pcre2-feedstock": 6,
       "conda-forge/rust-feedstock": 6,
@@ -745,7 +746,6 @@
       "conda-forge/deepmd-kit-feedstock": 6,
       "conda-forge/llvmdev-feedstock": 5,
       "conda-forge/xorg-libxtst-feedstock": 5,
-      "conda-forge/cloud-sql-proxy-feedstock": 4,
       "conda-forge/mise-feedstock": 4,
       "conda-forge/m2w64-sysroot-feedstock": 4,
       "conda-forge/spaday-feedstock": 4,
@@ -761,9 +761,12 @@
       "conda-forge/legend-pygeom-l1000-feedstock": 3,
       "conda-forge/rsloop-feedstock": 3,
       "conda-forge/umongo-feedstock": 3,
+      "conda-forge/logfire-feedstock": 2,
+      "conda-forge/langchain-google-genai-feedstock": 2,
       "conda-forge/boto3-stubs-lite-feedstock": 2,
       "conda-forge/copilotkit-feedstock": 2,
       "conda-forge/mypy_boto3_ec2-feedstock": 2,
+      "conda-forge/terraform-provider-azurerm-feedstock": 2,
       "conda-forge/plotastrodata-feedstock": 2,
       "conda-forge/ovito-feedstock": 2,
       "conda-forge/zig-feedstock": 2,
@@ -787,12 +790,9 @@
       "conda-forge/langchain-feedstock": 2,
       "conda-forge/lume-genesis-feedstock": 2,
       "conda-forge/intel-gmmlib-feedstock": 2,
-      "conda-forge/quacc-feedstock": 2,
-      "conda-forge/guidata-feedstock": 2,
-      "conda-forge/langchain-google-genai-feedstock": 1,
+      "conda-forge/distmetrics-feedstock": 1,
       "conda-forge/miniforge": 1,
       "conda-forge/langchain-aws-feedstock": 1,
-      "conda-forge/terraform-provider-azurerm-feedstock": 1,
       "conda-forge/apstools-feedstock": 1,
       "conda-forge/appnope-feedstock": 1,
       "conda-forge/rubin-scheduler-feedstock": 1,
@@ -839,6 +839,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-08-20T20:10:00-04:00": 0,
       "2026-08-20T20:05:00-04:00": 0,
       "2026-08-20T20:00:00-04:00": 0,
       "2026-08-20T19:55:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-08-20T08:30:00-04:00": 0,
       "2026-08-20T08:25:00-04:00": 0,
       "2026-08-20T08:20:00-04:00": 0,
-      "2026-08-20T08:15:00-04:00": 0,
-      "2026-08-20T08:10:00-04:00": 0
+      "2026-08-20T08:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/pycvodes-feedstock": 2,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-08-20T20:10:00-04:00": 0,
       "2026-08-20T20:05:00-04:00": 0,
       "2026-08-20T20:00:00-04:00": 0,
       "2026-08-20T19:55:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-08-20T08:30:00-04:00": 0,
       "2026-08-20T08:25:00-04:00": 0,
       "2026-08-20T08:20:00-04:00": 0,
-      "2026-08-20T08:15:00-04:00": 0,
-      "2026-08-20T08:10:00-04:00": 0
+      "2026-08-20T08:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1359,6 +1359,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-08-20T20:10:00-04:00": 0,
       "2026-08-20T20:05:00-04:00": 0,
       "2026-08-20T20:00:00-04:00": 0,
       "2026-08-20T19:55:00-04:00": 0,
@@ -1501,8 +1502,7 @@
       "2026-08-20T08:30:00-04:00": 0,
       "2026-08-20T08:25:00-04:00": 0,
       "2026-08-20T08:20:00-04:00": 0,
-      "2026-08-20T08:15:00-04:00": 0,
-      "2026-08-20T08:10:00-04:00": 0
+      "2026-08-20T08:15:00-04:00": 0
     },
     "repos": {}
   }
