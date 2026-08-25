@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 2298,
+    "total": 2281,
     "rates": {
-      "2026-08-25T19:30:00-04:00": 1,
+      "2026-08-25T19:35:00-04:00": 0,
+      "2026-08-25T19:30:00-04:00": 2,
       "2026-08-25T19:25:00-04:00": 10,
       "2026-08-25T19:20:00-04:00": 3,
       "2026-08-25T19:15:00-04:00": 7,
@@ -144,8 +145,7 @@
       "2026-08-25T07:55:00-04:00": 14,
       "2026-08-25T07:50:00-04:00": 15,
       "2026-08-25T07:45:00-04:00": 13,
-      "2026-08-25T07:40:00-04:00": 17,
-      "2026-08-25T07:35:00-04:00": 18
+      "2026-08-25T07:40:00-04:00": 17
     },
     "repos": {
       "conda-forge/editdistpy-feedstock": 163,
@@ -243,7 +243,6 @@
       "conda-forge/minio-server-feedstock": 5,
       "conda-forge/msgpack-cxx-feedstock": 5,
       "conda-forge/intel_repack-feedstock": 5,
-      "conda-forge/boost-feedstock": 5,
       "conda-forge/uv-feedstock": 4,
       "conda-forge/faiss-split-feedstock": 4,
       "conda-forge/rattler-build-feedstock": 4,
@@ -275,12 +274,14 @@
       "conda-forge/time-machine-feedstock": 2,
       "conda-forge/spatialist-feedstock": 2,
       "conda-forge/mold-feedstock": 2,
+      "conda-forge/aube-feedstock": 1,
       "conda-forge/pyg4ometry-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-08-25T19:35:00-04:00": 0,
       "2026-08-25T19:30:00-04:00": 0,
       "2026-08-25T19:25:00-04:00": 0,
       "2026-08-25T19:20:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-08-25T07:55:00-04:00": 0,
       "2026-08-25T07:50:00-04:00": 0,
       "2026-08-25T07:45:00-04:00": 0,
-      "2026-08-25T07:40:00-04:00": 0,
-      "2026-08-25T07:35:00-04:00": 0
+      "2026-08-25T07:40:00-04:00": 0
     },
     "repos": {
       "conda-forge/tk-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 7049,
+    "total": 7044,
     "rates": {
-      "2026-08-25T19:30:00-04:00": 18,
+      "2026-08-25T19:35:00-04:00": 46,
+      "2026-08-25T19:30:00-04:00": 32,
       "2026-08-25T19:25:00-04:00": 15,
       "2026-08-25T19:20:00-04:00": 24,
       "2026-08-25T19:15:00-04:00": 41,
@@ -702,12 +703,11 @@
       "2026-08-25T07:55:00-04:00": 18,
       "2026-08-25T07:50:00-04:00": 53,
       "2026-08-25T07:45:00-04:00": 84,
-      "2026-08-25T07:40:00-04:00": 106,
-      "2026-08-25T07:35:00-04:00": 65
+      "2026-08-25T07:40:00-04:00": 106
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 627,
-      "conda-forge/conda-forge-bot": 230,
+      "conda-forge/conda-forge-webservices": 671,
+      "conda-forge/conda-forge-bot": 240,
       "conda-forge/llvmlite-feedstock": 108,
       "conda-forge/bodo-feedstock": 60,
       "conda-forge/huira-feedstock": 58,
@@ -720,9 +720,9 @@
       "conda-forge/abacus-feedstock": 26,
       "conda-forge/ruamel.yaml.clib-feedstock": 26,
       "conda-forge/conda-forge.github.io": 24,
+      "conda-forge/admin-requests": 24,
       "conda-forge/pikepdf-feedstock": 24,
       "conda-forge/sirius-ms-feedstock": 23,
-      "conda-forge/admin-requests": 23,
       "conda-forge/html-to-markdown-feedstock": 20,
       "conda-forge/admin-migrations": 20,
       "conda-forge/bermuda-feedstock": 18,
@@ -777,7 +777,7 @@
       "conda-forge/nanobind-feedstock": 3,
       "conda-forge/icub-main-feedstock": 3,
       "conda-forge/rsync-feedstock": 3,
-      "conda-forge/ada-py-feedstock": 3,
+      "conda-forge/llvmdev-feedstock": 2,
       "conda-forge/large-image-source-tiff-feedstock": 2,
       "conda-forge/large-image-source-gdal-feedstock": 2,
       "conda-forge/flowrep-feedstock": 2,
@@ -794,7 +794,10 @@
       "conda-forge/harlequin-feedstock": 2,
       "conda-forge/mcp-types-feedstock": 2,
       "conda-forge/qiskit-experiments-feedstock": 2,
-      "conda-forge/llvmdev-feedstock": 1,
+      "conda-forge/proto-plus-feedstock": 1,
+      "conda-forge/machinevision-toolbox-python-feedstock": 1,
+      "conda-forge/spaday-perspective-feedstock": 1,
+      "conda-forge/googleapis-common-protos-feedstock": 1,
       "conda-forge/google-auth-feedstock": 1,
       "conda-forge/virtualenv-feedstock": 1,
       "conda-forge/google-resumable-media-feedstock": 1,
@@ -830,15 +833,13 @@
       "conda-forge/dkx-feedstock": 1,
       "conda-forge/django-bakery-feedstock": 1,
       "conda-forge/openinference-instrumentation-feedstock": 1,
-      "conda-forge/cdk8s-feedstock": 1,
-      "conda-forge/cloudvision-feedstock": 1,
-      "conda-forge/fastapi-guard-feedstock": 1,
-      "conda-forge/bioimageio.spec-feedstock": 1
+      "conda-forge/cdk8s-feedstock": 1
     }
   },
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-08-25T19:35:00-04:00": 0,
       "2026-08-25T19:30:00-04:00": 0,
       "2026-08-25T19:25:00-04:00": 0,
       "2026-08-25T19:20:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-08-25T07:55:00-04:00": 0,
       "2026-08-25T07:50:00-04:00": 0,
       "2026-08-25T07:45:00-04:00": 0,
-      "2026-08-25T07:40:00-04:00": 0,
-      "2026-08-25T07:35:00-04:00": 0
+      "2026-08-25T07:40:00-04:00": 0
     },
     "repos": {
       "conda-forge/pycvodes-feedstock": 2,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-08-25T19:35:00-04:00": 0,
       "2026-08-25T19:30:00-04:00": 0,
       "2026-08-25T19:25:00-04:00": 0,
       "2026-08-25T19:20:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-08-25T07:55:00-04:00": 0,
       "2026-08-25T07:50:00-04:00": 0,
       "2026-08-25T07:45:00-04:00": 0,
-      "2026-08-25T07:40:00-04:00": 0,
-      "2026-08-25T07:35:00-04:00": 0
+      "2026-08-25T07:40:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1359,6 +1359,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-08-25T19:35:00-04:00": 0,
       "2026-08-25T19:30:00-04:00": 0,
       "2026-08-25T19:25:00-04:00": 0,
       "2026-08-25T19:20:00-04:00": 0,
@@ -1501,8 +1502,7 @@
       "2026-08-25T07:55:00-04:00": 0,
       "2026-08-25T07:50:00-04:00": 0,
       "2026-08-25T07:45:00-04:00": 0,
-      "2026-08-25T07:40:00-04:00": 0,
-      "2026-08-25T07:35:00-04:00": 0
+      "2026-08-25T07:40:00-04:00": 0
     },
     "repos": {}
   }
