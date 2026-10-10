@@ -1,8 +1,9 @@
 {
   "azure-pipelines": {
-    "total": 1970,
+    "total": 1964,
     "rates": {
-      "2026-10-10T01:05:00-04:00": 0,
+      "2026-10-10T01:10:00-04:00": 0,
+      "2026-10-10T01:05:00-04:00": 7,
       "2026-10-10T01:00:00-04:00": 7,
       "2026-10-10T00:55:00-04:00": 4,
       "2026-10-10T00:50:00-04:00": 0,
@@ -144,13 +145,12 @@
       "2026-10-09T13:30:00-04:00": 21,
       "2026-10-09T13:25:00-04:00": 45,
       "2026-10-09T13:20:00-04:00": 40,
-      "2026-10-09T13:15:00-04:00": 23,
-      "2026-10-09T13:10:00-04:00": 13
+      "2026-10-09T13:15:00-04:00": 23
     },
     "repos": {
       "conda-forge/sqlite-tools-feedstock": 79,
       "conda-forge/staged-recipes": 67,
-      "conda-forge/zig-feedstock": 62,
+      "conda-forge/zig-feedstock": 64,
       "conda-forge/gz-sim-feedstock": 57,
       "conda-forge/spglib-feedstock": 40,
       "conda-forge/httptools-feedstock": 40,
@@ -167,14 +167,14 @@
       "conda-forge/colgrep-feedstock": 16,
       "conda-forge/lean-ctx-feedstock": 16,
       "conda-forge/mise-feedstock": 16,
+      "conda-forge/go-feedstock": 15,
       "conda-forge/torch-harmonics-feedstock": 15,
-      "conda-forge/go-feedstock": 14,
+      "conda-forge/pixi-sbom-feedstock": 15,
       "conda-forge/pymssql-feedstock": 14,
       "conda-forge/sqlglot-feedstock": 14,
       "conda-forge/livekit-blingfire-feedstock": 14,
       "conda-forge/cvxpy-feedstock": 14,
       "conda-forge/nanovector-feedstock": 14,
-      "conda-forge/cdo-feedstock": 13,
       "conda-forge/statmorph-feedstock": 12,
       "conda-forge/imexam-feedstock": 12,
       "conda-forge/torchcodec-feedstock": 12,
@@ -183,7 +183,6 @@
       "conda-forge/polyglot-sql-feedstock": 12,
       "conda-forge/uv-feedstock": 12,
       "conda-forge/ipsw-feedstock": 12,
-      "conda-forge/pixi-sbom-feedstock": 12,
       "conda-forge/terraform-provider-kubectl-feedstock": 12,
       "conda-forge/pyfes-feedstock": 12,
       "conda-forge/pypolymlp-feedstock": 12,
@@ -275,12 +274,14 @@
       "conda-forge/r-plottools-feedstock": 2,
       "conda-forge/adios2-feedstock": 2,
       "conda-forge/pyshex-feedstock": 2,
-      "conda-forge/pyshexc-feedstock": 2
+      "conda-forge/pyshexc-feedstock": 2,
+      "conda-forge/unpdf-rs-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-10-10T01:10:00-04:00": 0,
       "2026-10-10T01:05:00-04:00": 0,
       "2026-10-10T01:00:00-04:00": 0,
       "2026-10-10T00:55:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-10-09T13:30:00-04:00": 0,
       "2026-10-09T13:25:00-04:00": 0,
       "2026-10-09T13:20:00-04:00": 0,
-      "2026-10-09T13:15:00-04:00": 0,
-      "2026-10-09T13:10:00-04:00": 0
+      "2026-10-09T13:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 7499,
+    "total": 7469,
     "rates": {
-      "2026-10-10T01:05:00-04:00": 0,
+      "2026-10-10T01:10:00-04:00": 2,
+      "2026-10-10T01:05:00-04:00": 41,
       "2026-10-10T01:00:00-04:00": 22,
       "2026-10-10T00:55:00-04:00": 56,
       "2026-10-10T00:50:00-04:00": 58,
@@ -702,23 +703,22 @@
       "2026-10-09T13:30:00-04:00": 32,
       "2026-10-09T13:25:00-04:00": 53,
       "2026-10-09T13:20:00-04:00": 90,
-      "2026-10-09T13:15:00-04:00": 41,
-      "2026-10-09T13:10:00-04:00": 73
+      "2026-10-09T13:15:00-04:00": 41
     },
     "repos": {
       "conda-forge/zig-feedstock": 224,
       "conda-forge/adios2-feedstock": 199,
-      "conda-forge/conda-forge-bot": 146,
-      "conda-forge/conda-forge-webservices": 82,
+      "conda-forge/conda-forge-bot": 162,
+      "conda-forge/conda-forge-webservices": 102,
       "conda-forge/ocaml-feedstock": 60,
       "conda-forge/torchcodec-feedstock": 50,
       "conda-forge/bitarray-feedstock": 48,
       "conda-forge/tokenizers-feedstock": 48,
       "conda-forge/sqlite-tools-feedstock": 48,
       "conda-forge/pytorch-cpu-feedstock": 41,
+      "conda-forge/go-feedstock": 39,
       "conda-forge/spglib-feedstock": 36,
       "conda-forge/httptools-feedstock": 36,
-      "conda-forge/go-feedstock": 35,
       "conda-forge/admin-requests": 34,
       "conda-forge/gz-sim-feedstock": 34,
       "conda-forge/admin-migrations": 26,
@@ -764,6 +764,7 @@
       "conda-forge/csp-bot-commands-feedstock": 4,
       "conda-forge/vercel-cli-feedstock": 4,
       "conda-forge/claude-agent-acp-feedstock": 4,
+      "conda-forge/pixi-sbom-feedstock": 3,
       "conda-forge/fints-feedstock": 3,
       "conda-forge/synopticpy-feedstock": 3,
       "conda-forge/csp-bot-feedstock": 3,
@@ -795,7 +796,6 @@
       "conda-forge/phelel-feedstock": 2,
       "conda-forge/cstar-ocean-feedstock": 2,
       "conda-forge/fsautocomplete-feedstock": 2,
-      "conda-forge/einsums-feedstock": 2,
       "conda-forge/elfi-feedstock": 1,
       "conda-forge/livekit-agents-feedstock": 1,
       "conda-forge/spharmgrid-feedstock": 1,
@@ -839,6 +839,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-10-10T01:10:00-04:00": 0,
       "2026-10-10T01:05:00-04:00": 0,
       "2026-10-10T01:00:00-04:00": 0,
       "2026-10-10T00:55:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-10-09T13:30:00-04:00": 0,
       "2026-10-09T13:25:00-04:00": 0,
       "2026-10-09T13:20:00-04:00": 0,
-      "2026-10-09T13:15:00-04:00": 0,
-      "2026-10-09T13:10:00-04:00": 0
+      "2026-10-09T13:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/pycvodes-feedstock": 2,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-10-10T01:10:00-04:00": 0,
       "2026-10-10T01:05:00-04:00": 0,
       "2026-10-10T01:00:00-04:00": 0,
       "2026-10-10T00:55:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-10-09T13:30:00-04:00": 0,
       "2026-10-09T13:25:00-04:00": 0,
       "2026-10-09T13:20:00-04:00": 0,
-      "2026-10-09T13:15:00-04:00": 0,
-      "2026-10-09T13:10:00-04:00": 0
+      "2026-10-09T13:15:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1359,6 +1359,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-10-10T01:10:00-04:00": 0,
       "2026-10-10T01:05:00-04:00": 0,
       "2026-10-10T01:00:00-04:00": 0,
       "2026-10-10T00:55:00-04:00": 0,
@@ -1501,8 +1502,7 @@
       "2026-10-09T13:30:00-04:00": 0,
       "2026-10-09T13:25:00-04:00": 0,
       "2026-10-09T13:20:00-04:00": 0,
-      "2026-10-09T13:15:00-04:00": 0,
-      "2026-10-09T13:10:00-04:00": 0
+      "2026-10-09T13:15:00-04:00": 0
     },
     "repos": {}
   }
