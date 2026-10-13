@@ -1,8 +1,8 @@
 {
   "azure-pipelines": {
-    "total": 3918,
+    "total": 3954,
     "rates": {
-      "2026-10-13T19:00:00-04:00": 10,
+      "2026-10-13T19:00:00-04:00": 46,
       "2026-10-13T18:55:00-04:00": 50,
       "2026-10-13T18:50:00-04:00": 42,
       "2026-10-13T18:45:00-04:00": 53,
@@ -148,7 +148,7 @@
       "2026-10-13T07:05:00-04:00": 36
     },
     "repos": {
-      "conda-forge/ldas-tools-framecpp-swig-feedstock": 1425,
+      "conda-forge/ldas-tools-framecpp-swig-feedstock": 1450,
       "conda-forge/staged-recipes": 477,
       "conda-forge/openmc-feedstock": 113,
       "conda-forge/csp-feedstock": 68,
@@ -157,11 +157,11 @@
       "conda-forge/python-feedstock": 44,
       "conda-forge/umfive-feedstock": 41,
       "conda-forge/ocaml-findlib-feedstock": 41,
+      "conda-forge/k6-feedstock": 40,
       "conda-forge/conda-forge-ci-setup-feedstock": 40,
-      "conda-forge/k6-feedstock": 38,
-      "conda-forge/yac-feedstock": 37,
+      "conda-forge/yac-feedstock": 39,
+      "conda-forge/zig-feedstock": 38,
       "conda-forge/pymdi-feedstock": 37,
-      "conda-forge/zig-feedstock": 36,
       "conda-forge/ta-lib-feedstock": 36,
       "conda-forge/smqtk-classifier-feedstock": 32,
       "conda-forge/awslambdaric-feedstock": 28,
@@ -175,13 +175,13 @@
       "conda-forge/rrdtool-feedstock": 21,
       "conda-forge/ncbi-datasets-cli-feedstock": 20,
       "conda-forge/torchcodec-feedstock": 20,
+      "conda-forge/bpf-linker-feedstock": 19,
       "conda-forge/apsw-feedstock": 17,
       "conda-forge/pyqt-feedstock": 17,
       "conda-forge/anycrc-feedstock": 16,
       "conda-forge/imexam-feedstock": 16,
       "conda-forge/smqtk-dataprovider-feedstock": 16,
       "conda-forge/impit-feedstock": 16,
-      "conda-forge/bpf-linker-feedstock": 15,
       "conda-forge/gh-stack-feedstock": 15,
       "conda-forge/multidict-feedstock": 14,
       "conda-forge/spacy-feedstock": 14,
@@ -250,6 +250,7 @@
       "conda-forge/briefcase-feedstock": 3,
       "conda-forge/libclc-feedstock": 3,
       "conda-forge/dartsim-feedstock": 3,
+      "conda-forge/gdma-feedstock": 2,
       "conda-forge/libxmlpp-feedstock": 2,
       "conda-forge/tobac-feedstock": 2,
       "conda-forge/pygpcca-feedstock": 2,
@@ -274,8 +275,7 @@
       "conda-forge/cf-plot-feedstock": 2,
       "conda-forge/pyibs-feedstock": 2,
       "conda-forge/r-adespatial-feedstock": 2,
-      "conda-forge/sagemaker-core-feedstock": 2,
-      "conda-forge/gdma-feedstock": 1
+      "conda-forge/sagemaker-core-feedstock": 2
     }
   },
   "travis-ci": {
@@ -558,9 +558,9 @@
     }
   },
   "github-actions": {
-    "total": 15948,
+    "total": 16033,
     "rates": {
-      "2026-10-13T19:00:00-04:00": 23,
+      "2026-10-13T19:00:00-04:00": 108,
       "2026-10-13T18:55:00-04:00": 139,
       "2026-10-13T18:50:00-04:00": 161,
       "2026-10-13T18:45:00-04:00": 167,
@@ -706,11 +706,11 @@
       "2026-10-13T07:05:00-04:00": 119
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 6758,
-      "conda-forge/conda-forge-bot": 700,
-      "conda-forge/ldas-tools-framecpp-swig-feedstock": 153,
+      "conda-forge/conda-forge-webservices": 6815,
+      "conda-forge/conda-forge-bot": 711,
+      "conda-forge/ldas-tools-framecpp-swig-feedstock": 164,
       "conda-forge/ocaml-feedstock": 103,
-      "conda-forge/zig-feedstock": 60,
+      "conda-forge/zig-feedstock": 61,
       "conda-forge/yac-feedstock": 34,
       "conda-forge/checkov-feedstock": 30,
       "conda-forge/anycrc-feedstock": 24,
@@ -724,12 +724,12 @@
       "conda-forge/clangdev-feedstock": 12,
       "conda-forge/libcusparse-feedstock": 12,
       "conda-forge/libnvjpeg-feedstock": 12,
+      "conda-forge/admin-requests": 11,
       "conda-forge/admin-migrations": 11,
       "conda-forge/k6-feedstock": 10,
       "conda-forge/multidict-feedstock": 10,
       "conda-forge/flyctl-feedstock": 10,
       "conda-forge/filament-feedstock": 10,
-      "conda-forge/admin-requests": 9,
       "conda-forge/ncbi-datasets-cli-feedstock": 8,
       "conda-forge/pkgconf-feedstock": 8,
       "conda-forge/tensorrt-feedstock": 8,
@@ -747,6 +747,7 @@
       "conda-forge/vercel-cli-feedstock": 4,
       "conda-forge/cdo-feedstock": 4,
       "conda-forge/nvidia-cutlass-dsl-feedstock": 4,
+      "conda-forge/gdma-feedstock": 3,
       "conda-forge/ispc-feedstock": 3,
       "conda-forge/ldas-tools-framecpp-feedstock": 3,
       "conda-forge/pyloadprofilegenerator-feedstock": 3,
@@ -794,7 +795,6 @@
       "conda-forge/apache-airflow-providers-common-messaging-feedstock": 2,
       "conda-forge/markdown-feedstock": 2,
       "conda-forge/apache-airflow-providers-asana-feedstock": 2,
-      "conda-forge/github-copilot-sdk-feedstock": 2,
       "conda-forge/numbers-parser-feedstock": 1,
       "conda-forge/looker-sdk-feedstock": 1,
       "conda-forge/apache-airflow-providers-weaviate-feedstock": 1,
