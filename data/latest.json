@@ -1,7 +1,8 @@
 {
   "azure-pipelines": {
-    "total": 1680,
+    "total": 1675,
     "rates": {
+      "2026-10-17T13:40:00-04:00": 1,
       "2026-10-17T13:35:00-04:00": 0,
       "2026-10-17T13:30:00-04:00": 5,
       "2026-10-17T13:25:00-04:00": 5,
@@ -144,11 +145,9 @@
       "2026-10-17T02:00:00-04:00": 16,
       "2026-10-17T01:55:00-04:00": 4,
       "2026-10-17T01:50:00-04:00": 8,
-      "2026-10-17T01:45:00-04:00": 11,
-      "2026-10-17T01:40:00-04:00": 6
+      "2026-10-17T01:45:00-04:00": 11
     },
     "repos": {
-      "conda-forge/staged-recipes": 230,
       "conda-forge/pyarrow-feedstock": 82,
       "conda-forge/regions-feedstock": 75,
       "conda-forge/python-infomap-feedstock": 42,
@@ -275,12 +274,14 @@
       "conda-forge/chezmoi-feedstock": 4,
       "conda-forge/apache-flink-feedstock": 3,
       "conda-forge/rustfs-feedstock": 2,
-      "conda-forge/qgis-feedstock": 2
+      "conda-forge/qgis-feedstock": 2,
+      "conda-forge/sedonadb-feedstock": 1
     }
   },
   "travis-ci": {
     "total": 0,
     "rates": {
+      "2026-10-17T13:40:00-04:00": 0,
       "2026-10-17T13:35:00-04:00": 0,
       "2026-10-17T13:30:00-04:00": 0,
       "2026-10-17T13:25:00-04:00": 0,
@@ -423,8 +424,7 @@
       "2026-10-17T02:00:00-04:00": 0,
       "2026-10-17T01:55:00-04:00": 0,
       "2026-10-17T01:50:00-04:00": 0,
-      "2026-10-17T01:45:00-04:00": 0,
-      "2026-10-17T01:40:00-04:00": 0
+      "2026-10-17T01:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/gdu-feedstock": 2,
@@ -558,9 +558,10 @@
     }
   },
   "github-actions": {
-    "total": 6117,
+    "total": 6114,
     "rates": {
-      "2026-10-17T13:35:00-04:00": 19,
+      "2026-10-17T13:40:00-04:00": 19,
+      "2026-10-17T13:35:00-04:00": 25,
       "2026-10-17T13:30:00-04:00": 48,
       "2026-10-17T13:25:00-04:00": 63,
       "2026-10-17T13:20:00-04:00": 21,
@@ -702,15 +703,13 @@
       "2026-10-17T02:00:00-04:00": 70,
       "2026-10-17T01:55:00-04:00": 37,
       "2026-10-17T01:50:00-04:00": 47,
-      "2026-10-17T01:45:00-04:00": 65,
-      "2026-10-17T01:40:00-04:00": 28
+      "2026-10-17T01:45:00-04:00": 65
     },
     "repos": {
-      "conda-forge/conda-forge-webservices": 93,
-      "conda-forge/conda-forge-bot": 79,
-      "conda-forge/admin-requests": 33,
+      "conda-forge/conda-forge-webservices": 96,
+      "conda-forge/conda-forge-bot": 91,
+      "conda-forge/admin-requests": 34,
       "conda-forge/opencv-feedstock": 31,
-      "conda-forge/brisc-feedstock": 30,
       "conda-forge/ocaml-csexp-feedstock": 29,
       "conda-forge/arrow_odbc-feedstock": 28,
       "conda-forge/zeem-feedstock": 28,
@@ -719,9 +718,9 @@
       "conda-forge/glum-feedstock": 24,
       "conda-forge/tokenizers-feedstock": 24,
       "conda-forge/pyinterp-feedstock": 24,
+      "conda-forge/ffmpeg-feedstock": 20,
       "conda-forge/wdmtoolbox-feedstock": 20,
       "conda-forge/msglc-feedstock": 20,
-      "conda-forge/ffmpeg-feedstock": 18,
       "conda-forge/pyside2-feedstock": 18,
       "conda-forge/qcodes-feedstock": 16,
       "conda-forge/maartens_resource_compiler-feedstock": 16,
@@ -730,6 +729,7 @@
       "conda-forge/xcape-feedstock": 15,
       "conda-forge/datafusion-feedstock": 15,
       "conda-forge/pyresample-feedstock": 15,
+      "conda-forge/psrchive-feedstock": 14,
       "conda-forge/polars-st-feedstock": 14,
       "conda-forge/conda-forge.github.io": 14,
       "conda-forge/r-rcpparmadillo-feedstock": 12,
@@ -748,7 +748,6 @@
       "conda-forge/biobear-feedstock": 10,
       "conda-forge/gitlogue-feedstock": 10,
       "conda-forge/ocaml-gen-feedstock": 10,
-      "conda-forge/psrchive-feedstock": 9,
       "conda-forge/rudof-feedstock": 9,
       "conda-forge/mise-feedstock": 8,
       "conda-forge/millet-feedstock": 8,
@@ -795,6 +794,7 @@
       "conda-forge/quantecon-feedstock": 3,
       "conda-forge/strawberry-graphql-feedstock": 3,
       "conda-forge/pytest-mock-feedstock": 3,
+      "conda-forge/rustfs-feedstock": 2,
       "conda-forge/conda-smithy": 2,
       "conda-forge/rocm-smi-feedstock": 2,
       "conda-forge/toolbox_utils-feedstock": 2,
@@ -817,7 +817,7 @@
       "conda-forge/ultralytics-feedstock": 2,
       "conda-forge/antropy-feedstock": 2,
       "conda-forge/elevenlabs-feedstock": 2,
-      "conda-forge/rustfs-feedstock": 1,
+      "conda-forge/admin-migrations": 1,
       "conda-forge/numpydantic-feedstock": 1,
       "conda-forge/marimo-jupyter-extension-feedstock": 1,
       "conda-forge/r-statsexpressions-feedstock": 1,
@@ -839,6 +839,7 @@
   "appveyor": {
     "total": 0,
     "rates": {
+      "2026-10-17T13:40:00-04:00": 0,
       "2026-10-17T13:35:00-04:00": 0,
       "2026-10-17T13:30:00-04:00": 0,
       "2026-10-17T13:25:00-04:00": 0,
@@ -981,8 +982,7 @@
       "2026-10-17T02:00:00-04:00": 0,
       "2026-10-17T01:55:00-04:00": 0,
       "2026-10-17T01:50:00-04:00": 0,
-      "2026-10-17T01:45:00-04:00": 0,
-      "2026-10-17T01:40:00-04:00": 0
+      "2026-10-17T01:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/pycvodes-feedstock": 2,
@@ -1118,6 +1118,7 @@
   "circleci": {
     "total": 0,
     "rates": {
+      "2026-10-17T13:40:00-04:00": 0,
       "2026-10-17T13:35:00-04:00": 0,
       "2026-10-17T13:30:00-04:00": 0,
       "2026-10-17T13:25:00-04:00": 0,
@@ -1260,8 +1261,7 @@
       "2026-10-17T02:00:00-04:00": 0,
       "2026-10-17T01:55:00-04:00": 0,
       "2026-10-17T01:50:00-04:00": 0,
-      "2026-10-17T01:45:00-04:00": 0,
-      "2026-10-17T01:40:00-04:00": 0
+      "2026-10-17T01:45:00-04:00": 0
     },
     "repos": {
       "conda-forge/trilinos-feedstock": 64,
@@ -1359,6 +1359,7 @@
   "drone": {
     "total": 0,
     "rates": {
+      "2026-10-17T13:40:00-04:00": 0,
       "2026-10-17T13:35:00-04:00": 0,
       "2026-10-17T13:30:00-04:00": 0,
       "2026-10-17T13:25:00-04:00": 0,
@@ -1501,8 +1502,7 @@
       "2026-10-17T02:00:00-04:00": 0,
       "2026-10-17T01:55:00-04:00": 0,
       "2026-10-17T01:50:00-04:00": 0,
-      "2026-10-17T01:45:00-04:00": 0,
-      "2026-10-17T01:40:00-04:00": 0
+      "2026-10-17T01:45:00-04:00": 0
     },
     "repos": {}
   }
